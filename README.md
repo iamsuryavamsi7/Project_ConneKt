@@ -1,3 +1,3 @@
 # Project ConneKt
 
-### Connecting ideas to sucess
+### Connecting ideas to success
