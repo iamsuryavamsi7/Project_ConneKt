@@ -4,6 +4,12 @@ import NavBar from './Components/NavBar'
 import Home from './Components/Home'
 import Footer from './Components/Footer'
 import Web_Design_Service from './Components/Web_Design_Service'
+import Web_App_Development from './Components/Web_App_Development'
+import Web_App_Maintenance from './Components/Web_App_Maintenance'
+import Search_Engine_O from './Components/Search_Engine_O'
+import Social_Media_Ads from './Components/Social_Media_Ads'
+import WA_Solutions from './Components/WA_Solutions'
+import CallEngagingSolutions from './Components/CallEngagingSolutions'
 
 function App() {
 
@@ -12,17 +18,19 @@ function App() {
 		<>
 
 			<BrowserRouter>
-			
-				<NavBar />
 
 				<Routes>
 
 					<Route index path='/' element={<Home />} />
 					<Route path='/dive-in/web-design-service' element={<Web_Design_Service />} />
+					<Route path='/dive-in/web-development-service' element={<Web_App_Development />} />
+					<Route path='/dive-in/web-maintenance-service' element={<Web_App_Maintenance />} />
+					<Route path='/dive-in/search-engine-optimization' element={<Search_Engine_O />} />
+					<Route path='/dive-in/social-media-advertisements' element={<Social_Media_Ads />} />
+					<Route path='/dive-in/whatsapp-api-solutions' element={<WA_Solutions />} />
+					<Route path='/dive-in/call-engaging-solutions' element={<CallEngagingSolutions />} />
 
 				</Routes>
-
-				<Footer />
 
 			</BrowserRouter>
 	

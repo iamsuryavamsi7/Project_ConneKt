@@ -1,13 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import KeyServices from './KeyServices'
 import WhyAreWeUnique from './WhyWeAreUnique'
 import '../Components/CSS/Home.css'
+import NavBar from './NavBar'
+import Footer from './Footer'
 
 const Home = () => {
+
+    useEffect(() => {
+
+        window.scrollTo(0, 0);
+
+    }, []);
 
     return (
 
         <>
+
+            <NavBar />
         
             <div className="pt-[200px] w-full relative max-mdCustom:static max-mdCustom:pt-[0px]">
 
@@ -16,7 +26,7 @@ const Home = () => {
 
                     <img 
                         src='/Hero_Section/Hero_Section_Main.png'
-                        className='hero_main_img h-[800px] w-[800px] right-0 bottom-0 max-mdCustom:h-[700px] max-mdCustom:w-[700px]'
+                        className='hero_main_img h-[800px] w-[800px] right-0 bottom-0 max-mdCustom:h-[700px] max-mdCustom:w-[700px] max-smCustom:animate-none max-smCustom:transition-none max-smCustom:w-[400px] max-smCustom:h-[400px]'
                     />
 
                 </div>
@@ -76,6 +86,8 @@ const Home = () => {
             <KeyServices />
 
             <WhyAreWeUnique />
+
+            <Footer />
 
         </>
 

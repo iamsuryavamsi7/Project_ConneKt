@@ -1,6 +1,17 @@
 import React from 'react'
+import {useNavigate } from 'react-router-dom'
 
-const Service = ({serviceHeading, serviceDesc, imgSrc}) => {
+const Service = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
+
+    const navigate = useNavigate();
+
+    const divertion = () => {
+
+        navigate(diveIn)
+
+        console.log(`navigated to ${diveIn}`);
+
+    }
 
     return (
 
@@ -10,7 +21,7 @@ const Service = ({serviceHeading, serviceDesc, imgSrc}) => {
 
                 <img 
                     src={`${imgSrc}`}
-                    className='w-[404px]'
+                    className='w-[404px] hover:w-[430px] transition-all duration-300'
                 />
 
             </div>
@@ -34,7 +45,8 @@ const Service = ({serviceHeading, serviceDesc, imgSrc}) => {
                 </p>
 
                 <button
-                    className='text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-2xl mt-7'
+                    className='text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-2xl mt-7 cursor-pointer'
+                    onClick={divertion}
                 >
 
                     Dive In 

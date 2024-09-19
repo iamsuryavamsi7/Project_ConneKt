@@ -26,6 +26,7 @@ const KeyServices = () => {
                 <div className="bg-greenCustom block mt-20 rounded-[30px] pb-10 mb-10 max-mdCustom:px-0">
 
                     <Service 
+                        diveIn={'/dive-in/web-design-service'}
                         imgSrc={'/Services/Website_Desigining.png'}
                         serviceHeading={(
                             <>
@@ -46,6 +47,7 @@ const KeyServices = () => {
                     />
 
                     <Service1 
+                        diveIn={'/dive-in/web-development-service'}
                         imgSrc={'/Services/Website_Development.png'}
                         serviceHeading={(
                             <>
@@ -68,6 +70,7 @@ const KeyServices = () => {
                     />
 
                     <Service 
+                        diveIn={'/dive-in/web-maintenance-service'}
                         imgSrc={'/Services/Website_Maintanence.png'}
                         serviceHeading={(
                             <>
@@ -89,6 +92,7 @@ const KeyServices = () => {
                     />
 
                     <Service1 
+                        diveIn={'/dive-in/search-engine-optimization'}
                         imgSrc={'/Services/Search_Engine_Optimization.png'}
                         serviceHeading={(
                             <>
@@ -109,6 +113,7 @@ const KeyServices = () => {
                     />
 
                     <Service 
+                        diveIn={'/dive-in/social-media-advertisements'}
                         imgSrc={'/Services/Google_Ads.png'}
                         serviceHeading={(
                             <>
@@ -129,6 +134,7 @@ const KeyServices = () => {
                     />
 
                     <Service1 
+                        diveIn={'/dive-in/whatsapp-api-solutions'}
                         imgSrc={'/Services/Whatsapp_API.png'}
                         serviceHeading={(
                             <>
@@ -150,6 +156,7 @@ const KeyServices = () => {
                     />
 
                     <Service 
+                        diveIn={'/dive-in/call-engaging-solutions'}
                         imgSrc={'/Services/Call_Engaging_Solutions.png'}
                         serviceHeading={(
                             <>
