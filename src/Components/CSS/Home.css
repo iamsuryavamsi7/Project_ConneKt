@@ -1,0 +1,64 @@
+.hero_main_img{
+    animation: hero_main_img_animation 1.5s;
+    transition: all ease 1s;
+}
+
+/* .hero_main_img:hover{
+    padding: 30px;
+} */
+
+.blue_right{
+    animation: blue_right_animation 3s;
+}
+
+.hero_desc{
+    animation: hero_desc_animation 1.5s;
+}
+
+@keyframes hero_desc_animation{
+    0%{
+
+        transform: translateY(300%);
+        opacity: 0;
+
+    }
+
+    100%{
+
+        transform: translateY(0);
+        opacity: 1;
+
+    }
+}
+
+@keyframes hero_main_img_animation{
+    0%{
+
+        transform: translateX(300%);
+
+    }
+
+    100%{
+
+        transform: translateX(0);
+
+    }
+}
+
+@keyframes blue_right_animation{
+    0%{
+
+        opacity: 0;
+
+    }
+    50%{
+
+        opacity: 0;
+
+    }
+    100%{
+
+        opacity: 1;
+
+    }
+}

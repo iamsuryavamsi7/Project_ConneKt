@@ -1,0 +1,88 @@
+.button_01{
+    animation: button_01_animation .8s ease;
+}
+
+.button_02{
+    animation: button_02_animation 1s ease;
+}
+
+.button_03{
+    animation: button_03_animation 1.3s ease;
+}
+
+.button_04{
+    animation: button_04_animation 1.5s ease;
+}
+
+.button_05{
+    animation: button_05_animation 1.9s ease;
+}
+
+@keyframes button_01_animation {
+    0%{
+        opacity: 0;
+        overflow: hidden;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes button_02_animation {
+    0%{
+        opacity: 0;
+        overflow: hidden;
+        transform: translateY(100px);
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes button_03_animation {
+    0%{
+        opacity: 0;
+        overflow: hidden;
+        transform: translateY(100px);
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes button_04_animation {
+    0%{
+        opacity: 0;
+        overflow: hidden;
+        transform: translateY(100px);
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes button_05_animation {
+    0%{
+        opacity: 0;
+        overflow: hidden;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
