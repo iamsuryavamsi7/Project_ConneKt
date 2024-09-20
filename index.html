@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -27,6 +27,43 @@
                 window.history.replaceState(null, null,
                     l.pathname.slice(0, -1) + decoded + l.hash
                 );
+            }
+        }(window.location));
+    </script>
+</body>
+</html> -->
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/Common/Favicon/Connekt_Logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connekt</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script type="text/javascript">
+        // SPA URL Handling Script
+        (function(l) {
+            // Handle the case where the URL contains a query string
+            if (l.search && l.search.startsWith('?')) {
+                var decoded = l.search.slice(1).split('&').map(function(s) { 
+                    return s.replace(/~and~/g, '&');
+                }).join('&');
+
+                // Update the URL without reloading the page
+                window.history.replaceState(null, null, l.pathname + '?' + decoded + l.hash);
             }
         }(window.location));
     </script>
