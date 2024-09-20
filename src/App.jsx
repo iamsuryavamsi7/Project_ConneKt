@@ -1,8 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import NavBar from './Components/NavBar'
 import Home from './Components/Home'
-import Footer from './Components/Footer'
 import Web_Design_Service from './Components/Web_Design_Service'
 import Web_App_Development from './Components/Web_App_Development'
 import Web_App_Maintenance from './Components/Web_App_Maintenance'
@@ -10,6 +8,8 @@ import Search_Engine_O from './Components/Search_Engine_O'
 import Social_Media_Ads from './Components/Social_Media_Ads'
 import WA_Solutions from './Components/WA_Solutions'
 import CallEngagingSolutions from './Components/CallEngagingSolutions'
+import Contact from './Components/Contact'
+import About from './Components/About'
 
 function App() {
 
@@ -29,6 +29,8 @@ function App() {
 					<Route path='/dive-in/social-media-advertisements' element={<Social_Media_Ads />} />
 					<Route path='/dive-in/whatsapp-api-solutions' element={<WA_Solutions />} />
 					<Route path='/dive-in/call-engaging-solutions' element={<CallEngagingSolutions />} />
+					<Route path='/contact' element={<Contact />} />
+					<Route path='/about' element={<About />} />
 
 				</Routes>
 

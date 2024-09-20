@@ -65,13 +65,21 @@ const NavBar = () => {
 
     }
 
-    // useEffect(() => {
+    const contactFunction = (e) => {
 
-    //     const navBar = document.querySelector('.navBar');
+        e.preventDefault();
 
-    //     navBar.style.height = 0;
+        navigate('/contact')
 
-    // }, []);
+    }
+
+    const aboutFunction = (e) => {
+
+        e.preventDefault();
+
+        navigate("/about")
+
+    }
 
     return (
 
@@ -118,12 +126,14 @@ const NavBar = () => {
                         > Plans </button></li>
                         <li><button
                             className='button_03 max-smCustom:transition-none'
+                            onClick={(e) => aboutFunction(e)}
                         > About </button></li>
                         <li><button
                             className='button_04 max-smCustom:transition-none'
                         > Affiliation/Partnership </button></li>
                         <li><button
-                            className='button_05 max-smCustom:transition-none'
+                            className='button_05 max-smCustom:transition-none cursor-pointer'
+                            onClick={(e) => contactFunction(e)}
                         > Contact </button></li>
 
                     </ul>

@@ -1,0 +1,12 @@
+.green_image{
+    animation: green_image_animation 1.5s ease-in forwards;
+}
+
+@keyframes green_image_animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
