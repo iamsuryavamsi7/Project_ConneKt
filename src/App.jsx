@@ -18,7 +18,9 @@ function App() {
 
 		<>
 
-			<BrowserRouter>
+			<BrowserRouter
+				basename='/'
+			>
 
 				<Routes>
 
