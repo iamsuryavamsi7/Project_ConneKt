@@ -2,8 +2,6 @@ import React, { useEffect } from 'react'
 import NavBar from './NavBar'
 import Footer from './Footer'
 import './CSS/Contact.css'
-import ContactDropDown from './ContactDropDown'
-import ContactDropDown2 from './ContactDropDown2'
 
 const Contact = () => {
 
@@ -75,22 +73,50 @@ const Contact = () => {
                         required
                     /><br />
                     
-                    <label> Project Type : </label> <br />
-                    <ContactDropDown /> <br />
+                    <label> Project Type : </label>
 
-                    <label> Industry Type : </label> <br />
+                    <select
+                        className=''
+                    >
 
-                    <input
-                        type='text'
-                        required
-                        className='h-[30px] border-black border-2 rounded-lg my-5 px-2'
-                    /><br />
+                        <option selected value={'Please Select'}> Please Select </option>
+                        <option value={'New Project'}> New Project </option>
+                        <option value={'Re - Design'}> Re - Design </option>
+                        <option value={'Maintanence'}> Maintanence </option>
+                        <option value={'Consultation'}> Consultation </option>
 
-                    <label> Services Interested in </label>
+                    </select> <br /> <br />
 
-                    <ContactDropDown2 />
+                    <label> Industry Type : </label>
 
-                    <label> Message </label> <br />
+                    <select>
+
+                        <option selected value={'Please Select'}> Please Select </option>
+                        <option value={'Retail / E-Commerce'}> Retail / E-Commerce </option>
+                        <option value={'Health Care'}> Health Care </option>
+                        <option value={'Education'}> Education </option>
+                        <option value={'Beauty and Wellness'}>Beauty and Wellness</option>
+                        <option value={'Information Technology'}>Information Technology</option>
+                        <option value={'Personal'}>Personal</option>
+                        <option value={'Marketing'}>Marketing</option>
+                        <option value={'Clothing'}>Clothing</option>
+                        <option value={'Others'}>Others</option>
+
+                    </select> <br /> <br />
+
+                    <label> Services Interested in: </label>
+
+                    <select>
+
+                        <option selected value={'Please Select'}> Please Select </option>
+                        <option value={'Custom Kit'}> Custum Kit </option>
+                        <option value={'Boost Kit'}> Boost Kit </option>
+                        <option value={'Ultimate Suite'}> Ultimate Suite </option>
+                        <option value={'Enquiry'}> Enquiry </option>
+
+                    </select> <br /> <br />
+
+                    <label> Message: </label> <br />
 
                     <input 
                         className='h-[30px] border-black border-2 rounded-lg my-5 px-2'
