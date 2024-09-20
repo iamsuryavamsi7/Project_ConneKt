@@ -74,7 +74,7 @@ const Contact = () => {
 
             obj1.style.display = 'none'
 
-            window.location.reload();
+            navigate('/contact');
 
             clearForm();
 
