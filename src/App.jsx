@@ -10,6 +10,7 @@ import WA_Solutions from './Components/WA_Solutions'
 import CallEngagingSolutions from './Components/CallEngagingSolutions'
 import Contact from './Components/Contact'
 import About from './Components/About'
+import Plans from './Components/Plans'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
 					<Route path='/dive-in/call-engaging-solutions' element={<CallEngagingSolutions />} />
 					<Route path='/contact' element={<Contact />} />
 					<Route path='/about' element={<About />} />
+					<Route path='/plans' element={<Plans />} />
 
 				</Routes>
 

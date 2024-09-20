@@ -124,13 +124,18 @@ const Footer = () => {
 
                 <div className="my-10">
 
-                    <ul
-                        className='space-y-2 text-[14px]'
+                    <p
+                        className='text-paleGreen text-[25px] mb-5'
                     >
 
-                        <li
-                            className='text-[22px] text-paleGreen'
-                        >Services</li>
+                        Services
+
+                    </p>
+
+                    <ul
+                        className='space-y-5 text-[14px]'
+                    >
+
                         <li
                             className='cursor-pointer transition-all duration-300 hover:text-[16px]'
                             onClick={(e) => websiteDesigningFunction(e)}

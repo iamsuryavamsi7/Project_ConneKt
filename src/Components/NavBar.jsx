@@ -81,6 +81,14 @@ const NavBar = () => {
 
     }
 
+    const plansFunction = (e) => {
+
+        e.preventDefault();
+
+        navigate('/plans');
+
+    }
+
     return (
 
         <>
@@ -122,7 +130,8 @@ const NavBar = () => {
                             className='button_01 max-mdCustom:ml-[25px] max-smCustom:transition-none'
                         > Services </button></li>
                         <li><button
-                            className='button_02 max-smCustom:transition-none'
+                            className='button_02 max-smCustom:transition-none cursor-pointer'
+                            onClick={(e) => plansFunction(e)}
                         > Plans </button></li>
                         <li><button
                             className='button_03 max-smCustom:transition-none'
