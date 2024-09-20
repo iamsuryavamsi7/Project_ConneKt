@@ -13,7 +13,8 @@ export default {
       colors: {
         'paleGreen': '#008080',
         'yellowCustom': '#FFDB58',
-        'greenCustom': '#A8EAA8'
+        'greenCustom': '#A8EAA8',
+        'pinkCustom': '#FF66FF'
       },
       screens:{
         'max-mdCustom': {'max': '1000px'},

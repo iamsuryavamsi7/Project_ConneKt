@@ -1,0 +1,26 @@
+.journey{
+    position: relative;
+}
+
+.journey::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: 5px;
+    bottom: 5px;
+    border: 3px solid;
+    box-sizing: border-box;
+    border-radius: 12px;
+    transition: all ease 0.4s;
+
+}
+
+.journey:hover::before{
+
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+}

@@ -48,7 +48,7 @@ const Home = () => {
 
                             Take your business to <br />
                             <span
-                                className='text-paleGreen'
+                                className='text-paleGreen animate-pulse'
                             >next level </span>
 
                         </p>

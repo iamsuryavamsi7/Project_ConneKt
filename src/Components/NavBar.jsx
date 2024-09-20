@@ -97,7 +97,7 @@ const NavBar = () => {
 
                 <img
                     src='/Nav_Bar/chat_with_us.png' 
-                    className='text-green-500 h-[50px] w-auto rounded-2xl cursor-pointer'
+                    className='h-[50px] w-auto rounded-2xl cursor-pointer animate-bounce'
                 />
 
             </div>
