@@ -11,26 +11,15 @@
     </div>
 
     <script type="text/javascript">
-        // SPA URL Handling Script
-        var pathSegmentsToKeep = 1;
-
         (function(l) {
-            var basePath = l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/');
-            var newPath = l.pathname.split('/').slice(pathSegmentsToKeep).join('/');
+            var basePath = l.pathname.split('/').slice(0, 1).join('/');
             var queryString = l.search ? l.search.slice(1).replace(/&/g, '~and~') : '';
 
-            // Only replace if there's a valid path
-            if (newPath) {
-                l.replace(
-                    l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-                    basePath + '/?/' + newPath + (queryString ? '&' + queryString : '') + l.hash
-                );
-            } else {
-                l.replace(
-                    l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-                    basePath + '/?' + queryString + l.hash
-                );
-            }
+            // Create a clean URL without unnecessary segments
+            var cleanURL = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + basePath + '/?' + queryString + l.hash;
+
+            // Replace the current URL with the clean version
+            l.replace(cleanURL);
         }(window.location));
     </script>
 </body>
