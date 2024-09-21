@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import KeyServices from './KeyServices'
 import WhyAreWeUnique from './WhyWeAreUnique'
 import '../Components/CSS/Home.css'
@@ -6,6 +6,8 @@ import NavBar from './NavBar'
 import Footer from './Footer'
 
 const Home = () => {
+
+    const [heroSectionImg, setHeroSectionImg] = useState(false);
     
     const askUsAnything = (e) => {
 
@@ -19,6 +21,22 @@ const Home = () => {
 
         window.scrollTo(0, 0);
 
+        const heroSectionImgFunction = () => {
+
+            if ( window.innerWidth <= 1000 ) {
+
+                setHeroSectionImg(!heroSectionImg);
+                
+            } else {
+
+                console.log("windows.innerWidth is greater than 1000 pixels");
+
+            }
+
+        }
+
+        heroSectionImgFunction();
+
     }, []);
 
     return (
@@ -27,28 +45,31 @@ const Home = () => {
 
             <NavBar />
         
-            <div className="pt-[150px] w-full relative max-mdCustom:static max-mdCustom:pt-[0px] max-smCustom:pt-[50px]">
+            <div className="w-full flex justify-center items-center max-mdCustom:flex-col ">
 
+                {heroSectionImg && (
 
-                <div className="absolute top-[-50px] right-[200px] max-mdCustom:static max-mdCustom:w-full max-mdCustom:flex max-mdCustom:justify-center">
+                    <div className="relative">
 
-                    <img 
-                        src='/Hero_Section/Hero_Section_Main.png'
-                        className='hero_main_img h-[800px] w-[800px] right-0 bottom-0 max-mdCustom:h-[700px] max-mdCustom:w-[700px] max-smCustom:animate-none max-smCustom:transition-none max-smCustom:w-[400px] max-smCustom:h-[400px] z-40'
-                    />
+                        <img 
+                            src='/Hero_Section/Hero_Section_Main.png'
+                            className='hero_main_img h-[700px] w-[700px] max-mdCustom:w-[600px] max-mdCustom:h-auto max-smCustom:w-[500px] max-smCustom:h-[400px]'
+                        />
 
-                    <img 
-                        src='/Common/pale_blue_right.png'
-                        className='blue_right w-[70px] absolute top-[170px] right-[50px] rotate-[4deg] max-mdCustom:right-[155px] max-mdCustom:top-[140px] max-mdCustom:rotate-[3deg]'
-                    />
+                        <img 
+                            src='/Common/pale_blue_right.png'
+                            className='blue_right w-[70px] max-smCustom:w-[40px] absolute top-[140px] right-10 max-mdCustom:right-6 max-mdCustom:top-[120px] rotate-[10deg] max-smCustom:top-[80px] max-smCustom:right-[23px] max-smCustom:rotate-[-1deg]'
+                        />
 
-                </div>
+                    </div>
 
-                <div className="text-black ml-[300px] max-mdCusetom:text-center max-mdCustom:m-0 max-mdCustom:p-0 max-mdCustom:flex max-mdCustom:relative max-mdCustom:w-full max-mdCustom:justify-center">
+                )}
+
+                <div className="relative max-smCustom:w-[70%]">
 
                     <img 
                         src='/Common/yellow_left.png'
-                        className='blue_right w-[70px] relative right-[60px] rotate-[-10deg] top-[30px] max-mdCustom:absolute max-mdCustom:left-[160px] max-mdCustom:top-[-40px] max-mdCustom:rotate-[-10deg]'
+                        className='blue_right w-[70px] max-smCustom:w-[40px] absolute left-[-70px] top-[-40px] rotate-[-10deg] max-smCustom:left-[-40px] max-smCustom:top-[-20px]'
                     />
 
                     <div
@@ -56,7 +77,7 @@ const Home = () => {
                     >
 
                         <p
-                            className=' font-bold text-[40px]'
+                            className='font-bold text-[40px] max-smCustom:text-[25px]'
                         >
 
                             Take your business to <br />
@@ -67,7 +88,7 @@ const Home = () => {
                         </p>
 
                         <p
-                            className=' text-[18px] font-montSerrat'
+                            className='text-[18px] font-montSerrat max-smCustom:text-[15px]'
                         >
 
                             Get a custom website and smart digital solutions <br />
@@ -76,7 +97,7 @@ const Home = () => {
                         </p>
 
                         <p
-                            className='askUsAnything font-montSerrat text-[15px] bg-yellowCustom inline-block px-[10px] py-[7px] rounded-[10px] font-semibold mt-5 cursor-pointer z-10'
+                            className='askUsAnything font-montSerrat text-[15px] bg-yellowCustom inline-block px-[10px] py-[7px] rounded-[10px] font-semibold mt-5 cursor-pointer'
                             onClick={(e) => askUsAnything(e)}
                         >
 
@@ -87,6 +108,24 @@ const Home = () => {
                     </div>
 
                 </div>
+
+                { !heroSectionImg && (
+
+                    <div className="relative">
+
+                        <img 
+                            src='/Hero_Section/Hero_Section_Main.png'
+                            className='hero_main_img h-[700px] w-[700px]'
+                        />
+
+                        <img 
+                            src='/Common/pale_blue_right.png'
+                            className='blue_right w-[70px] absolute top-[140px] right-10'
+                        />
+
+                    </div>
+
+                )}
 
             </div>
 
