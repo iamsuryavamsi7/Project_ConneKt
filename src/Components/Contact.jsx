@@ -133,7 +133,7 @@ const Contact = () => {
 
             <div className="w-full flex justify-center py-10">
         
-                <div className="bg-yellowCustom rounded-xl px-10 py-5">
+                <div className="bg-yellowCustom rounded-xl px-10 py-5 border-2 border-black">
 
                     <p
                         className='text-[18px] font-inknutAntiqua w-[900px]'

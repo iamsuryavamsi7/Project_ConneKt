@@ -226,7 +226,17 @@ const Footer = () => {
                 </div>
 
             </div>
-        
+
+            <div className="text-gray-400 font-semibold text-[15px] w-full flex justify-around bg-blackCustom">
+
+                <p className=''>  Website designed/developed by Gokul and Surya. </p>
+            
+                <p>&#169; 2024 Connekt.in. All rights reserved.</p>
+
+                <p>Privacy Policy | Terms of Service</p>
+
+            </div>
+
         </>
 
     )

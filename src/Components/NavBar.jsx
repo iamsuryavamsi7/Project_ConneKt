@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../Components/CSS/NavBar.css'
 import { useNavigate } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
@@ -6,6 +6,8 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 const NavBar = () => {
 
     const navigate = useNavigate();
+
+    const [isPageWidth, setIsPathWidth] = useState(false);
 
     const companyLogoFunction = (e) => {
 
@@ -29,13 +31,13 @@ const NavBar = () => {
 
                 const currentHeight = navBar.style.height;
 
-                if ( currentHeight === '300px' ) {
+                if ( currentHeight === '350px' ) {
 
                     navBar.style.height = '0px';
 
                 } else {
 
-                    navBar.style.height = '300px';
+                    navBar.style.height = '350px';
 
                 }
 
@@ -49,13 +51,13 @@ const NavBar = () => {
 
                 const currentHeight = navBar.style.height;
 
-                if ( currentHeight === '250px' ) {
+                if ( currentHeight === '350px' ) {
 
                     navBar.style.height = '0px';
 
                 } else {
 
-                    navBar.style.height = '250px';
+                    navBar.style.height = '350px';
 
                 }
 
@@ -105,6 +107,22 @@ const NavBar = () => {
 
     }
 
+    useEffect(() => {
+
+        const checkWidth = () => {
+
+            if ( window.innerWidth >= 1000 ) {
+
+                setIsPathWidth(true);
+        
+             }
+
+        }
+
+        checkWidth();
+
+    }, []);
+
     return (
 
         <>
@@ -136,87 +154,175 @@ const NavBar = () => {
                     onClick={hamburgerFunction}
                 />
 
-                <div className="navBar mr-[150px] max-mdCustom:absolute top-[100px] max-mdCustom:right-[-100px] max-mdCustom:bg-white max-mdCustom:pr-[25px] max-mdCustom:h-[0px] max-mdCustom:overflow-hidden transition-all duration-300 max-smCustom:w-full max-smCustom:left-[0] max-smCustom:right-0] max-smCustom:animate-none"> 
+                <div className="navBar mr-[150px] max-mdCustom:absolute top-[100px] max-mdCustom:right-[-100px] max-mdCustom:bg-white rounded-b-xl max-mdCustom:pr-[25px] max-mdCustom:h-[0px] max-mdCustom:overflow-hidden transition-all duration-300 max-smCustom:w-full max-smCustom:left-[0] max-smCustom:right-0] max-smCustom:animate-none"> 
 
                     <ul
                         className='flex h-full items-center space-x-10 text-xl font-inknutAntiqua max-mdCustom:space-x-7 max-mdCustom:block max-mdCustom:space-y-10 max-mdCustom:text-center max-smCustom:space-y-5 max-smCustom:text-[18px] '
                     >
 
-                        <li
-                        className='relative'
-                        onMouseOver={() => {
+                        {isPageWidth && (
 
-                            const serviceDropDown = document.querySelector('.servicesClass');
+                            <li
+                                className='relative'
+                                onMouseOver={() => {
 
-                            serviceDropDown.style.height = '300px';
-                            serviceDropDown.style.padding = '12px 0';
+                                    const serviceDropDown = document.querySelector('.servicesClass');
 
-                        }}
-                        onMouseLeave={() => {
+                                    serviceDropDown.style.height = '300px';
+                                    serviceDropDown.style.padding = '12px 0';
 
-                            const serviceDropDown = document.querySelector('.servicesClass');
+                                }}
+                                onMouseLeave={() => {
 
-                            serviceDropDown.style.height = '0';
-                            serviceDropDown.style.padding = '0';
+                                    const serviceDropDown = document.querySelector('.servicesClass');
 
-                        }}
-                        >
-                            
-                            <button
-                                className='button_01 max-mdCustom:ml-[25px] max-smCustom:transition-none transition-all'
-                                
-                            > Services 
-                            
-                            </button>
+                                    serviceDropDown.style.height = '0';
+                                    serviceDropDown.style.padding = '0';
 
-                            <div className="servicesClass absolute text-[14px] w-[305px] h-0 overflow-hidden bg-white flex justify-start transition-all duration-300 left-[-20px] rounded-b-xl top-[120%]"
-                            >
-
-                                <ul
-                                    className='space-y-3'
+                                }}
                                 >
 
-                                    <li
-                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
-                                        onClick={(e, url) => dropdownFunction(e, `/dive-in/web-design-service`)}
-                                    > Website / Web App Designing
-                                    </li>
-                                    <li
-                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
-                                        onClick={(e, url) => dropdownFunction(e, '/dive-in/web-development-service')}
-                                    > Website / Web App Developement
-                                    </li>
-                                    <li
-                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
-                                        onClick={(e, url) => dropdownFunction(e, '/dive-in/web-maintenance-service')}
-                                    > Website / Web App Maintanence
-                                    </li>
-                                    <li
-                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
-                                        onClick={(e, url) => dropdownFunction(e, '/dive-in/search-engine-optimization')}
-                                    > Search Engine Optimization ( SEO )
-                                    </li>
-                                    <li
-                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
-                                        onClick={(e, url) => dropdownFunction(e, '/dive-in/social-media-advertisements')}
-                                    > Social Media Advertisements
-                                    </li>
-                                    <li
-                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
-                                        onClick={(e, url) => dropdownFunction(e, '/dive-in/whatsapp-api-solutions')}
-                                    > WhatsApp API Solutions
-                                    </li>
-                                    <li
-                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
-                                        onClick={(e, url) => dropdownFunction(e, '/dive-in/call-engaging-solutions')}
-                                    > Call Engaging Solutions
-                                    </li>
+                                <button
+                                    className='button_01 max-mdCustom:ml-[25px] max-smCustom:transition-none transition-all'
+                                    
+                                > Services 
 
-                                </ul>
+                                </button>
 
-                            </div>
-                            
-                        </li>
+                                <div className="servicesClass absolute text-[14px] w-[305px] h-0 overflow-hidden bg-white flex justify-start transition-all duration-300 left-[-20px] rounded-b-xl top-[120%]"
+                                >
+
+                                    <ul
+                                        className='space-y-3'
+                                    >
+
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, `/dive-in/web-design-service`)}
+                                        > Website / Web App Designing
+                                        </li>
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, '/dive-in/web-development-service')}
+                                        > Website / Web App Developement
+                                        </li>
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, '/dive-in/web-maintenance-service')}
+                                        > Website / Web App Maintanence
+                                        </li>
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, '/dive-in/search-engine-optimization')}
+                                        > Search Engine Optimization ( SEO )
+                                        </li>
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, '/dive-in/social-media-advertisements')}
+                                        > Social Media Advertisements
+                                        </li>
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, '/dive-in/whatsapp-api-solutions')}
+                                        > WhatsApp API Solutions
+                                        </li>
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, '/dive-in/call-engaging-solutions')}
+                                        > Call Engaging Solutions
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                            </li>
+
+                        )}
+
+                        {!isPageWidth && (
+
+                            <li
+                                className='relative'
+                                onClick={() => {
+
+                                    const serviceDropDown = document.querySelector('.servicesClass');
+
+                                    if ( serviceDropDown.style.height === '0px' ) {
+
+                                        serviceDropDown.style.height = '300px';
+                                        serviceDropDown.style.padding = '12px 0px';
+
+                                        const navBar = document.querySelector('.navBar');
+
+                                    } else {
+
+                                        serviceDropDown.style.height = '0px';
+                                        serviceDropDown.style.padding = '0px';
+
+                                    }
+
+                                }}
+                                >
+
+                                <button
+                                    className='button_01 max-mdCustom:ml-[25px] max-smCustom:transition-none transition-all'
+                                    
+                                > Services 
+
+                                </button>
+
+                                <div className="servicesClass text-[14px] w-[305px] h-0 overflow-hidden bg-white flex justify-start transition-all duration-300 left-[-20px] rounded-b-xl top-[120%] max-smCustom:relative max-smCustom:left-[50px]"
+                                >
+
+                                    <ul
+                                        className='space-y-3'
+                                    >
+
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, `/dive-in/web-design-service`)}
+                                        > Website / Web App Designing
+                                        </li>
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, '/dive-in/web-development-service')}
+                                        > Website / Web App Developement
+                                        </li>
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, '/dive-in/web-maintenance-service')}
+                                        > Website / Web App Maintanence
+                                        </li>
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, '/dive-in/search-engine-optimization')}
+                                        > Search Engine Optimization ( SEO )
+                                        </li>
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, '/dive-in/social-media-advertisements')}
+                                        > Social Media Advertisements
+                                        </li>
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, '/dive-in/whatsapp-api-solutions')}
+                                        > WhatsApp API Solutions
+                                        </li>
+                                        <li
+                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            onClick={(e, url) => dropdownFunction(e, '/dive-in/call-engaging-solutions')}
+                                        > Call Engaging Solutions
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                            </li>
+
+                        )}
+                        
                         <li><button
                             className='button_02 max-smCustom:transition-none cursor-pointer'
                             onClick={(e) => plansFunction(e)}

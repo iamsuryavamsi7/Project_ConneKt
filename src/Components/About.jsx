@@ -45,7 +45,7 @@ const About = () => {
 
                 <div className="w-full  my-10">
 
-                    <div className="bg-yellowCustom mx-[250px] rounded-xl py-3 max-mdCustom:mx-[80px]">
+                    <div className="bg-yellowCustom mx-[250px] rounded-xl py-3 max-mdCustom:mx-[80px] border-2 border-black">
 
                        <div className="flex justify-center text-[30px] font-semibold">
 
@@ -93,7 +93,7 @@ const About = () => {
                             Click to connect on 
                             
                             <span
-                                className='linkedinButton bg-blue-500 text-white px-3 rounded-xl ml-4 cursor-pointer'
+                                className='linkedinButton bg-blue-500 text-white px-3 rounded-xl ml-4 cursor-pointer '
                                 onClick={(e)=> linkedin(e, 'https://www.linkedin.com/in/gokul-srinivas')}
                             >
                                 
@@ -134,7 +134,7 @@ const About = () => {
                             Click to connect on 
                             
                             <span
-                                className='linkedinButton bg-blue-500 text-white px-3 rounded-xl ml-4 cursor-pointer'
+                                className='linkedinButton bg-blue-500 text-white px-3 rounded-xl ml-4 cursor-pointer '
                                 onClick={(e) => linkedin(e, 'https://www.linkedin.com/in/iamsuryavamsi/')}
                             >
                                 
@@ -150,7 +150,7 @@ const About = () => {
 
                 <div className="w-full my-10">
 
-                    <div className="bg-sky-300 mx-[250px] rounded-xl py-3 max-mdCustom:mx-[80px]">
+                    <div className="bg-sky-300 mx-[250px] rounded-xl py-3 max-mdCustom:mx-[80px] border-2 border-black">
 
                        <div className="flex justify-center text-[30px] font-semibold">
 
@@ -166,7 +166,7 @@ const About = () => {
 
                     </div>
 
-                    <div className="bg-greenCustom mx-[250px] rounded-xl py-3 max-mdCustom:mx-[80px] mt-20">
+                    <div className="bg-greenCustom mx-[250px] rounded-xl py-3 max-mdCustom:mx-[80px] mt-20 border-2 border-black">
 
                        <div className="flex justify-center text-[30px] font-semibold">
 
@@ -190,7 +190,7 @@ const About = () => {
 
                     </div>
 
-                    <div className="bg-pink-300 mx-[250px] rounded-xl py-3 max-mdCustom:mx-[80px] mt-20">
+                    <div className="bg-pink-300 mx-[250px] rounded-xl py-3 max-mdCustom:mx-[80px] mt-20 border-2 border-black">
 
                        <div className="flex justify-center text-[30px] font-semibold">
 

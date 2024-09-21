@@ -34,7 +34,7 @@ const Home = () => {
 
                     <img 
                         src='/Hero_Section/Hero_Section_Main.png'
-                        className='hero_main_img h-[800px] w-[800px] right-0 bottom-0 max-mdCustom:h-[700px] max-mdCustom:w-[700px] max-smCustom:animate-none max-smCustom:transition-none max-smCustom:w-[400px] max-smCustom:h-[400px] z-50'
+                        className='hero_main_img h-[800px] w-[800px] right-0 bottom-0 max-mdCustom:h-[700px] max-mdCustom:w-[700px] max-smCustom:animate-none max-smCustom:transition-none max-smCustom:w-[400px] max-smCustom:h-[400px] z-40'
                     />
 
                     <img 
