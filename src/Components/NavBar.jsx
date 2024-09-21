@@ -127,7 +127,7 @@ const NavBar = () => {
 
         <>
 
-            <div className="fixed z-50 right-10 bottom-10">
+            <div className="fixed z-50 right-10 bottom-10 max-smCustom:right-3 max-smCustom:bottom-3">
 
                 <img
                     src='/Nav_Bar/chat_with_us.png' 
