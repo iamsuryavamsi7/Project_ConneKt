@@ -90,6 +90,7 @@ const Footer = () => {
                     autoPlay
                     loop
                     className='w-full h-[200px] object-cover absolute z-0'
+                    playsInline
                     muted
                 >
 

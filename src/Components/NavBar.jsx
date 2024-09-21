@@ -51,13 +51,13 @@ const NavBar = () => {
 
                 const currentHeight = navBar.style.height;
 
-                if ( currentHeight === '350px' ) {
+                if ( currentHeight === '400px' ) {
 
                     navBar.style.height = '0px';
 
                 } else {
 
-                    navBar.style.height = '350px';
+                    navBar.style.height = '400px';
 
                 }
 
@@ -136,12 +136,13 @@ const NavBar = () => {
 
             </div>
         
-            <div className="flex justify-around w-full h-[100px] items-center bg-white z-50 fixed max-mdCustom:justify-start max-smCustom:justify-between max-smCustom:fixed">
+            <div className="flex justify-around max-mdCustom:justify-between w-full h-[100px] max-smCustom:h-[60px] items-center bg-white z-50 fixed max-smCustom:justify-between">
 
-                <div className="ml-[100px] max-smCustom:ml-4">
+                <div className="ml-[100px] max-smCustom:ml-4 max-mdCustom:ml-20">
 
                     <img 
-                        className='w-[300px] h-[60px] max-mdCustom:w-[200px] max-mdCustom:h-[50px] max-smCustom:animate-none cursor-pointer'
+                        className='w-[300px] h-[50px] max-mdCustom:w-[200px] max-mdCustom:h-[50px] 
+                        max-smCustom:animate-none cursor-pointer max-smCustom:w-[150px] max-smCustom:h-[30px]'
                         src='/Nav_Bar/Connekt_Logo.png'
                         alt='Company Logo'
                         onClick={(e) => companyLogoFunction(e)}
@@ -150,14 +151,14 @@ const NavBar = () => {
                 </div>
 
                 <GiHamburgerMenu 
-                    className='hamburger w-[45px] h-[45px] fixed z-50 right-20 top-6 text-black min-mdCustom:hidden cursor-pointer max-smCustom:right-4 max-smCustom:animate-none'
+                    className='hamburger w-[40px] h-[40px] text-black min-mdCustom:hidden cursor-pointer  max-smCustom:animate-none max-smCustom:w-[35px] max-smCustom:h-[35px] max-mdCustom:fixed max-mdCustom:right-20 max-smCustom:right-10'
                     onClick={hamburgerFunction}
                 />
 
-                <div className="navBar mr-[150px] max-mdCustom:absolute top-[100px] max-mdCustom:right-[-100px] max-mdCustom:bg-white rounded-b-xl max-mdCustom:pr-[25px] max-mdCustom:h-[0px] max-mdCustom:overflow-hidden transition-all duration-300 max-smCustom:w-full max-smCustom:left-[0] max-smCustom:right-0] max-smCustom:animate-none"> 
+                <div className="navBar mr-[150px] max-mdCustom:absolute top-[100px] max-smCustom:top-[58px] max-mdCustom:right-[-100px] max-mdCustom:bg-white rounded-b-xl max-mdCustom:pr-[25px] max-mdCustom:h-[0px] max-mdCustom:overflow-hidden transition-all duration-300 max-smCustom:w-full max-smCustom:left-[0] max-smCustom:right-0] max-smCustom:animate-none"> 
 
                     <ul
-                        className='flex h-full items-center space-x-10 text-xl font-inknutAntiqua max-mdCustom:space-x-7 max-mdCustom:block max-mdCustom:space-y-10 max-mdCustom:text-center max-smCustom:space-y-5 max-smCustom:text-[18px] '
+                        className='flex h-full items-center space-x-10 text-xl font-inknutAntiqua max-mdCustom:space-x-7 max-mdCustom:block max-mdCustom:space-y-10 max-mdCustom:text-center max-smCustom:space-y-7 max-smCustom:text-[18px] max-smCustom:pt-10 '
                     >
 
                         {isPageWidth && (
@@ -272,7 +273,7 @@ const NavBar = () => {
 
                                 </button>
 
-                                <div className="servicesClass text-[14px] w-[305px] h-0 overflow-hidden bg-white flex justify-start transition-all duration-300 left-[-20px] rounded-b-xl top-[120%] max-smCustom:relative max-smCustom:left-[50px]"
+                                <div className="servicesClass text-[14px] w-[305px] h-0 overflow-hidden bg-white flex justify-start transition-all duration-300 left-[-20px] rounded-b-xl top-[120%] max-smCustom:relative max-smCustom:left-[25px]"
                                 >
 
                                     <ul

@@ -2,16 +2,15 @@ import React, { useEffect } from 'react'
 import NavBar from './NavBar'
 import Footer from './Footer'
 import './CSS/About.css'
-import { TiInfo } from 'react-icons/ti'
 import { CgDanger } from 'react-icons/cg'
 
 const EarnWithUs = () => {
 
-    // useEffect(() => {
+    useEffect(() => {
 
-    //     window.scrollTo(0, 0);
+        window.scrollTo(0, 0);
 
-    // }, [])
+    }, [])
 
     const formFunction = (e) => {
 

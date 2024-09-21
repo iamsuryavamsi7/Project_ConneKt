@@ -27,7 +27,7 @@ const Home = () => {
 
             <NavBar />
         
-            <div className="pt-[150px] w-full relative max-mdCustom:static max-mdCustom:pt-[0px]">
+            <div className="pt-[150px] w-full relative max-mdCustom:static max-mdCustom:pt-[0px] max-smCustom:pt-[50px]">
 
 
                 <div className="absolute top-[-50px] right-[200px] max-mdCustom:static max-mdCustom:w-full max-mdCustom:flex max-mdCustom:justify-center">
