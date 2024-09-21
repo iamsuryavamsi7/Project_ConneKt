@@ -18,7 +18,7 @@ const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
     return (
 
-        <div className="flex justify-center space-x-[200px] items-center w-full pt-16 max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-x-0">
+        <div className="flex justify-center space-x-[200px] items-center w-full pt-16 max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-x-0 max-smCustom:px-[40px]">
 
             <div className="font-montSerrat flex-col text-left max-mdCustom:hidden">
 
@@ -61,7 +61,7 @@ const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
             <div className="font-montSerrat flex-col text-left min-mdCustom:hidden  max-mdCustom:text-center">
 
                 <p
-                    className='text-[22px] font-bold'
+                    className='text-[22px] font-bold max-smCustom:text-[18px]'
                 >
 
                     {serviceHeading}
@@ -69,7 +69,7 @@ const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
                 </p>
 
                 <p
-                    className='pt-7'
+                    className='pt-7 max-smCustom:text-[15px]'
                 >
 
                 {serviceDesc}

@@ -8,7 +8,7 @@ const Service = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
     const divertion = () => {
 
-        navigate(diveIn)
+        navigate(diveIn) 
 
         console.log(`navigated to ${diveIn}`);
 
@@ -16,7 +16,7 @@ const Service = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
     return (
 
-        <div className="flex justify-center space-x-[200px] items-center w-full pt-16 text-left max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-x-0 px-[120px]">
+        <div className="flex justify-center space-x-[200px] items-center w-full pt-16 text-left max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-x-0 px-[120px] max-smCustom:px-[40px]">
 
             <div className="max-mdCustom:flex max-mdCustom:justify-center">
 
@@ -30,7 +30,7 @@ const Service = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
             <div className="font-montSerrat flex-col max-mdCustom:justify-center max-mdCustom:text-center">
 
                 <p
-                    className='text-[22px] font-bold text-left max-mdCustom:text-center'
+                    className='text-[22px] font-bold text-left max-mdCustom:text-center max-smCustom:text-[18px]'
                 >
 
                     {serviceHeading}
@@ -38,7 +38,7 @@ const Service = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
                 </p>
 
                 <p
-                    className='text-left pt-7 max-mdCustom:text-center'
+                    className='text-left pt-7 max-mdCustom:text-center max-smCustom:text-[15px]'
                 >
 
                 {serviceDesc}

@@ -7,12 +7,12 @@ const KeyServices = () => {
 
     return (
 
-        <div className="pt-[250px] w-full text-center justify-center max-mdCustom:pt-[70px]">
+        <div className="w-full text-center justify-center max-mdCustom:pt-[70px]">
 
             <div className="">
 
                 <p
-                    className='key_service bg-greenCustom inline-block text-[25px] font-bold px-4 py-2 rounded-xl border-2 border-black'
+                    className='key_service bg-greenCustom inline-block text-[25px] font-bold px-4 py-2 rounded-xl border-2 border-black max-smCustom:px-2 max-smCustom:py-1 max-smCustom:text-[20px]'
                 >
 
                     Key Services
@@ -23,7 +23,7 @@ const KeyServices = () => {
 
             <div className="flex justify-center">
 
-                <div className="bg-greenCustom block mt-20 rounded-[30px] pb-10 mb-10 max-mdCustom:px-0 border-2 border-black shadow-2xl shadow-greenCustom">
+                <div className="bg-greenCustom block mt-20 rounded-[30px] pb-10 mb-10 max-mdCustom:px-0 border-2 border-black shadow-2xl shadow-greenCustom max-smCustom:mx-7">
 
                     <Service 
                         diveIn={'/dive-in/web-design-service'}
