@@ -5,7 +5,7 @@ import '../Components/CSS/Home.css'
 import NavBar from './NavBar'
 import Footer from './Footer'
 
-const Home = () => {
+const Home = () => { 
 
     useEffect(() => {
 
@@ -19,14 +19,19 @@ const Home = () => {
 
             <NavBar />
         
-            <div className="pt-[200px] w-full relative max-mdCustom:static max-mdCustom:pt-[0px]">
+            <div className="pt-[150px] w-full relative max-mdCustom:static max-mdCustom:pt-[0px]">
 
 
-                <div className="absolute top-0 right-[200px] max-mdCustom:static max-mdCustom:w-full max-mdCustom:flex max-mdCustom:justify-center">
+                <div className="absolute top-[-50px] right-[200px] max-mdCustom:static max-mdCustom:w-full max-mdCustom:flex max-mdCustom:justify-center">
 
                     <img 
                         src='/Hero_Section/Hero_Section_Main.png'
                         className='hero_main_img h-[800px] w-[800px] right-0 bottom-0 max-mdCustom:h-[700px] max-mdCustom:w-[700px] max-smCustom:animate-none max-smCustom:transition-none max-smCustom:w-[400px] max-smCustom:h-[400px]'
+                    />
+
+                    <img 
+                        src='/Common/pale_blue_right.png'
+                        className='blue_right w-[70px] absolute top-[170px] right-[50px] rotate-[4deg] max-mdCustom:right-[155px] max-mdCustom:top-[140px] max-mdCustom:rotate-[3deg]'
                     />
 
                 </div>
@@ -63,7 +68,7 @@ const Home = () => {
                         </p>
 
                         <p
-                            className=' font-montSerrat text-[15px] bg-yellowCustom inline-block px-[10px] py-[5px] rounded-[10px] font-semibold mt-5 cursor-pointer'
+                            className='askUsAnything font-montSerrat text-[15px] bg-yellowCustom inline-block px-[10px] py-[7px] rounded-[10px] font-semibold mt-5 cursor-pointer'
                         >
 
                             <a
@@ -75,11 +80,6 @@ const Home = () => {
                     </div>
 
                 </div>
-
-                <img 
-                        src='/Common/pale_blue_right.png'
-                        className='blue_right w-[70px] absolute right-[250px] top-[170px] max-mdCustom:hidden'
-                />
 
             </div>
 

@@ -8,7 +8,7 @@
 } */
 
 .blue_right{
-    animation: blue_right_animation 3s;
+    animation: blue_right_animation 3s; 
 }
 
 .hero_desc{
@@ -61,4 +61,27 @@
         opacity: 1;
 
     }
+}
+
+.askUsAnything{
+    position: relative;
+}
+
+.askUsAnything::after{
+    position: absolute;
+    content: '';
+    left: -5px;
+    right: 5px;
+    top: -5px;
+    bottom: 5px;
+    border-radius: 10px;
+    border: solid 3px black;
+    transition: all ease 0.3s;
+}
+
+.askUsAnything:hover::after{
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }

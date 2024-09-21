@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import NavBar from './NavBar'
 import Footer from './Footer'
 import './CSS/Contact.css'
+import './CSS/About.css'
 
 const About = () => {
 
@@ -35,7 +36,7 @@ const About = () => {
 
                         <img 
                             src='/Common/green-right.png'
-                            className='absolute h-[50px] w-auto top-[-25px] right-[-40px] green_image'
+                            className='absolute h-[50px] w-auto top-[-23px] right-[-40px] green_image'
                         />
 
                     </div>
@@ -92,7 +93,7 @@ const About = () => {
                             Click to connect on 
                             
                             <span
-                                className='bg-blue-500 text-white px-3 rounded-xl ml-4 cursor-pointer'
+                                className='linkedinButton bg-blue-500 text-white px-3 rounded-xl ml-4 cursor-pointer'
                                 onClick={(e)=> linkedin(e, 'https://www.linkedin.com/in/gokul-srinivas')}
                             >
                                 
@@ -133,7 +134,7 @@ const About = () => {
                             Click to connect on 
                             
                             <span
-                                className='bg-blue-500 text-white px-3 rounded-xl ml-4 cursor-pointer'
+                                className='linkedinButton bg-blue-500 text-white px-3 rounded-xl ml-4 cursor-pointer'
                                 onClick={(e) => linkedin(e, 'https://www.linkedin.com/in/iamsuryavamsi/')}
                             >
                                 

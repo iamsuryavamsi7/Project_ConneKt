@@ -3,6 +3,7 @@ import NavBar from './NavBar'
 import Footer from './Footer'
 import './CSS/Plans.css'
 import { useNavigate } from 'react-router-dom'
+import './CSS/Contact.css'
 
 const Plans = () => {
 
@@ -28,7 +29,22 @@ const Plans = () => {
         
             <NavBar />
 
-            <div className="pt-[150px] flex-1">
+            <div className="pt-[150px] mb-10 w-full flex justify-center text-[30px] font-semibold font-montSerrat">
+
+                <div className="relative ">
+
+                    Our Plans
+
+                    <img 
+                        src='/Common/yellow_left.png'
+                        className='w-[50px] h-auto rotate-[-10deg] absolute left-[-45px] top-[-25px] green_image'
+                    />
+                    
+                </div>
+
+            </div>
+
+            <div className=" flex-1">
 
                 <div className="grid grid-cols-4 gap-x-5 mx-10 max-mdCustom:grid-cols-2 max-mdCustom:gap-y-5 max-smCustom:grid-cols-1">
 
@@ -172,7 +188,7 @@ const Plans = () => {
                 <div className="w-full h-10 flex justify-center mt-10 mb-[160px]">
 
                     <div 
-                        className="journey text-[20px] bg-pink-200 px-3 py-1 rounded-xl font-inknutAntiqua font-semibold"
+                        className="journey text-[20px] bg-pink-200 px-3 py-1 rounded-xl font-inknutAntiqua font-semibold cursor-pointer"
                         onClick={(e) => journeyFunction(e)}
                     >
 

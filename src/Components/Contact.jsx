@@ -61,7 +61,7 @@ const Contact = () => {
             `Project Type: ${encodeURIComponent(projectType)}%0A` + 
             `Industry Type: ${encodeURIComponent(industryType)}%0A` + 
             `Services Interested In: ${encodeURIComponent(services)}%0A`;
-
+ 
             const message = document.querySelector('.message').value;
 
             if (  message.trim() !== "" ) {
@@ -115,12 +115,12 @@ const Contact = () => {
             
             <div className="pt-[150px] font-montSerrat flex justify-center text-[30px] font-semibold relative ">
 
-               <div className="relative bg-sky-100 px-3 rounded-xl border-black border-2">
+               <div className="relative px-3 rounded-xl">
 
                     Contact Us
 
                     <img 
-                        className='w-[50px] h-[50px] absolute right-[-40px] top-[-38px] green_image'
+                        className='w-[50px] h-[50px] absolute right-[-30px] top-[-28px] green_image'
                         src='/Common/pale_blue_right.png'
                     />
 
@@ -258,7 +258,7 @@ const Contact = () => {
                     </select>
                     
                     <TiInfo 
-                        className='h-[30px] w-auto absolute right-3 top-[398px] active:text-yellowCustom transition-all duration-300'
+                        className='h-[30px] w-auto absolute right-3 top-[398px] active:text-yellowCustom transition-all duration-300 cursor-pointer'
                         onClick={(e) => infoButtonFunction(e)}
                     />
 

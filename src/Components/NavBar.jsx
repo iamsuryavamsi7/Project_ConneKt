@@ -89,6 +89,14 @@ const NavBar = () => {
 
     }
 
+    const earnWithUsFunction = (e) => {
+
+        e.preventDefault();
+
+        navigate('/earn-with-us');
+
+    }
+
     return (
 
         <>
@@ -127,7 +135,7 @@ const NavBar = () => {
                     >
 
                         <li><button
-                            className='button_01 max-mdCustom:ml-[25px] max-smCustom:transition-none'
+                            className='button_01 max-mdCustom:ml-[25px] max-smCustom:transition-none  transition-all'
                         > Services </button></li>
                         <li><button
                             className='button_02 max-smCustom:transition-none cursor-pointer'
@@ -139,7 +147,8 @@ const NavBar = () => {
                         > About </button></li>
                         <li><button
                             className='button_04 max-smCustom:transition-none'
-                        > Affiliation/Partnership </button></li>
+                            onClick={(e) => earnWithUsFunction(e)}
+                        > Earn With Us </button></li>
                         <li><button
                             className='button_05 max-smCustom:transition-none cursor-pointer'
                             onClick={(e) => contactFunction(e)}
