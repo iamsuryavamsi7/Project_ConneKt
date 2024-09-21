@@ -1,8 +1,59 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import NavBar from './NavBar'
 import Footer from './Footer'
+import './CSS/About.css'
+import { TiInfo } from 'react-icons/ti'
+import { CgDanger } from 'react-icons/cg'
 
 const EarnWithUs = () => {
+
+    // useEffect(() => {
+
+    //     window.scrollTo(0, 0);
+
+    // }, [])
+
+    const formFunction = (e) => {
+
+        e.preventDefault();
+
+        const name = document.querySelector(".name").value;
+
+        const email = document.querySelector('.email').value;
+
+        const place = document.querySelector('.place').value;
+
+        const checkbox = document.querySelector('.checkbox');
+
+        const enterTheFields = document.querySelector('.enterTheFields');
+
+        if ( name.trim() === ''|| place.trim() === ''){
+
+            enterTheFields.style.display = 'flex';
+
+        } else if ( name.trim() !== '' && place.trim() !== '') {
+
+            enterTheFields.style.display = 'hidden';
+
+            let whatsappURL = `https://wa.me/918886182384?text=Name: ${encodeURIComponent(name)}%0A` +
+            `Email: ${email}%0A` + 
+            `I am from : ${encodeURIComponent(place)}%0A`
+
+            window.open(whatsappURL, '_blank')
+
+            window.location.reload();
+
+            window.scrollTo(0, 0);
+
+            clearForm();
+
+        } else {
+
+            console.log("Some Error Occured")
+
+        }
+
+    }
 
     return (
 
@@ -43,7 +94,7 @@ const EarnWithUs = () => {
 
                     <div className="text-[15px] leading-7 text-center bg-sky-100 py-10 px-10 rounded-2xl border-2 border-black font-inknutAntiqua">
 
-                        <div className="font-montSerrat bg-sky-300 px-3 py-[7px] rounded-2xl text-center mb-3 ">
+                        <div className="font-montSerrat bg-sky-300 px-3 py-[7px] rounded-2xl text-center mb-3">
 
                             <span className='text-[20px] font-semibold '>How It Works Section
                             </span>
@@ -171,20 +222,39 @@ const EarnWithUs = () => {
 
                         <div className="font-montSerrat bg-sky-300 px-3 py-[7px] rounded-2xl text-center mb-3 ">
 
-                            <span className='text-[20px] font-semibold '>How It Works Section
+                            <span className='text-[20px] font-semibold '>FAQs
                             </span>
 
                             <p
                                 className='text-[15px] mt-3'
                             >
 
-                                Step By Step Process
+                                Frequently Asked Questions
 
                             </p>
 
                         </div>
 
-                        
+                        1. How do I know if my referral was successful?<br />
+
+                        A) We’ll notify you via email & WhatsApp once a project is confirmed.<br /><br />
+
+
+                        2. When will I get paid? 
+
+                        A) Payments are made after we receive complete payment from the client. <br /><br />
+
+
+
+                        3. What types of projects qualify for commissions? <br />
+
+                        A) Any project worth over ₹25,000 qualifies for our affiliate program. <br /><br />
+
+
+
+                        4. Who can I contact for support or questions? <br />
+
+                        A) You can reach out to us anytime via email or WhatsApp. <br /><br />
 
 
                     </div>
@@ -192,6 +262,83 @@ const EarnWithUs = () => {
                 </div>
 
             </div>
+
+             <div className="w-full flex justify-center font-inknutAntiqua ">
+
+                <form
+                    className=' border-black border-2 w-[1000px] px-16 bg-white hover:border-sky-500 transition-all duration-300 py-5 mb-20 rounded-2xl text-[10px] relative'
+                    onSubmit={(e) => formFunction(e)}
+                >
+
+                    <div className="w-full justify-center text-xl items-center absolute  bottom-[15px] left-[20%]">
+
+                        <div
+                            className='enterTheFields hidden items-center text-red-500 px-3 py-2 rounded-xl space-x-2'
+                        >
+
+                            <div className="rounded-xl text-[15px] font-semibold">
+                                
+                                Oops! You left some empty boxes 
+
+                            </div> 
+                            
+                            <CgDanger 
+                                className='text-[20px]'
+                            />    
+
+                        </div> 
+
+                    </div>
+
+                    <label> Name : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
+                    <input 
+                        className='name h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
+                        type='text'
+                        placeholder='Enter Your Name'
+                        required
+                        name='name1'
+                    /><br />
+
+                    <label> Email : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
+                    <input
+                        type='email'
+                        className='email h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
+                        placeholder='Enter Your Email'
+                        required
+                        name='email'
+                    /><br />
+
+                    <label> Where are you from : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
+
+                    <input 
+                        className='place h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
+                        placeholder='Enter Your Message'
+                    /> <br />
+
+                    <div className="flex items-center">
+
+                        <input
+                            required 
+                            type='checkbox'
+                            className='rounded-lg checkbox mr-2 w-3 h-3'
+                        />
+                        
+                        <label
+                            className='text-[15px] relative'
+                        > <span className='absolute left-[-7px] text-red-500 font-bold text-[10px]'>*</span> I’ve read all the steps and terms & conditions, and I’m all set to be an official Connekt affiliate! </label><br /><br />
+
+                    </div>
+
+                    <button 
+                        type='submit'
+                        className='h-[30px] bg-greenCustom text-black px-3 py-1 rounded-xl mt-5 linkedinButton text-[15px]'
+                        onSubmit={(e) => formFunction(e)}
+                    > Start Affiliate Journey </button>
+
+
+                </form>
+
+                </div>
 
             <Footer />
         

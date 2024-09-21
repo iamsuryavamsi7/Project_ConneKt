@@ -1,11 +1,14 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
+import '../CSS/KeyServices.css'
 
 const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
     const navigate = useNavigate();
 
-    const divertion = () => {
+    const divertion = (e) => {
+
+        e.preventDefault();
 
         navigate(diveIn)
 
@@ -36,7 +39,7 @@ const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
                 </p>
 
                 <button
-                    className='text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-2xl mt-7 cursor-pointer'
+                    className='text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-xl mt-7 cursor-pointer diveIn1'
                     onClick={divertion}
                 >
 
@@ -74,7 +77,8 @@ const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
                 </p>
 
                 <button
-                    className='text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-2xl mt-7'
+                    className='text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-2xl mt-7 diveIn1'
+                    onClick={(e) => divertion(e)}
                 >
 
                     Dive In 

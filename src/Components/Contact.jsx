@@ -5,6 +5,7 @@ import './CSS/Contact.css'
 import { TiInfo } from 'react-icons/ti'
 import { useNavigate } from 'react-router-dom'
 import { CgDanger } from 'react-icons/cg'
+import './CSS/About.css'
 
 const Contact = () => {
 
@@ -75,6 +76,8 @@ const Contact = () => {
             obj1.style.display = 'none'
 
             window.location.reload();
+
+            window.scrollTo(0, 0);
 
             clearForm();
 
@@ -173,7 +176,7 @@ const Contact = () => {
 
                         </div>
 
-                    <label> Name : </label> <br />
+                    <label> Name : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
                     <input 
                         className='name h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
                         type='text'
@@ -184,7 +187,7 @@ const Contact = () => {
                         onChange={(e) => onChangeFunction(e)}
                     /><br />
 
-                    <label> Email : </label> <br />
+                    <label> Email : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
                     <input
                         type='email'
                         className='email h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
@@ -195,7 +198,7 @@ const Contact = () => {
                         onChange={(e) => onChangeFunction(e)}
                     /><br />
 
-                    <label> Your Project Name : </label> <br />
+                    <label> Your Project Name : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
                     <input 
                         type='text'
                         className='projectName h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
@@ -206,7 +209,7 @@ const Contact = () => {
                         onChange={(e) => onChangeFunction(e)}
                     /><br />
                     
-                    <label> Project Type : </label>
+                    <label> Project Type : <span className='text-red-500 font-bold text-[10px]'>*</span> </label>
 
                     <select
                         className='projectType w-[880px] mt-2 text-[15px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] border-solid rounded-xl appearance-none h-[30px] px-2 select1'
@@ -221,7 +224,7 @@ const Contact = () => {
 
                     </select> <br /> <br />
 
-                    <label> Industry Type : </label>
+                    <label> Industry Type : <span className='text-red-500 font-bold text-[10px]'>*</span> </label>
 
                     <select
                         className='industryType w-[880px] mt-2 text-[15px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] border-solid rounded-xl appearance-none h-[30px] px-2 select2'
@@ -241,7 +244,7 @@ const Contact = () => {
 
                     </select> <br /> <br />
 
-                    <label> Services Interested in: </label>
+                    <label> Services Interested in : <span className='text-red-500 font-bold text-[10px]'>*</span> </label>
 
                     <select
                         className='services select3 w-[880px] mt-2 text-[15px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] border-solid rounded-xl appearance-none h-[30px] px-2'
@@ -264,7 +267,7 @@ const Contact = () => {
 
                     <br /> <br />
 
-                    <label> How ConneKt can help you: </label> <br />
+                    <label> How ConneKt can help you : <span className='text-gray-500'> ( Optional ) </span> </label> <br />
 
                     <input 
                         className='message h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
@@ -274,10 +277,10 @@ const Contact = () => {
                         onChange={(e) => onChangeFunction(e)}
                     /> <br />
 
-                    <input 
+                    <button 
                         type='submit'
-                        className='h-[30px] bg-sky-300 text-black px-3 rounded-lg mt-2'
-                    />
+                        className='h-[30px] bg-greenCustom text-black px-3 py-1 rounded-xl mt-2 linkedinButton text-[15px]'
+                    > Submit </button>
 
 
                     </form>

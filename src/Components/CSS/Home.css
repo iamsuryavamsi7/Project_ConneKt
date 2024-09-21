@@ -67,7 +67,7 @@
     position: relative;
 }
 
-.askUsAnything::after{
+.askUsAnything::before{
     position: absolute;
     content: '';
     left: -5px;
@@ -79,7 +79,7 @@
     transition: all ease 0.3s;
 }
 
-.askUsAnything:hover::after{
+.askUsAnything:hover::before{
     top: 0px;
     bottom: 0;
     left: 0;

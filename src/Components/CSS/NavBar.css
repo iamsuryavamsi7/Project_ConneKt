@@ -3,21 +3,6 @@
     position: relative;
 }
 
-.button_01::after{
-    content: '';
-    position: absolute;
-    background-color: lawngreen;
-    bottom: -5px;
-    left: 0;
-    width: 0%;
-    height: 3px;
-    transition: all ease 0.3s;
-}
-
-.button_01:hover::after{
-    width: 100%;
-}
-
 .button_02{
     animation: button_02_animation 1s ease;
     position: relative;

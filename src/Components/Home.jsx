@@ -5,7 +5,15 @@ import '../Components/CSS/Home.css'
 import NavBar from './NavBar'
 import Footer from './Footer'
 
-const Home = () => { 
+const Home = () => {
+    
+    const askUsAnything = (e) => {
+
+        e.preventDefault();
+
+        window.open('https://wa.me/918886182384?text=Hi%20there!%20I%20just%20checked%20out%20your%20website%20and%20I%E2%80%99m%20curious%20about%20your%20services!%20I%27ve%20something%20to%20ask%20more..', '_blank')
+
+    }
 
     useEffect(() => {
 
@@ -26,7 +34,7 @@ const Home = () => {
 
                     <img 
                         src='/Hero_Section/Hero_Section_Main.png'
-                        className='hero_main_img h-[800px] w-[800px] right-0 bottom-0 max-mdCustom:h-[700px] max-mdCustom:w-[700px] max-smCustom:animate-none max-smCustom:transition-none max-smCustom:w-[400px] max-smCustom:h-[400px]'
+                        className='hero_main_img h-[800px] w-[800px] right-0 bottom-0 max-mdCustom:h-[700px] max-mdCustom:w-[700px] max-smCustom:animate-none max-smCustom:transition-none max-smCustom:w-[400px] max-smCustom:h-[400px] z-50'
                     />
 
                     <img 
@@ -36,11 +44,11 @@ const Home = () => {
 
                 </div>
 
-                <div className="text-black ml-[300px] max-mdCustom:text-center max-mdCustom:m-0 max-mdCustom:p-0">
+                <div className="text-black ml-[300px] max-mdCusetom:text-center max-mdCustom:m-0 max-mdCustom:p-0 max-mdCustom:flex max-mdCustom:relative max-mdCustom:w-full max-mdCustom:justify-center">
 
                     <img 
                         src='/Common/yellow_left.png'
-                        className='blue_right w-[70px] relative right-[55px] top-[25px] max-mdCustom:left-[210px]'
+                        className='blue_right w-[70px] relative right-[60px] rotate-[-10deg] top-[30px] max-mdCustom:absolute max-mdCustom:left-[160px] max-mdCustom:top-[-40px] max-mdCustom:rotate-[-10deg]'
                     />
 
                     <div
@@ -68,13 +76,12 @@ const Home = () => {
                         </p>
 
                         <p
-                            className='askUsAnything font-montSerrat text-[15px] bg-yellowCustom inline-block px-[10px] py-[7px] rounded-[10px] font-semibold mt-5 cursor-pointer'
+                            className='askUsAnything font-montSerrat text-[15px] bg-yellowCustom inline-block px-[10px] py-[7px] rounded-[10px] font-semibold mt-5 cursor-pointer z-10'
+                            onClick={(e) => askUsAnything(e)}
                         >
 
-                            <a
-                                href='https://wa.me/918886182384?text=Hey%20there!%20I%27ve%20got%20some%20questions%20and%20I%27m%20all%20ears%20for%20your%20answers!%20Let%27s%20chat'
-                                target='_blank'
-                            >Ask us anything</a>
+                            <button
+                            >Ask us anything</button>
 
                         </p>
                     </div>

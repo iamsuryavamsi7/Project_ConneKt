@@ -1,5 +1,6 @@
 import React from 'react'
 import {useNavigate } from 'react-router-dom'
+import '../CSS/KeyServices.css'
 
 const Service = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
@@ -45,7 +46,7 @@ const Service = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
                 </p>
 
                 <button
-                    className='text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-2xl mt-7 cursor-pointer'
+                    className='diveIn1 text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-xl mt-7 cursor-pointer'
                     onClick={divertion}
                 >
 

@@ -1,16 +1,22 @@
-/* .key_service{
-    animation: key_service_animation 1s infinite 1.5s;
+.diveIn1{
+    position: relative;
 }
 
-.key_service:hover{
-    animation-play-state: paused;
+.diveIn1::before{
+    position: absolute;
+    content: '';
+    top: -5px;
+    bottom: 5px;
+    left: -5px;
+    right: 5px;
+    border-radius: 12px;
+    border: solid 3px black;
+    transition: all ease 0.4s;
 }
 
-@keyframes key_service_animation{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-} */
+.diveIn1:hover::before{
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}

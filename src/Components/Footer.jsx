@@ -185,6 +185,15 @@ const Footer = () => {
 
                             <FaInstagram 
                                 className='text-white text-[45px]  hover:text-pink-500 rounded-xl transition-all duration-[400ms] hover:text-[50px] cursor-pointer'
+                                onClick={(e) => {
+
+                                    e.preventDefault();
+
+                                    const url = `https://www.instagram.com/connekt_in/`
+
+                                    window.open(url, '_blank');
+
+                                }}
                             />
 
                             <BsFacebook 

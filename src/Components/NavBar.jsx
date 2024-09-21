@@ -65,6 +65,14 @@ const NavBar = () => {
 
     }
 
+    const dropdownFunction = (e, url) => {
+
+        e.preventDefault();
+
+        navigate(url);
+
+    }
+
     const contactFunction = (e) => {
 
         e.preventDefault();
@@ -134,9 +142,81 @@ const NavBar = () => {
                         className='flex h-full items-center space-x-10 text-xl font-inknutAntiqua max-mdCustom:space-x-7 max-mdCustom:block max-mdCustom:space-y-10 max-mdCustom:text-center max-smCustom:space-y-5 max-smCustom:text-[18px] '
                     >
 
-                        <li><button
-                            className='button_01 max-mdCustom:ml-[25px] max-smCustom:transition-none  transition-all'
-                        > Services </button></li>
+                        <li
+                        className='relative'
+                        onMouseOver={() => {
+
+                            const serviceDropDown = document.querySelector('.servicesClass');
+
+                            serviceDropDown.style.height = '300px';
+                            serviceDropDown.style.padding = '12px 0';
+
+                        }}
+                        onMouseLeave={() => {
+
+                            const serviceDropDown = document.querySelector('.servicesClass');
+
+                            serviceDropDown.style.height = '0';
+                            serviceDropDown.style.padding = '0';
+
+                        }}
+                        >
+                            
+                            <button
+                                className='button_01 max-mdCustom:ml-[25px] max-smCustom:transition-none transition-all'
+                                
+                            > Services 
+                            
+                            </button>
+
+                            <div className="servicesClass absolute text-[14px] w-[350px] h-0 overflow-hidden bg-white flex justify-center transition-all duration-500 left-[-45px]"
+                            >
+
+                                <ul
+                                    className='space-y-3'
+                                >
+
+                                    <li
+                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                        onClick={(e, url) => dropdownFunction(e, `/dive-in/web-design-service`)}
+                                    > Website / Web App Designing
+                                    </li>
+                                    <li
+                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                        onClick={(e, url) => dropdownFunction(e, '/dive-in/web-development-service')}
+                                    > Website / Web App Developement
+                                    </li>
+                                    <li
+                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                        onClick={(e, url) => dropdownFunction(e, '/dive-in/web-maintenance-service')}
+                                    > Website / Web App Maintanence
+                                    </li>
+                                    <li
+                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                        onClick={(e, url) => dropdownFunction(e, '/dive-in/search-engine-optimization')}
+                                    > Search Engine Optimization ( SEO )
+                                    </li>
+                                    <li
+                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                        onClick={(e, url) => dropdownFunction(e, '/dive-in/social-media-advertisements')}
+                                    > Social Media Advertisements
+                                    </li>
+                                    <li
+                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                        onClick={(e, url) => dropdownFunction(e, '/dive-in/whatsapp-api-solutions')}
+                                    > WhatsApp API Solutions
+                                    </li>
+                                    <li
+                                        className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                        onClick={(e, url) => dropdownFunction(e, '/dive-in/call-engaging-solutions')}
+                                    > Call Engaging Solutions
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                            
+                        </li>
                         <li><button
                             className='button_02 max-smCustom:transition-none cursor-pointer'
                             onClick={(e) => plansFunction(e)}
