@@ -4,29 +4,29 @@ const WhyAreWeUnique = () => {
 
     return (
 
-        <div className="py-16">
+        <div className="py-16 max-smCustom:py-5">
 
             <div className="w-full text-center">
 
                 <p
-                    className='bg-yellowCustom inline-block py-2 px-3 rounded-xl text-[25px] font-montSerrat font-semibold'
+                    className='bg-yellowCustom inline-block py-2 px-3 rounded-xl text-[25px] font-montSerrat font-semibold max-smCustom:text-[20px]'
                 > Why are we unique ?</p>
 
             </div>
 
             <div className="flex justify-around">
 
-                <div className="grid grid-cols-3 gap-x-[140px] gap-y-[50px] pt-[100px] max-mdCustom:grid-cols-2 max-smCustom:grid-cols-1">
+                <div className="grid grid-cols-3 gap-x-[140px] gap-y-[50px] pt-[100px] max-smCustom:pt-[40px] max-mdCustom:grid-cols-2 max-smCustom:grid-cols-2 max-smCustom:mx-10 max-smCustom:gap-x-[50px] max-smCustom:gap-y-[20px]">
 
                     <div className="font-montSerrat">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-mdCustom:w-[280px] max-mdCustom:h-[350px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
                             src= '/Why_Us/Why_Us_04.png'
                         />
 
                         <p
-                            className='text-[20px] font-semibold pt-5 pb-3'
+                            className='text-[20px] font-semibold pt-5 pb-3 max-smCustom:text-[18px]'
                         >
 
                             All-in-One-Digital <br /> Service
@@ -34,7 +34,7 @@ const WhyAreWeUnique = () => {
                         </p>
 
                         <p
-                            className='text-[18px]'
+                            className='text-[18px] max-smCustom:text-[15px] text-gray-600'
                         >
 
                             We handle everything from <br />
@@ -48,12 +48,12 @@ const WhyAreWeUnique = () => {
                     <div className="font-montSerrat">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-mdCustom:w-[280px] max-mdCustom:h-[350px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
                             src= '/Why_Us/Why_Us_07.png'
                         />
 
                         <p
-                            className='text-[20px] font-semibold pt-5 pb-3'
+                            className='text-[20px] font-semibold pt-5 pb-3 max-smCustom:text-[18px]'
                         >
 
                             Simple Communication <br />
@@ -62,7 +62,7 @@ const WhyAreWeUnique = () => {
                         </p>
 
                         <p
-                            className='text-[18px]'
+                            className='text-[18px] max-smCustom:text-[15px] text-gray-600'
                         >
 
                             Stay connected with your <br />
@@ -76,12 +76,12 @@ const WhyAreWeUnique = () => {
                         <div className="font-montSerrat">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-mdCustom:w-[280px] max-mdCustom:h-[350px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
                             src= '/Why_Us/Why_Us_03.png'
                         />
 
                         <p
-                            className='text-[20px] font-semibold pt-5 pb-3'
+                            className='text-[20px] font-semibold pt-5 pb-3 max-smCustom:text-[18px]'
                         >
 
                             One-Stop Solution
@@ -89,7 +89,7 @@ const WhyAreWeUnique = () => {
                         </p>
 
                         <p
-                            className='text-[18px]'
+                            className='text-[18px] max-smCustom:text-[15px] text-gray-600'
                         >
 
                             No more running around. <br />
@@ -103,12 +103,12 @@ const WhyAreWeUnique = () => {
                     <div className="font-montSerrat">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-mdCustom:w-[280px] max-mdCustom:h-[350px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
                             src= '/Why_Us/Why_Us_01.png'
                         />
 
                         <p
-                            className='text-[20px] font-semibold pt-5 pb-3'
+                            className='text-[20px] font-semibold pt-5 pb-3 max-smCustom:text-[18px]'
                         >
 
                             Consistent Branding
@@ -116,7 +116,7 @@ const WhyAreWeUnique = () => {
                         </p>
 
                         <p
-                            className='text-[18px]'
+                            className='text-[18px] max-smCustom:text-[15px] text-gray-600'
                         >
 
                             Keep your brand looking <br />
@@ -130,12 +130,12 @@ const WhyAreWeUnique = () => {
                     <div className="font-montSerrat">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-mdCustom:w-[280px] max-mdCustom:h-[350px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
                             src= '/Why_Us/Why_Us_05.png'
                         />
 
                         <p
-                            className='text-[20px] font-semibold pt-5 pb-3'
+                            className='text-[20px] font-semibold pt-5 pb-3 max-smCustom:text-[18px]'
                         >
 
                             Latest Technology
@@ -143,7 +143,7 @@ const WhyAreWeUnique = () => {
                         </p>
 
                         <p
-                            className='text-[18px]'
+                            className='text-[18px] max-smCustom:text-[15px] text-gray-600'
                         >
 
                             We use the newest tech <br />
@@ -158,12 +158,12 @@ const WhyAreWeUnique = () => {
                     <div className="font-montSerrat">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-mdCustom:w-[280px] max-mdCustom:h-[350px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
                             src= '/Why_Us/Why_Us_06.png'
                         />
 
                         <p
-                            className='text-[20px] font-semibold pt-5 pb-3'
+                            className='text-[20px] font-semibold pt-5 pb-3 max-smCustom:text-[18px]'
                         >
 
                             Budget-Friendly
@@ -171,7 +171,7 @@ const WhyAreWeUnique = () => {
                         </p>
 
                         <p
-                            className='text-[18px]'
+                            className='text-[18px] max-smCustom:text-[15px] text-gray-600'
                         >
 
                             Get all the services you <br />
@@ -185,12 +185,12 @@ const WhyAreWeUnique = () => {
                     <div className="font-montSerrat max-mdCustom:static min-mdCustom:hidden">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-mdCustom:w-[280px] max-mdCustom:h-[350px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
                             src= '/Why_Us/Why_Us_02.png'
                         />
 
                         <p
-                            className='text-[20px] font-semibold pt-5 pb-3'
+                            className='text-[20px] font-semibold pt-5 pb-3 max-smCustom:text-[18px]'
                         >
 
                             Works Together
@@ -198,7 +198,7 @@ const WhyAreWeUnique = () => {
                         </p>
 
                         <p
-                            className='text-[18px]'
+                            className='text-[18px] max-smCustom:text-[15px] text-gray-600'
                         >
 
                             Our services work smoothly <br />
@@ -213,12 +213,12 @@ const WhyAreWeUnique = () => {
                     <div className="font-montSerrat max-mdCustom:static min-mdCustom:hidden">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-mdCustom:w-[280px] max-mdCustom:h-[350px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
                             src= '/Why_Us/Why_Us_08.png'
                         />
 
                         <p
-                            className='text-[20px] font-semibold pt-5 pb-3'
+                            className='text-[20px] font-semibold pt-5 pb-3 max-smCustom:text-[18px]'
                         >
 
                             Custom Solutions
@@ -226,7 +226,7 @@ const WhyAreWeUnique = () => {
                         </p>
 
                         <p
-                            className='text-[18px]'
+                            className='text-[18px] max-smCustom:text-[15px] text-gray-600'
                         >
 
                             Don't worry, We even tailor <br />
@@ -246,7 +246,7 @@ const WhyAreWeUnique = () => {
                 <div className="font-montSerrat">
 
                     <img 
-                        className= 'w-[280px] h-[350px] max-mdCustom:w-[280px] max-mdCustom:h-[350px]'
+                        className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
                         src= '/Why_Us/Why_Us_02.png'
                     />
 
@@ -274,7 +274,7 @@ const WhyAreWeUnique = () => {
                 <div className="font-montSerrat max-smCustom:mb-16">
 
                     <img 
-                        className= 'w-[280px] h-[350px] max-mdCustom:w-[280px] max-mdCustom:h-[350px]'
+                        className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
                         src= '/Why_Us/Why_Us_08.png'
                     />
 

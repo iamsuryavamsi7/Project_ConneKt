@@ -12,7 +12,7 @@ const KeyServices = () => {
             <div className="">
 
                 <p
-                    className='key_service bg-greenCustom inline-block text-[25px] font-bold px-4 py-2 rounded-xl border-2 border-black max-smCustom:px-2 max-smCustom:py-1 max-smCustom:text-[20px]'
+                    className='key_service bg-greenCustom inline-block text-[25px] font-semibold px-4 py-2 rounded-xl border-2 border-black max-smCustom:px-2 max-smCustom:py-1 max-smCustom:text-[20px]'
                 >
 
                     Key Services

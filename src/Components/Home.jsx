@@ -77,7 +77,7 @@ const Home = () => {
                     >
 
                         <p
-                            className='font-bold text-[40px] max-smCustom:text-[25px]'
+                            className='font-semibold text-[40px] max-smCustom:text-[25px]'
                         >
 
                             Take your business to <br />
