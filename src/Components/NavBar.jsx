@@ -169,7 +169,7 @@ const NavBar = () => {
                             
                             </button>
 
-                            <div className="servicesClass absolute text-[14px] w-[350px] h-0 overflow-hidden bg-white flex justify-center transition-all duration-500 left-[-45px]"
+                            <div className="servicesClass absolute text-[14px] w-[305px] h-0 overflow-hidden bg-white flex justify-start transition-all duration-300 left-[-20px] rounded-b-xl top-[120%]"
                             >
 
                                 <ul

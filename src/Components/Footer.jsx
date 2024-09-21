@@ -4,6 +4,7 @@ import { FaInstagram, FaYoutube } from 'react-icons/fa'
 import { FaSquareXTwitter } from 'react-icons/fa6'
 import { IoLogoLinkedin } from 'react-icons/io'
 import { useNavigate } from 'react-router-dom'
+import './CSS/Footer.css'
 
 const Footer = () => {
 
@@ -109,7 +110,7 @@ const Footer = () => {
 
             </div>
 
-            <div className="w-full bg-black flex justify-around text-white font-montSerrat font-bold tracking-wider">
+            <div className="w-full bg-blackCustom flex justify-around text-white font-montSerrat font-bold tracking-wider">
 
                 <div className="mt-10 space-y-5">
 
@@ -125,7 +126,7 @@ const Footer = () => {
                 <div className="my-10">
 
                     <p
-                        className='text-paleGreen text-[25px] mb-5'
+                        className='text-yellowCustom2 text-[25px] mb-5'
                     >
 
                         Services
@@ -137,31 +138,31 @@ const Footer = () => {
                     >
 
                         <li
-                            className='cursor-pointer transition-all duration-300 hover:text-[16px]'
+                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
                             onClick={(e) => websiteDesigningFunction(e)}
                         >Website / Web App Designing</li>
                         <li
-                            className='cursor-pointer transition-all duration-300 hover:text-[16px]'
+                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
                             onClick={(e) => websiteDevelopmentFunction(e)}
                         >Website / Web App Developement</li>
                         <li
-                            className='cursor-pointer transition-all duration-300 hover:text-[16px]'
+                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
                             onClick={(e) => websiteMaintenanceFunction(e)}
                         >Website / Web App Maintanence</li>
                         <li
-                            className='cursor-pointer transition-all duration-300 hover:text-[16px]'
+                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
                             onClick={(e) => SEOFunction(e)}
                         >Search Engine Optimization ( SEO )</li>
                         <li
-                            className='cursor-pointer transition-all duration-300 hover:text-[16px]'
+                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
                             onClick={(e) => socialMediaAdsFunction(e)}
                         >Social Media Advertisements</li>
                         <li
-                            className='cursor-pointer transition-all duration-300 hover:text-[16px]'
+                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
                             onClick={(e) => whatsappApiSolutions(e)}
                         >WhatsApp API Solutions</li>
                         <li
-                            className='cursor-pointer transition-all duration-300 hover:text-[16px]'
+                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
                             onClick={(e) => CallEngagingSolutions(e)}
                         >Call Engaging Solutions</li>
 
@@ -169,9 +170,11 @@ const Footer = () => {
 
                 </div>
 
-                <div className="mt-10 space-y-5">
+                <div className="mt-10 space-y-5 ">
 
-                    <p>
+                    <p
+                        className='text-blueCustom'
+                    >
                         
                         Follow Us
 

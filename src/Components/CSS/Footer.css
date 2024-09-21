@@ -1,0 +1,18 @@
+.servicesFooter{
+    position: relative;
+}
+
+.servicesFooter::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    background-color: #008080;
+    height: 3px;
+    width: 0;
+    transition: all ease 0.5s;
+}
+
+.servicesFooter:hover::before{
+    width: 170px;
+}

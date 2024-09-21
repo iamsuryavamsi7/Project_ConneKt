@@ -35,9 +35,12 @@ const EarnWithUs = () => {
 
             enterTheFields.style.display = 'hidden';
 
-            let whatsappURL = `https://wa.me/918886182384?text=Name: ${encodeURIComponent(name)}%0A` +
-            `Email: ${email}%0A` + 
-            `I am from : ${encodeURIComponent(place)}%0A`
+            const message = `I am all set! I've checked out all the steps, read the terms & conditions, and I am ready to kick off my affiliate journey with connekt!`;
+            const whatsappURL = `https://wa.me/918886182384?text=Name: ${encodeURIComponent(name)}%0A` +
+                                 `Email: ${encodeURIComponent(email)}%0A` + 
+                                 `I am from: ${encodeURIComponent(place)}%0A` + 
+                                 `${encodeURIComponent(message)}`;
+            
 
             window.open(whatsappURL, '_blank')
 
@@ -213,8 +216,11 @@ const EarnWithUs = () => {
 
                         </div>
 
-                       
+                        Payment Terms: Commisions are paid with in a week after receive full and final payment from the client. <br/><br/>
 
+                        Project Eligibility: Only projects worth over ₹12,000 qualify for the affiliate program. <br/><br/>
+
+                        Ethics: We reserve the right to reject any of your referrals if they don't align with values or terms                       
 
                     </div>
 
@@ -237,7 +243,7 @@ const EarnWithUs = () => {
 
                         1. How do I know if my referral was successful?<br />
 
-                        A) We’ll notify you via email & WhatsApp once a project is confirmed.<br /><br />
+                        A) We’ll notify you via email <span className='font-montSerrat'>&</span> WhatsApp once a project is confirmed.<br /><br />
 
 
                         2. When will I get paid? 
@@ -250,11 +256,13 @@ const EarnWithUs = () => {
 
                         A) Any project worth over ₹25,000 qualifies for our affiliate program. <br /><br />
 
+                        You can reach us with any questions!   
 
 
-                        4. Who can I contact for support or questions? <br />
 
-                        A) You can reach out to us anytime via email or WhatsApp. <br /><br />
+                        {/* 4. Who can I contact for support or questions? <br />
+
+                        A) You can reach out to us anytime via email or WhatsApp. <br /><br /> */}
 
 
                     </div>
@@ -270,7 +278,7 @@ const EarnWithUs = () => {
                     onSubmit={(e) => formFunction(e)}
                 >
 
-                    <div className="w-full justify-center text-xl items-center absolute  bottom-[15px] left-[20%]">
+                    <div className="w-full justify-center text-xl items-center absolute  bottom-[15px] left-[30%]">
 
                         <div
                             className='enterTheFields hidden items-center text-red-500 px-3 py-2 rounded-xl space-x-2'
@@ -320,12 +328,19 @@ const EarnWithUs = () => {
                         <input
                             required 
                             type='checkbox'
-                            className='rounded-lg checkbox mr-2 w-3 h-3'
+                            className='rounded-lg checkbox mr-2 w-3 h-3 '
                         />
                         
                         <label
                             className='text-[15px] relative'
-                        > <span className='absolute left-[-7px] text-red-500 font-bold text-[10px]'>*</span> I’ve read all the steps and terms & conditions, and I’m all set to be an official Connekt affiliate! </label><br /><br />
+                            onClick={() => {
+
+                                const checkBox = document.querySelector('.checkbox');
+                                
+                                checkBox.checked;
+
+                            }}
+                        > <span className='absolute left-[-7px] text-red-500 font-bold text-[10px]'>*</span> I’ve read all the steps and terms <span className='font-montSerrat'>&</span> conditions, and I’m all set to be an official Connekt affiliate! </label><br /><br />
 
                     </div>
 
