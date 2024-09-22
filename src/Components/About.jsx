@@ -78,7 +78,7 @@ const About = () => {
 
                         <div className="w-full my-10 max-smCustom:my-5">
 
-                            <div className="bg-yellowCustom mx-[250px] rounded-xl py-3 max-mdCustom:mx-[80px] border-2 border-black max-smCustom:mx-[20px]">
+                            <div className="bg-sky-300 mx-[250px] rounded-xl py-3 max-mdCustom:mx-[80px] border-2 border-black max-smCustom:mx-[20px]">
 
                             <div className="flex justify-center text-[30px] max-smCustom:text-[20px] font-semibold">
 
@@ -104,7 +104,7 @@ const About = () => {
 
                                     <img 
                                         src='/About/gokul.png'
-                                        className='w-[400px] max-smCustom:w-[150px] h-auto'
+                                        className='w-[350px] max-smCustom:w-[150px] h-auto'
                                     /> 
 
                                 </div>
@@ -121,7 +121,7 @@ const About = () => {
 
                                 </div>
 
-                                <div className="font-inknutAntiqua my-[20px] max-smCustom:my-[10px] max-smCustom:text-[16px] max-smCustom:text-gray-500 relative">
+                                <div className="font-inknutAntiqua mt-20 max-smCustom:my-[10px] max-smCustom:text-[16px] max-smCustom:text-gray-500 relative">
 
                                     Click to connect on 
                                     
@@ -162,7 +162,7 @@ const About = () => {
 
                                 </div>
 
-                                <div className="font-inknutAntiqua max-smCustom:my-[10px] max-smCustom:text-[16px] max-smCustom:text-gray-500 relative">
+                                <div className="font-inknutAntiqua mt-[75px] max-smCustom:my-[10px] max-smCustom:text-[16px] max-smCustom:text-gray-500 relative">
 
                                     Click to connect on 
                                     
@@ -183,7 +183,7 @@ const About = () => {
 
                         <div className="w-full my-10">
 
-                            <div className="bg-sky-300 mx-[250px] max-smCustom:mx-[20px] rounded-xl py-3 max-mdCustom:mx-[80px] border-2 border-black mt-20">
+                            <div className="bg-yellowCustom mx-[250px] max-smCustom:mx-[20px] rounded-xl py-3 max-mdCustom:mx-[80px] border-2 border-black mt-20">
 
                             <div className="flex justify-center text-[30px] max-smCustom:text-[20px] font-semibold">
 

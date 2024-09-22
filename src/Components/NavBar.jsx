@@ -2,10 +2,13 @@ import React, { useEffect, useState } from 'react'
 import '../Components/CSS/NavBar.css'
 import { useNavigate } from 'react-router-dom';
 import { RxHamburgerMenu } from 'react-icons/rx';
+import { IoLogoWhatsapp } from "react-icons/io5";
 
 const NavBar = () => {
 
     const navigate = useNavigate();
+
+    const [currentWidth, setCurrentWidth] = useState(null);
 
     const companyLogoFunction = (e) => {
 
@@ -129,6 +132,66 @@ const NavBar = () => {
 
     }, []);
 
+    const [chatBox, setChatBox] = useState('/Nav_Bar/chat_with_us.png');
+
+    const chatBoxFunction = () => {
+
+        const chatBoxHeight = document.querySelector('.chatBoxHeight');
+
+        if ( chatBox === '/Nav_Bar/chat_with_us.png' ){
+
+            setChatBox('/Nav_Bar/drop_down.png');
+
+            if ( currentWidth >= 1000 ) {
+
+                chatBoxHeight.style.height = '250px';
+
+                chatBoxHeight.style.width = '350px';
+    
+                chatBoxHeight.style.borderWidth = '2px';
+
+            } else if (currentWidth <= 600) {
+
+                chatBoxHeight.style.height = '180px';
+
+                chatBoxHeight.style.width = '270px';
+    
+                chatBoxHeight.style.borderWidth = '2px';
+
+            }
+
+        } else {
+
+            setChatBox('/Nav_Bar/chat_with_us.png');
+
+            chatBoxHeight.style.height = '0px';
+
+            chatBoxHeight.style.width = '0px';
+            
+            chatBoxHeight.style.borderWidth = '0px';
+
+        }
+
+    }
+
+    useEffect(() => {
+
+        const checkWidth = setInterval(() => {
+
+            setCurrentWidth(window.innerWidth);
+
+            console.log('innerWidth is setting :' + window.innerWidth);
+
+        }, 500);
+
+        setTimeout(() => {
+
+            clearInterval(checkWidth);
+
+        }, 5000);
+
+    }, []);
+
     return (
 
         <>
@@ -136,9 +199,65 @@ const NavBar = () => {
             <div className="fixed z-50 right-10 bottom-10 max-smCustom:right-3 max-smCustom:bottom-3">
 
                 <img
-                    src='/Nav_Bar/chat_with_us.png' 
-                    className='h-[50px] w-auto rounded-2xl cursor-pointer animate-bounce'
+                    src={chatBox} 
+                    className='h-[50px] w-auto rounded-block2xl cursor-pointer animate-bounce'
+                    onClick={(e) => chatBoxFunction(e)}
                 />
+
+                <div className="chatBoxHeight absolute h-[0px] w-[0px] bg-white transition-all duration-300 rounded-[32px] bottom-[70px] right-[40px] max-smCustom:right-[20px] overflow-hidden block border-black border-0">
+
+                    <div className="text-gray-800 font-semibold w-full flex justify-center space-x-1 text-[14px] max-smCustom:text-[10px] mt-2">
+
+                        <span className='text-[#8d8a8a]'>Powered By</span> 
+
+                        <div className="">
+
+                            connect.in
+
+                        </div>
+
+                    </div>
+
+                    <div className="block justify-center mx-5">
+
+                        <img
+                            src='/Nav_Bar/chat_with_us.png' 
+                            className='chatBoxImage h-[50px] max-smCustom:h-[40px] w-auto rounded-2xl cursor-text'
+                        />
+
+                    </div>
+
+                    <div className="chatMessage text-[18px] max-smCustom:text-[12px] font-montSerrat mx-5 text-black my-4 max-smCustom:my-2">
+
+                        I checked the website, and I have a few questions to ask    
+
+                    </div>
+
+                    <div className="chatWithUs w-[300px] max-smCustom:w-[215px] max-smCustom:py-3 bg-black  text-white font-montSerrat font-semibold tracking-wider text-[15px] max-smCustom:text-[10px] mx-5 py-3 rounded-xl flex items-center cursor-pointer"
+                        onClick={() => {
+
+                            window.open('https://wa.me/918886182384?text=Hey%20connekt%20team!%20I%27m%20on%20your%20website,%20got%20questions,%20need%20answers.%20Let%27s%20chat', '_blank')
+
+                        }}
+                    >
+
+                        <div className="mx-5 max-smCustom:mr-3">
+
+                            <IoLogoWhatsapp
+                                className='text-white bg-black text-[30px] max-smCustom:text-[20px]'
+                            />
+
+                        </div>
+
+                        <div className="">
+
+                            Chat With Us
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
         

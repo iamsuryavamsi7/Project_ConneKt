@@ -83,6 +83,16 @@
     width: 100%;
 }
 
+.chatBoxHeight{
+    box-shadow: 4px 6px 0px #00E785;
+}
+
+.chatWithUs{
+    background-color: #1D1D1B !important;
+    box-shadow: 4px 6px 0px #00E785;
+
+}
+
 @keyframes button_01_animation {
     0%{
         opacity: 0;
