@@ -11,44 +11,52 @@ const EarnWithUs = () => {
 
         e.preventDefault();
 
-        const name = document.querySelector(".name").value;
+        const formFunctionInterval = setInterval(() => {
 
-        const email = document.querySelector('.email').value;
+            const name = document.querySelector(".name").value;
 
-        const place = document.querySelector('.place').value;
+            const email = document.querySelector('.email').value;
 
-        const checkbox = document.querySelector('.checkbox');
+            const place = document.querySelector('.place').value;
 
-        const enterTheFields = document.querySelector('.enterTheFields');
+            const enterTheFields = document.querySelector('.enterTheFields');
 
-        if ( name.trim() === ''|| place.trim() === ''){
+            if ( name.trim() === ''|| place.trim() === ''){
 
-            enterTheFields.style.display = 'flex';
+                enterTheFields.style.display = 'flex';
 
-        } else if ( name.trim() !== '' && place.trim() !== '') {
+            } else if ( name.trim() !== '' && place.trim() !== '') {
 
-            enterTheFields.style.display = 'hidden';
+                enterTheFields.style.display = 'hidden';
 
-            const message = `I am all set! I've checked out all the steps, read the terms & conditions, and I am ready to kick off my affiliate journey with connekt!`;
-            const whatsappURL = `https://wa.me/918886182384?text=Name: ${encodeURIComponent(name)}%0A` +
-                                 `Email: ${encodeURIComponent(email)}%0A` + 
-                                 `I am from: ${encodeURIComponent(place)}%0A` + 
-                                 `${encodeURIComponent(message)}`;
-            
+                const message = `I am all set! I've checked out all the steps, read the terms & conditions, and I am ready to kick off my affiliate journey with connekt!`;
+                const whatsappURL = `https://wa.me/918886182384?text=Name: ${encodeURIComponent(name)}%0A` +
+                                    `Email: ${encodeURIComponent(email)}%0A` + 
+                                    `I am from: ${encodeURIComponent(place)}%0A` + 
+                                    `${encodeURIComponent(message)}`;
+                
 
-            window.open(whatsappURL, '_blank')
+                window.open(whatsappURL, '_blank')
 
-            window.location.reload();
+                window.location.reload();
 
-            window.scrollTo(0, 0);
+                window.scrollTo(0, 0);
 
-            clearForm();
+                clearForm();
 
-        } else {
+            } else {
 
-            console.log("Some Error Occured")
+                console.log("Some Error Occured")
 
-        }
+            }
+
+        }, 400);
+
+        setTimeout(() => {
+
+            clearInterval(formFunctionInterval);
+
+        }, 500);
 
     }
 
@@ -302,13 +310,13 @@ const EarnWithUs = () => {
 
                             {/* Have to see this */}
 
-                            <div className="w-full justify-center text-xl items-center absolute  bottom-[15px] left-[30%]">
+                            <div className="w-full justify-center text-xl items-center absolute bottom-[15px] left-[30%] max-smCustom:bottom-[-50px] max-smCustom:left-0">
 
                                 <div
                                     className='enterTheFields hidden items-center text-red-500 px-3 py-2 rounded-xl space-x-2'
                                 >
 
-                                    <div className="rounded-xl text-[15px] font-semibold">
+                                    <div className="rounded-xl text-[15px] max-smCustom:text-[12px] font-semibold">
                                         
                                         Oops! You left some empty boxes 
 
@@ -330,7 +338,7 @@ const EarnWithUs = () => {
                                 type='text'
                                 placeholder='Enter Your Name'
                                 required
-                                name='name1'
+                                name='name'
                             /><br />
 
                             <label
