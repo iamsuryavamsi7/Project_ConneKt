@@ -12,6 +12,7 @@ import Contact from './Components/Contact'
 import About from './Components/About'
 import Plans from './Components/Plans'
 import EarnWithUs from './Components/EarnWithUs'
+import PageNotFound from './Components/PageNotFound'
 
 function App() {
 
@@ -37,6 +38,8 @@ function App() {
 					<Route path='/about' element={<About />} />
 					<Route path='/plans' element={<Plans />} />
 					<Route path='/earn-with-us' element={<EarnWithUs />} />
+
+					<Route path='*' element={<PageNotFound />} />
 
 				</Routes>
 
