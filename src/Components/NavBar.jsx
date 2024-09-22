@@ -204,7 +204,7 @@ const NavBar = () => {
                     onClick={(e) => chatBoxFunction(e)}
                 />
 
-                <div className="chatBoxHeight absolute h-[0px] w-[0px] bg-white transition-all duration-300 rounded-[32px] bottom-[70px] right-[40px] max-smCustom:right-[20px] overflow-hidden block border-black border-0">
+                <div className="chatBoxHeight absolute h-[0px] w-[0px] bg-white transition-all duration-200 rounded-[32px] bottom-[70px] right-[40px] max-smCustom:right-[20px] overflow-hidden block border-black border-0">
 
                     <div className="text-gray-800 font-semibold w-full flex justify-center space-x-1 text-[14px] max-smCustom:text-[10px] mt-2">
 

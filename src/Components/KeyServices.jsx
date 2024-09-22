@@ -118,16 +118,14 @@ const KeyServices = () => {
                         serviceHeading={(
                             <>
                             
-                            Social Media Ads
+                            Social Media Management
 
                             </>
                         )}
                         serviceDesc={(
                             <>
                             
-                            Targeted ads on platforms like instagram, <br />
-                            facebook and more to grow your audience <br />
-                            and engagement to your platforms.
+                            Elevate your brand with our dynamic social <br />media management services! We create <br />tailored strategies, engaging content, and <br />manage your accounts to boost audience<br /> interaction.Plus, we implement targeted ads to<br /> expand your reach and drive growth.
                             
                             </>
                         )}
