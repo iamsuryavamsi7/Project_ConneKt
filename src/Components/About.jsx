@@ -26,7 +26,7 @@ const About = () => {
         
             <NavBar />
 
-            <div className="pt-[150px] max-smCustom:pt-[100px] mb-[100px]">
+            <div className="pt-[150px] max-smCustom:pt-[100px] mb-[100px] max-smCustom:mb-[30px]">
 
                 <div className="flex justify-center">
 
@@ -71,12 +71,12 @@ const About = () => {
 
                             <img 
                                 src='/About/gokul.png'
-                                className='w-[400px] max-smCustom:w-[180px] h-auto'
-                            />
+                                className='w-[400px] max-smCustom:w-[150px] h-auto'
+                            /> 
 
                         </div>
 
-                        <div className="w-[400px] max-smCustom:w-[200px] mt-5">
+                        <div className="w-[400px] max-smCustom:w-[150px] mt-5">
 
                             <p
                                 className='text-[18px] max-smCustom:text-[14px]  font-inknutAntiqua'
@@ -111,12 +111,12 @@ const About = () => {
 
                             <img 
                                 src='/About/surya.png'
-                                className='w-[360px] h-auto max-smCustom:w-[160px]'
+                                className='w-[360px] h-auto max-smCustom:w-[140px]'
                             />
 
                         </div>
 
-                        <div className="w-[400px] max-smCustom:w-[200px] mt-5">
+                        <div className="w-[400px] max-smCustom:w-[150px] mt-5">
 
                         <p
                                 className='text-[18px] max-smCustom:text-[14px] font-inknutAntiqua'
