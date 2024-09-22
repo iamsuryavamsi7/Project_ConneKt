@@ -96,7 +96,7 @@ const About = () => {
 
                         </div>
 
-                        <div className="flex justify-center space-x-[300px] max-smCustom:space-x-3 max-smCustom:mx-5 mt-[10px] max-mdCustom:mt-[10px] max-mdCustom:space-x-[100px]">
+                        <div className="flex justify-center space-x-[300px] max-smCustom:space-x-10 max-smCustom:mx-5 mt-[10px] max-mdCustom:mt-[10px] max-mdCustom:space-x-[100px]">
 
                             <div className="">
 
@@ -109,13 +109,13 @@ const About = () => {
 
                                 </div>
 
-                                <div className="w-[360px] max-smCustom:w-[140px] mt-5">
+                                <div className="w-[360px] max-smCustom:w-[149px] mt-5">
 
                                     <p
                                         className='text-[18px] max-smCustom:text-[14px]  font-inknutAntiqua'
                                     >
                                         
-                                        Meet Gokul, he's a Senior Software Engineer, tech-savvy wizard of the team with a flare for cutting-edge technologies. He's got a creative spot that brings stunning visuals to life, helping brands shine with unique digital identites that truly resonate with the audience.
+                                        Meet Mr. Gokul, he's a Senior Software Engineer, tech-savvy wizard of the team with a flare for cutting-edge technologies. He's got a creative spot that brings stunning visuals to life, helping brands shine with unique digital identites that truly resonate with the audience.
 
                                     </p>
 
@@ -126,7 +126,7 @@ const About = () => {
                                     Click to connect on 
                                     
                                     <span
-                                        className='linkedinButton bg-blue-500 text-white px-3 rounded-xl ml-4 cursor-pointer max-smCustom:absolute max-smCustom:left-[-10px] max-smCustom:bottom-[-50px] max-smCustom:py-2'
+                                        className='linkedinButton bg-blue-500 text-white px-3 rounded-xl ml-4 cursor-pointer max-smCustom:absolute max-smCustom:left-[-10px] max-smCustom:bottom-[-50.5px] max-smCustom:py-2'
                                         onClick={(e)=> linkedin(e, 'https://www.linkedin.com/in/gokul-srinivas')}
                                     >
                                         
@@ -144,7 +144,7 @@ const About = () => {
 
                                     <img 
                                         src='/About/surya.png'
-                                        className='w-[360px] h-auto max-smCustom:w-[140px]'
+                                        className='w-[360px] h-auto max-smCustom:w-[155px] max-smCustom:h-[150px]'
                                     />
 
                                 </div>
@@ -162,7 +162,7 @@ const About = () => {
 
                                 </div>
 
-                                <div className="font-inknutAntiqua my-[20px] max-smCustom:my-[10px] max-smCustom:text-[16px] max-smCustom:text-gray-500 relative">
+                                <div className="font-inknutAntiqua max-smCustom:my-[10px] max-smCustom:text-[16px] max-smCustom:text-gray-500 relative">
 
                                     Click to connect on 
                                     
@@ -183,7 +183,7 @@ const About = () => {
 
                         <div className="w-full my-10">
 
-                            <div className="bg-sky-300 mx-[250px] max-smCustom:mx-[20px] rounded-xl py-3 max-mdCustom:mx-[80px] border-2 border-black">
+                            <div className="bg-sky-300 mx-[250px] max-smCustom:mx-[20px] rounded-xl py-3 max-mdCustom:mx-[80px] border-2 border-black mt-20">
 
                             <div className="flex justify-center text-[30px] max-smCustom:text-[20px] font-semibold">
 
