@@ -390,7 +390,7 @@ const EarnWithUs = () => {
                             > Start Affiliate Journey </button>
 
 
-                        </form>
+                        </form> 
 
                         </div>
 
@@ -404,7 +404,7 @@ const EarnWithUs = () => {
 
             <>
 
-                <div className="w-full fixed bg-white top-0 bottom-0 left-0 right-0 text-[30px] max-smCustom:text-[14px] animate-pulse">
+                <div className="w-full fixed bg-white top-0 bottom-0 left-0 right-0 text-[30px] max-smCustom:text-[20px] animate-pulse">
 
                     <div className="flex justify-center w-full items-center space-x-3 h-full">
 

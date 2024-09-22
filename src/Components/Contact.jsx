@@ -330,7 +330,7 @@ const Contact = () => {
                                     className='animate-spin'
                                 />
 
-                            </div>
+                            </div> 
 
                             <div className="">
 
