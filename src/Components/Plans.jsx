@@ -13,7 +13,7 @@ const Plans = () => {
 
         e.preventDefault();
 
-        navigate('/contact');
+        navigate('/contact'); 
 
     }
 
