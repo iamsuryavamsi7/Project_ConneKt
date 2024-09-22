@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { BsFacebook } from 'react-icons/bs'
 import { FaInstagram, FaYoutube } from 'react-icons/fa'
 import { FaSquareXTwitter } from 'react-icons/fa6'
@@ -46,26 +46,71 @@ const Footer = () => {
 
     }
 
+    const [isDesktop, setIsDesktop] = useState(true);
+
+    useEffect(() => {
+
+        const checkWidth = () => {
+
+            if ( window.innerWidth <= 600 ) {
+
+                setIsDesktop(false);
+
+            }
+
+        }
+
+        const intervalFunction = setInterval(() => {
+
+            checkWidth();
+
+        }, 500)
+
+        setTimeout(() => {
+
+            clearInterval(intervalFunction);
+
+        }, 5000)
+
+    }, []);
+
     return (
 
         <>
         
             <div className="w-full relative mb-20 max-smCustom:mb-0 font-montSerrat font-bold text-center">
 
-                <video
-                    autoPlay
-                    loop
-                    className='w-full h-[200px] max-smCustom:h-[150px] object-cover absolute z-0'
-                    playsInline
-                    muted
-                >
+                {isDesktop && (
 
-                    <source 
-                        src='/CTA/CTA_Background.mp4'
-                        type='video/mp4'
-                    />
+                <>
                     
-                </video>
+                    <video
+                        autoPlay
+                        loop
+                        className='w-full h-[200px] max-smCustom:h-[150px] object-cover absolute z-0 footerVideo'
+                        playsInline
+                        muted
+                        >
+
+                            <source 
+                                src='/CTA/CTA_Background.mp4'
+                                type='video/mp4'
+                            />
+                        
+                    </video>
+
+                </>
+
+                )}
+
+                {!isDesktop && (
+
+                    <img 
+                        src='/CTA/CTA.png'
+                        className='w-full h-[200px] max-smCustom:h-[150px] object-cover absolute z-0 footerVideo'
+                    />
+
+                )}
 
                 <p
                     className='text-[45px] z-20 relative pt-10 max-smCustom:text-[25px]'
@@ -73,7 +118,7 @@ const Footer = () => {
 
                 <p
                     className='text-[30px] relative pb-10 max-smCustom:text-[18px]'
-                > Connecting Idea's To Success</p>
+                > Connecting Ideas To Success</p>
 
             </div>
 

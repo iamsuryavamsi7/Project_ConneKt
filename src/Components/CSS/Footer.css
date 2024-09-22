@@ -16,3 +16,11 @@
 .servicesFooter:hover::before{
     width: 170px;
 }
+
+.footerVideo::-webkit-media-controls {
+    display: none !important;
+}
+
+.footerVideo::-webkit-media-controls-enclosure {
+    display: none !important;
+}
