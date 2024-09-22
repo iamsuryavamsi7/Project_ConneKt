@@ -105,15 +105,15 @@ const NavBar = () => {
 
     }
 
-    const [isPageWidth, setIsPathWidth] = useState(false);
+    const [pageForDesktop, setPageForDesktop] = useState(true);
 
     useEffect(() => {
 
         const checkWidth = () => {
 
-            if ( window.innerWidth >= 1000 ) {
+            if ( window.innerWidth <= 1000 ) {
 
-                setIsPathWidth(true);
+                setPageForDesktop(false);
 
                 console.log("Checking the width " + window.innerWidth);
         
@@ -121,7 +121,7 @@ const NavBar = () => {
 
         }
 
-        const settingWidth = setInterval(checkWidth, 1000);
+        const settingWidth = setInterval(checkWidth, 500);
 
         setTimeout(() => {
 
@@ -171,7 +171,7 @@ const NavBar = () => {
                         className='flex h-full items-center space-x-10 text-xl font-inknutAntiqua max-mdCustom:space-x-7 max-mdCustom:block max-mdCustom:space-y-10 max-mdCustom:text-center max-smCustom:space-y-7 max-smCustom:text-[18px] max-smCustom:pt-10 '
                     >
 
-                        {isPageWidth && (
+                        {pageForDesktop && (
 
                             <li
                                 className='relative'
@@ -251,7 +251,7 @@ const NavBar = () => {
 
                         )}
 
-                        {!isPageWidth && (
+                        {!pageForDesktop && (
 
                             <li
                                 className='relative'

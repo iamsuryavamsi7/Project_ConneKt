@@ -31,7 +31,11 @@ const About = () => {
 
         const pageLoadingId = setInterval(updatePageLoading, 2000);
 
-        setTimeout(pageLoading, 2000);
+        setTimeout(() => {
+         
+           clearTimeout(pageLoadingId)
+        
+        }, 2000);
 
     }, [])
 
@@ -239,23 +243,27 @@ const About = () => {
             
             )}
 
-            {pageLoading && (
+                {pageLoading && (
 
                 <>
 
-                    <div className="w-full flex h-[1000px] justify-center items-center space-x-3 text-[30px] max-smCustom:text-[20px] animate-pulse">
+                    <div className="w-full fixed bg-white top-0 bottom-0 left-0 right-0 text-[30px] max-smCustom:text-[20px] animate-pulse">
 
-                        <div className="">
+                        <div className="flex justify-center w-full items-center space-x-3 h-full">
 
-                            <AiOutlineLoading3Quarters 
-                                className='animate-spin'
-                            />
+                            <div className="">
 
-                        </div>
+                                <AiOutlineLoading3Quarters 
+                                    className='animate-spin'
+                                />
 
-                        <div className="">
+                            </div>
 
-                            Loading ...
+                            <div className="">
+
+                                Loading ...
+
+                            </div>
 
                         </div>
 
@@ -263,7 +271,7 @@ const About = () => {
 
                 </>
 
-            )
+                )
 
             }
 

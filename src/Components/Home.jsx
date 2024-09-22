@@ -38,7 +38,7 @@ const Home = () => {
 
         }
 
-        const intervalId = setInterval(heroSectionImgFunction, 2000);
+        const intervalId = setInterval(heroSectionImgFunction, 500);
 
         setTimeout(() => {
 
