@@ -28,7 +28,7 @@ const Home = () => {
 
             if ( window.innerWidth <= 1000 ) {
 
-                setHeroSectionImg(!heroSectionImg);
+                setHeroSectionImg(true);
                 
             } else {
 
@@ -40,19 +40,27 @@ const Home = () => {
 
         const intervalId = setInterval(heroSectionImgFunction, 2000);
 
-        setTimeout(intervalId, 5000);
+        setTimeout(() => {
+
+            clearInterval(intervalId);
+
+        }, 5000);
 
         // Runnin the page loading
 
         const updatePageLoading = () => {
 
-            setPageLoading(!pageLoading);
+            setPageLoading(false);
 
         }
 
         const pageLoadingId = setInterval(updatePageLoading, 3000);
 
-        setTimeout(pageLoading, 6000);
+        setTimeout(() => {
+
+            clearInterval(pageLoadingId);
+
+        }, 6000);
 
     }, []);
 
@@ -166,19 +174,23 @@ const Home = () => {
 
                 <>
 
-                    <div className="w-full flex h-[1000px] justify-center items-center space-x-3 text-[30px] max-smCustom:text-[20px] animate-pulse">
+                    <div className="w-full fixed bg-white top-0 bottom-0 left-0 right-0 text-[30px] max-smCustom:text-[20px] animate-pulse">
 
-                        <div className="">
+                        <div className="flex justify-center w-full items-center space-x-3 h-full">
 
-                            <AiOutlineLoading3Quarters 
-                                className='animate-spin'
-                            />
+                            <div className="">
 
-                        </div>
+                                <AiOutlineLoading3Quarters 
+                                    className='animate-spin'
+                                />
 
-                        <div className="">
+                            </div>
 
-                            Loading ...
+                            <div className="">
+
+                                Loading ...
+
+                            </div>
 
                         </div>
 

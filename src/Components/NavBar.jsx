@@ -7,8 +7,6 @@ const NavBar = () => {
 
     const navigate = useNavigate();
 
-    const [isPageWidth, setIsPathWidth] = useState(false);
-
     const companyLogoFunction = (e) => {
 
         navigate("/")
@@ -107,6 +105,8 @@ const NavBar = () => {
 
     }
 
+    const [isPageWidth, setIsPathWidth] = useState(false);
+
     useEffect(() => {
 
         const checkWidth = () => {
@@ -114,12 +114,22 @@ const NavBar = () => {
             if ( window.innerWidth >= 1000 ) {
 
                 setIsPathWidth(true);
+
+                console.log("Checking the width " + window.innerWidth);
         
              }
 
         }
 
-        checkWidth();
+        const settingWidth = setInterval(checkWidth, 1000);
+
+        setTimeout(() => {
+
+            clearInterval(settingWidth);
+        
+            console.log("Stopped checkWidth");
+        
+        }, 5000);
 
     }, []);
 

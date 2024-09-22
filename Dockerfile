@@ -31,9 +31,6 @@ COPY --from=build /app/dist ./dist
 # Expose the port on which the app will run
 EXPOSE 3000
 
-# Command to serve the app
-# CMD ["serve", "-s", "dist", "-l", "3000"]
-
 # Command to serve the app with SPA routing
 CMD ["serve", "-s", "dist", "-l", "3000", "--single"]
 
