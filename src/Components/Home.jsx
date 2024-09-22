@@ -11,7 +11,7 @@ const Home = () => {
     const [heroSectionImg, setHeroSectionImg] = useState(false);
 
     const [pageLoading, setPageLoading] = useState(true);
-    
+
     const askUsAnything = (e) => {
 
         e.preventDefault();
@@ -52,7 +52,7 @@ const Home = () => {
 
         const pageLoadingId = setInterval(updatePageLoading, 3000);
 
-        setTimeout(pageLoading, 5000);
+        setTimeout(pageLoading, 6000);
 
     }, []);
 
@@ -166,7 +166,7 @@ const Home = () => {
 
                 <>
 
-                    <div className="w-full flex h-[1000px] justify-center items-center space-x-3 text-[20px]">
+                    <div className="w-full flex h-[1000px] justify-center items-center space-x-3 text-[30px] max-smCustom:text-[20px] animate-pulse">
 
                         <div className="">
 
