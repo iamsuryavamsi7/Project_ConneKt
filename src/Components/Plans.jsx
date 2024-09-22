@@ -87,17 +87,19 @@ const Plans = () => {
 
                                         </div>
 
-                                        Website/Web Application Designing <br /> <br />
+                                        Website/Web Application Designing <span className='font-montSerrat'> & </span> Development <br /><br />
 
-                                        Website/Web Application Development <br /> <br />
+                                        Get your online presence up and running with our affordable launch kit! <br /><br />
+                                        
+                                        Enjoy one month of free maintenance—updates, bug fixes, and security checks included! <br /><br />
 
-                                        Free One Month Maintanence ( Including Updates, Bug Fixes, Security Checks ) <br /> <br />
+                                        Price: Just starting? We’ve got special rates tailored just for you! <br /><br />
 
-                                        Price: just starting? Let's make it affordable! Reach out for special rate tailed just for you! <br /> <br />
+                                        Duration: Quick turnaround in just 1-2 months! <br /><br />
 
-                                        Duration: quick turn around 1-2 months<br /><br />
+                                        Note: Level up your package with add-ons like Social Media Management, WhatsApp API management, Call-Engaging Solutions, and complete to supercharge your brand's growth! <br /><br />
 
-                                        Note: Add-Ons available to enhance your package, including whatsapp API management, Call-Engaging Solutions and Social Media Ad Campaigns
+                                        Let’s get started on your digital journey!
 
                                     </div>
 
@@ -119,21 +121,21 @@ const Plans = () => {
 
                                     </div>
 
-                                    Custom Website/Web App Designing <br /> <br />
+                                    Custom Website/Web App Designing <span className='font-montSerrat'> & </span> Development <br/><br/>
 
-                                    Custom Website/Web Application Development <br /> <br />
+                                    Unlock your brand's potential with our Boost Kit, featuring Advanced SEO Setup for enhanced visibility!<br/><br/>
 
-                                    Advanced SEO Setup for better visibility <br /> <br />
+                                    Free 6 Months of Maintenance—updates, bug fixes, and security checks included!<br/><br/>
 
-                                    Free Three Month's Maintanence ( Including Updates, Bug Fixes, Security Checks ) <br /> <br />
+                                    Social Media Management for 6 Months to amplify your reach and engage your audience.<br/><br/>
 
-                                    Meta Ads Management for Three Month's to boost your reach <br /><br />
+                                    Price: Great value for growth! Contact us for competitive pricing that fits your budget. We know every penny counts!<br/><br/>
 
-                                    Price: Great Value for growth! Contact us for competetive pricing that fits your budget, We know every penny matters<br/><br/> 
-                                    
-                                    Duration: 3-4 months<br /><br />
+                                    Duration: A solid 6-7 months for a comprehensive transformation.<br/><br/>
 
-                                    Note: Enhance your package with options like WhatsApp Business Verification, WhatsApp API Integration and Call Engaging Solutions.
+                                    Note: Supercharge your package with options like WhatsApp Business Verification, WhatsApp API Integration, and Call Engaging Solutions.<br/><br/>
+
+                                    Let’s take your brand to new heights!
 
                                 </div>
 
@@ -153,21 +155,23 @@ const Plans = () => {
 
                                     </div>
 
-                                    End-To-End Website/Web App Design and Development <br/><br />
+                                        End-To-End Website/Web App Design and Development <br /><br />
 
-                                    Premium SEO and Analytics to dominate the search game <br /> <br />
+                                        Dominate the digital landscape with Premium SEO and Analytics to boost your search visibility!<br /><br />
 
-                                    unlimited Maintenance for 6 Month's ( Including Updates, Bug Fixes, Security Checks, You Name It ) <br /> <br />
+                                        Unlimited Maintenance for 12 Months—updates, bug fixes, security checks, and more—everything you need!<br /><br />
 
-                                    Meta Ads Management and Social Media Compaigns <br /><br />
+                                        Complete Social Media Management and targeted campaigns to elevate your brand’s engagement.
+                                        <br /><br />
+                                        All-Inclusive Features: WhatsApp Business Verification, WhatsApp API Integration, and Call Engaging Solutions are all part of the package!<br /><br />
 
-                                    WhatsApp Business Verification, WhatsApp API Integration and Call Engaging Solutions and - all included<br/><br/>
+                                        Price: Premium package for serious players! Inquire for pricing details to take your brand to the next level.<br /><br />
 
-                                    Price: Premium Package for Serious Players! Inquire for pricing details to elevate your brand<br/><br/> 
-                                    
-                                    Duration: 6-7 months<br /><br />
+                                        Duration: A comprehensive 12-13 month journey to transform your online presence.<br /><br />
 
-                                    Note: This package includes everything with no additional add-ons needed! 
+                                        Note: This package includes everything you need—no additional add-ons required!<br /><br />
+
+                                        Get ready to unleash your brand’s full potential!<br /><br />
 
                                 </div>
 
@@ -187,20 +191,19 @@ const Plans = () => {
 
                                     </div>
 
-                                    Fully Customizable Website/Web App Design and Development <br/><br />
+                                        Fully Customizable Website/Web App Design and Development <br /><br />
 
-                                    Flexible SEO Strategy to target your audience<br /> <br />
+                                        Craft a unique online presence with a flexible SEO strategy to effectively target your audience!<br /><br />
 
-                                    On-going Maintenance as needed ( Monthly updates or real time support )<br/><br/>
-                                    
-            
-                                    Unique Design Elements that reflect your brand, with options for WhatsApp Business Verification, WhatsApp API Integration and Call Engaging Solutions and Customized Add Campaigns<br/><br/>
+                                        On-Going Maintenance as needed—monthly updates or real-time support to keep your site running smoothly.<br /><br />
 
-                                    Price: Let's find the perfect feet for your budget! Contact us to discuss your need's and recieve a personalised quote <br/><br/> 
-                                    
-                                    Duration: Timelines tailored to fit your project's complexity <br /><br />
+                                        Unique Design Elements that reflect your brand, with options for complete Social Media Management, WhatsApp Business Verification, WhatsApp API Integration, and Call Engaging Solutions!<br /><br />
 
-                                    Note: Customized every aspect to create a solution that grows with your business. Add options like WhatsApp business verification, WhatsApp API Integration and Call Engaging Solutions as needed!. Let's build something great together!
+                                        Price: Let’s find the perfect fit for your budget! Contact us to discuss your needs and receive a personalized quote.<br /><br />
+
+                                        Duration: Timelines tailored to fit your project's complexity.<br /><br />
+
+                                        Note: Customize every aspect to create a solution that grows with your business. Add features like WhatsApp Business Verification and Call Engaging Solutions as needed. Let’s build something great together!<br /><br />
 
                                 </div>
 
@@ -211,7 +214,7 @@ const Plans = () => {
                         <div className="w-full h-10 flex justify-center mt-10 mb-[160px]">
 
                             <div 
-                                className="journey text-[20px] max-smCustom:text-[14px] bg-pink-200 px-3 py-1 rounded-xl font-inknutAntiqua font-semibold cursor-pointer"
+                                className="journey text-[20px] max-smCustom:text-[14px] bg-greenCustom px-3 py-1 rounded-xl font-inknutAntiqua font-semibold cursor-pointer"
                                 onClick={(e) => journeyFunction(e)}
                             >
 

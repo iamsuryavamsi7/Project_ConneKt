@@ -3,6 +3,7 @@ import '../Components/CSS/NavBar.css'
 import { useNavigate } from 'react-router-dom';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoLogoWhatsapp } from "react-icons/io5";
+import { AiOutlineThunderbolt } from 'react-icons/ai';
 
 const NavBar = () => {
 
@@ -206,13 +207,16 @@ const NavBar = () => {
 
                 <div className="chatBoxHeight absolute h-[0px] w-[0px] bg-white transition-all duration-200 rounded-[32px] bottom-[70px] right-[40px] max-smCustom:right-[20px] overflow-hidden block border-black border-0">
 
-                    <div className="text-gray-800 font-semibold w-full flex justify-center space-x-1 text-[14px] max-smCustom:text-[10px] mt-2">
+                    <div className="text-gray-800 font-semibold w-full flex justify-center items-center space-x-1 text-[14px] max-smCustom:text-[10px] mt-2">
 
-                        <span className='text-[#8d8a8a]'>Powered By</span> 
+                            <AiOutlineThunderbolt 
+                                className=''
+                            />
+                            <span className='text-[#8d8a8a]'>Powered By</span> 
 
                         <div className="">
-
-                            connect.in
+                            
+                            conneck.in
 
                         </div>
 
