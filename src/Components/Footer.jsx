@@ -10,73 +10,39 @@ const Footer = () => {
 
     const navigate = useNavigate();
 
-    const websiteDesigningFunction = (e) => {
+    const footerNavigationFunction = (e, url) => {
 
         e.preventDefault();
 
-        navigate("/dive-in/web-design-service")
+        const navigationFunction = setInterval(() => {
 
-        console.log("navigated to /dive-in/web-design-service")
+            navigate(url);
+
+        }, 300);
+
+        setTimeout(() => {
+
+            clearInterval(navigationFunction);
+
+        }, 400);
 
     }
 
-    const websiteDevelopmentFunction = (e) => {
+    const footerIconsFunction = (e, url) => {
 
         e.preventDefault();
 
-        navigate("/dive-in/web-development-service")
+        const navigationFunction = setInterval(() => {
 
-        console.log("navigated to /dive-in/web-development-service")
+            window.open(url, '_blank');
 
-    }
+        }, 300);
 
-    const websiteMaintenanceFunction = (e) => {
+        setTimeout(() => {
 
-        e.preventDefault();
+            clearInterval(navigationFunction);
 
-        navigate("/dive-in/web-maintenance-service")
-
-        console.log("navigated to /dive-in/web-maintenance-service")
-
-    }
-
-    const SEOFunction = (e) => {
-
-        e.preventDefault();
-
-        navigate("/dive-in/search-engine-optimization")
-
-        console.log("navigated to /dive-in/search-engine-optimization")
-
-    }
-
-    const socialMediaAdsFunction = (e) => {
-
-        e.preventDefault();
-
-        navigate("/dive-in/social-media-advertisements")
-
-        console.log("navigated to /dive-in/social-media-advertisements")
-
-    }
-
-    const whatsappApiSolutions = (e) => {
-
-        e.preventDefault();
-
-        navigate("/dive-in/whatsapp-api-solutions")
-
-        console.log("navigated to /dive-in/whatsapp-api-solutions")
-
-    }
-
-    const CallEngagingSolutions = (e) => {
-
-        e.preventDefault();
-
-        navigate("/dive-in/call-engaging-solutions")
-
-        console.log("navigated to /dive-in/call-engaging-solutions")
+        }, 400);
 
     }
 
@@ -143,31 +109,31 @@ const Footer = () => {
 
                         <li
                             className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
-                            onClick={(e) => websiteDesigningFunction(e)}
+                            onClick={(e, url) => footerNavigationFunction(e, '/dive-in/web-design-service')}
                         >Website / Web App Designing</li>
                         <li
                             className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
-                            onClick={(e) => websiteDevelopmentFunction(e)}
+                            onClick={(e, url) => footerNavigationFunction(e, '/dive-in/web-development-service')}
                         >Website / Web App Developement</li>
                         <li
                             className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
-                            onClick={(e) => websiteMaintenanceFunction(e)}
+                            onClick={(e, url) => footerNavigationFunction(e, '/dive-in/web-maintenance-service')}
                         >Website / Web App Maintanence</li>
                         <li
                             className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
-                            onClick={(e) => SEOFunction(e)}
+                            onClick={(e, url) => footerNavigationFunction(e, '/dive-in/search-engine-optimization')}
                         >Search Engine Optimization ( SEO )</li>
                         <li
                             className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
-                            onClick={(e) => socialMediaAdsFunction(e)}
+                            onClick={(e, url) => footerNavigationFunction(e, '/dive-in/social-media-advertisements')}
                         >Social Media Advertisements</li>
                         <li
                             className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
-                            onClick={(e) => whatsappApiSolutions(e)}
+                            onClick={(e, url) => footerNavigationFunction(e, '/dive-in/whatsapp-api-solutions')}
                         >WhatsApp API Solutions</li>
                         <li
                             className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
-                            onClick={(e) => CallEngagingSolutions(e)}
+                            onClick={(e, url) => footerNavigationFunction(e, '/dive-in/call-engaging-solutions')}
                         >Call Engaging Solutions</li>
 
                     </ul>
@@ -191,26 +157,8 @@ const Footer = () => {
                         <div className=" space-y-5 max-smCustom:space-y-3">
 
                             <FaInstagram 
-                                className='text-white text-[45px]  hover:text-pink-500 rounded-xl transition-all duration-[400ms] hover:text-[50px] cursor-pointer'
-                                onClick={(e) => {
-
-                                    e.preventDefault();
-
-                                    const url = `https://www.instagram.com/connekt_in/`
-
-                                    const urlFunction = setInterval(() => {
-
-                                        window.open(url, '_blank');
-
-                                    }, 500)
-                                    
-                                    setTimeout(() => {
-
-                                        clearInterval(urlFunction);
-
-                                    }, 600);
-
-                                }}
+                                className='text-white text-[45px]  hover:text-pink-500 rounded-xl transition-all duration-[300ms] hover:text-[50px] cursor-pointer'
+                                onClick={(e, url) => footerIconsFunction(e, 'https://www.instagram.com/connekt_in/')}
                             />
 
                             <BsFacebook 

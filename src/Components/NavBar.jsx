@@ -69,39 +69,35 @@ const NavBar = () => {
 
         e.preventDefault();
 
-        navigate(url);
+        const navigationFunction = setInterval(() => {
+
+            navigate(url);
+
+        }, 300);
+
+        setTimeout(() => {
+
+            clearInterval(navigationFunction);
+
+        }, 400)
 
     }
 
-    const contactFunction = (e) => {
+    const navBarNavigationFunction = (e, url) => {
 
         e.preventDefault();
 
-        navigate('/contact')
+        const navigationFunction = setInterval(() => {
+            
+            navigate(url);
+            
+        }, 300);
 
-    }
-
-    const aboutFunction = (e) => {
-
-        e.preventDefault();
-
-        navigate("/about")
-
-    }
-
-    const plansFunction = (e) => {
-
-        e.preventDefault();
-
-        navigate('/plans');
-
-    }
-
-    const earnWithUsFunction = (e) => {
-
-        e.preventDefault();
-
-        navigate('/earn-with-us');
+        setTimeout(() => {
+            
+            clearInterval(navigationFunction)
+            
+        }, 400);
 
     }
 
@@ -336,19 +332,19 @@ const NavBar = () => {
                         
                         <li><button
                             className='button_02 max-smCustom:transition-none cursor-pointer'
-                            onClick={(e) => plansFunction(e)}
+                            onClick={(e, url) => navBarNavigationFunction(e, '/plans')}
                         > Plans </button></li>
                         <li><button
                             className='button_03 max-smCustom:transition-none'
-                            onClick={(e) => aboutFunction(e)}
+                            onClick={(e, url) => navBarNavigationFunction(e, '/about')}
                         > About </button></li>
                         <li><button
                             className='button_04 max-smCustom:transition-none'
-                            onClick={(e) => earnWithUsFunction(e)}
+                            onClick={(e, url) => navBarNavigationFunction(e, '/earn-with-us')}
                         > Earn With Us </button></li>
                         <li><button
                             className='button_05 max-smCustom:transition-none cursor-pointer'
-                            onClick={(e) => contactFunction(e)}
+                            onClick={(e, url) => navBarNavigationFunction(e, '/contact')}
                         > Contact </button></li>
 
                     </ul>

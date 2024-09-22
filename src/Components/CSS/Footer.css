@@ -10,7 +10,7 @@
     background-color: #008080;
     height: 3px;
     width: 0;
-    transition: all ease 0.5s;
+    transition: all ease 0.3s;
 }
 
 .servicesFooter:hover::before{
