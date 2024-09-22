@@ -16,7 +16,19 @@ const Home = () => {
 
         e.preventDefault();
 
-        window.open('https://wa.me/918886182384?text=Hi%20there!%20I%20just%20checked%20out%20your%20website%20and%20I%E2%80%99m%20curious%20about%20your%20services!%20I%27ve%20something%20to%20ask%20more..', '_blank')
+        const openLink = () => {
+
+            window.open('https://wa.me/918886182384?text=Hi%20there!%20I%20just%20checked%20out%20your%20website%20and%20I%E2%80%99m%20curious%20about%20your%20services!%20I%27ve%20something%20to%20ask%20more..', '_blank')
+
+        }
+
+        const openLinkFunction = setInterval(openLink, 500);
+
+        setTimeout(() => {
+
+            clearTimeout(openLinkFunction);
+
+        }, 600);
 
     }
 
