@@ -86,9 +86,9 @@ const EarnWithUs = () => {
 
                     <NavBar />
 
-                    <div className="pt-[150px] mb-10 w-full flex justify-center text-[30px] font-semibold font-montSerrat">
+                    <div className="pt-[150px] max-smCustom:pt-[100px] mb-10 max-smCustom:mb-3 w-full flex justify-center text-[30px] font-semibold font-montSerrat">
 
-                        <div className="relative ">
+                        <div className="relative max-smCustom:text-[25px]">
 
                             Earn With Us
 
@@ -101,9 +101,9 @@ const EarnWithUs = () => {
 
                     </div>
 
-                    <div className="my-7 flex justify-center">
+                    <div className="my-7 max-smCustom:my-3 flex justify-center">
 
-                        <div className=" text-[22px] text-center w-[1300px] font-montSerrat">
+                        <div className=" text-[22px] max-smCustom:text-[18px] text-center w-[1300px] max-smCustom:w-fit max-smCustom:mx-[30px] font-montSerrat">
 
                             Want to make some extra cash while helping businesses grow?
                             Join our affiliate program and earn good commisions by bringing new projects our way!
@@ -113,19 +113,19 @@ const EarnWithUs = () => {
 
                     </div>
 
-                    <div className="w-full h-auto mb-20 flex mt-[50px]">
+                    <div className="w-full h-auto mb-20 flex mt-[50px] max-smCustom:mt-[20px]">
 
-                        <div className="h-auto w-auto grid grid-cols-3 gap-x-10 gap-y-10 mx-[250px]">
+                        <div className="h-auto w-auto grid grid-cols-3 gap-x-10 gap-y-10 max-smCustom:grid-cols-1 mx-[250px] max-smCustom:mx-[20px]">
 
-                            <div className="text-[15px] leading-7 text-center bg-sky-100 py-10 px-10 rounded-2xl border-2 border-black font-inknutAntiqua">
+                            <div className="text-[15px] leading-7 max-smCustom:leading-6 text-center bg-sky-100 py-10 px-10 rounded-2xl border-2 border-black font-inknutAntiqua">
 
                                 <div className="font-montSerrat bg-sky-300 px-3 py-[7px] rounded-2xl text-center mb-3">
 
-                                    <span className='text-[20px] font-semibold '>How It Works Section
+                                    <span className='text-[20px] font-semibold max-smCustom:text-[18px]'>How It Works Section
                                     </span>
 
                                     <p
-                                        className='text-[15px] mt-3'
+                                        className='text-[15px] max-smCustom:text-[12px] mt-3 max-smCustom:mt-1'
                                     >
 
                                         Step By Step Process
@@ -144,15 +144,15 @@ const EarnWithUs = () => {
 
                             </div>
 
-                            <div className="text-[15px] leading-7 text-center bg-yellow-100 py-10 px-10 rounded-2xl border-black font-inknutAntiqua border-2">
+                            <div className="text-[15px] leading-7 max-smCustom:leading-6 text-center bg-yellow-100 py-10 px-10 rounded-2xl border-black font-inknutAntiqua border-2">
 
                                 <div className="font-montSerrat bg-yellow-300 px-3 py-[7px] rounded-2xl text-center mb-3 ">
 
-                                    <span className='text-[20px] font-semibold '>What You Earn
+                                    <span className='text-[20px] font-semibold max-smCustom:text-[18px] '>What You Earn
                                     </span>
 
                                     <p
-                                        className='text-[15px] mt-3'
+                                        className='text-[15px] max-smCustom:text-[12px] mt-3 max-smCustom:mt-1'
                                     >
 
                                         Here is where things get interesting
@@ -169,15 +169,15 @@ const EarnWithUs = () => {
 
                             </div>
 
-                            <div className="text-[15px] leading-7 text-center bg-pink-100 py-10 px-10 rounded-2xl border-black font-inknutAntiqua border-2">
+                            <div className="text-[15px] leading-7 max-smCustom:leading-6 text-center bg-pink-100 py-10 px-10 rounded-2xl border-black font-inknutAntiqua border-2">
 
                                 <div className="font-montSerrat bg-pink-300 px-3 py-[7px] rounded-2xl text-center mb-3 ">
 
-                                    <span className='text-[20px] font-semibold '>Why Partner With Us
+                                    <span className='text-[20px] font-semibold max-smCustom:text-[18px] '>Why Partner With Us
                                     </span>
 
                                     <p
-                                        className='text-[15px] mt-3'
+                                        className='text-[15px] max-smCustom:text-[12px] mt-3 max-smCustom:mt-1'
                                     >
 
                                         We make every step easy. No Barriers!
@@ -196,15 +196,15 @@ const EarnWithUs = () => {
 
                             </div>
 
-                            <div className="text-[15px] leading-7 text-center bg-lime-100 py-10 px-10 rounded-2xl border-black font-inknutAntiqua border-2">
+                            <div className="text-[15px] leading-7 max-smCustom:leading-6 text-center bg-lime-100 py-10 px-10 rounded-2xl border-black font-inknutAntiqua border-2">
 
                                 <div className="font-montSerrat bg-lime-300 px-3 py-[7px] rounded-2xl text-center mb-3 ">
 
-                                    <span className='text-[20px] font-semibold '>Affiliate Resource
+                                    <span className='text-[20px] font-semibold max-smCustom:text-[18px] '>Affiliate Resource
                                     </span>
 
                                     <p
-                                        className='text-[15px] mt-3'
+                                        className='text-[15px] max-smCustom:text-[12px] mt-3 max-smCustom:mt-1'
                                     >
 
                                         We help you to get started
@@ -221,15 +221,15 @@ const EarnWithUs = () => {
 
                             </div>
 
-                            <div className="text-[15px] leading-7 text-center bg-pink-100 border-black font-inknutAntiqua border-2 py-10 px-10 rounded-2xl">
+                            <div className="text-[15px] leading-7 max-smCustom:leading-6 text-center bg-pink-100 border-black font-inknutAntiqua border-2 py-10 px-10 rounded-2xl">
 
                                 <div className="font-montSerrat bg-pink-300 px-3 py-[7px] rounded-2xl text-center mb-3 ">
 
-                                    <span className='text-[20px] font-semibold '>Terms and Conditions
+                                    <span className='text-[20px] font-semibold max-smCustom:text-[18px] '>Terms and Conditions
                                     </span>
 
                                     <p
-                                        className='text-[15px] mt-3'
+                                        className='text-[15px] max-smCustom:text-[12px] mt-3 max-smCustom:mt-1'
                                     >
 
                                         For full transparency, here is the fine print
@@ -246,15 +246,15 @@ const EarnWithUs = () => {
 
                             </div>
 
-                            <div className="text-[15px] leading-7 text-center bg-sky-100 py-10 px-10 rounded-2xl border-black font-inknutAntiqua border-2 ">
+                            <div className="text-[15px] leading-7 max-smCustom:leading-6 text-center bg-sky-100 py-10 px-10 rounded-2xl border-black font-inknutAntiqua border-2 ">
 
                                 <div className="font-montSerrat bg-sky-300 px-3 py-[7px] rounded-2xl text-center mb-3 ">
 
-                                    <span className='text-[20px] font-semibold '>FAQs
+                                    <span className='text-[20px] font-semibold max-smCustom:text-[18px] '>FAQs
                                     </span>
 
                                     <p
-                                        className='text-[15px] mt-3'
+                                        className='text-[15px] max-smCustom:text-[12px] mt-3 max-smCustom:mt-1'
                                     >
 
                                         Frequently Asked Questions

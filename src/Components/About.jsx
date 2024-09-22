@@ -11,7 +11,17 @@ const About = () => {
 
         e.preventDefault();
 
-        window.open(url, '_blank')
+        const linkedinFunction = setInterval(() => {
+
+            window.open(url, '_blank');
+
+        }, 400);
+
+        setTimeout(() => {
+
+            clearInterval(linkedinFunction);
+
+        }, 500);
 
     }
 
@@ -99,7 +109,7 @@ const About = () => {
 
                                 </div>
 
-                                <div className="w-[400px] max-smCustom:w-[150px] mt-5">
+                                <div className="w-[360px] max-smCustom:w-[140px] mt-5">
 
                                     <p
                                         className='text-[18px] max-smCustom:text-[14px]  font-inknutAntiqua'

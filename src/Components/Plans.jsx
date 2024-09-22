@@ -245,7 +245,7 @@ const Plans = () => {
 
                             </div>
 
-                            <div className="">
+                            <div className=""> 
 
                                 Loading ...
 
