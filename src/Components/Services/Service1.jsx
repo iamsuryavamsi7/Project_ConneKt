@@ -10,7 +10,17 @@ const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
         e.preventDefault();
 
-        navigate(diveIn)
+        const intervalFunction = setInterval(() => {
+
+            navigate(diveIn)
+
+        }, 500);
+
+        setTimeout(() => {
+
+            clearInterval(intervalFunction);
+
+        }, 600);
 
         console.log(`navigated to ${diveIn}`);
 
@@ -40,7 +50,7 @@ const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
                 <button
                     className='text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-xl mt-7 cursor-pointer diveIn1'
-                    onClick={divertion}
+                    onClick={(e) => divertion(e)}
                 >
 
                     Dive In 

@@ -198,7 +198,17 @@ const Footer = () => {
 
                                     const url = `https://www.instagram.com/connekt_in/`
 
-                                    window.open(url, '_blank');
+                                    const urlFunction = setInterval(() => {
+
+                                        window.open(url, '_blank');
+
+                                    }, 500)
+                                    
+                                    setTimeout(() => {
+
+                                        clearInterval(urlFunction);
+
+                                    }, 600);
 
                                 }}
                             />

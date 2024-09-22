@@ -8,7 +8,17 @@ const Service = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
     const divertion = () => {
 
-        navigate(diveIn) 
+        const navigateTo = setInterval(() => {
+
+            navigate(diveIn);
+
+        }, 500);
+
+        setTimeout(() => {
+
+            clearInterval(navigateTo);
+
+        }, 600);
 
         console.log(`navigated to ${diveIn}`);
 
