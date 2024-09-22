@@ -296,7 +296,7 @@ const EarnWithUs = () => {
                     <div className="w-full flex justify-center font-inknutAntiqua ">
 
                         <form
-                            className=' border-black border-2 w-[1000px] max-smCustom:w-full max-smCustom:mx-[20px] px-16 max-smCustom:px-0 bg-white hover:border-sky-500 transition-all duration-300 py-5 mb-20 rounded-2xl text-[10px] relative'
+                            className=' border-black border-2 w-[1000px] max-smCustom:w-fit max-smCustom:mx-[20px] px-16 max-smCustom:px-0 bg-white hover:border-sky-500 transition-all duration-300 py-5 mb-20 rounded-2xl text-[10px] relative'
                             onSubmit={(e) => formFunction(e)}
                         >
 
@@ -326,7 +326,7 @@ const EarnWithUs = () => {
                                 className='max-smCustom:mx-[10px]'
                             > Name : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
                             <input 
-                                className='name h-[30px] w-[880px] max-smCustom:w-[360px] max-smCustom:mx-[10px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
+                                className='name h-[30px] w-[880px] max-smCustom:w-[95%] max-smCustom:mx-[2.5%] max-smCustom:px-2 bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px] max-smCustom:text-[12px]'
                                 type='text'
                                 placeholder='Enter Your Name'
                                 required
@@ -338,7 +338,7 @@ const EarnWithUs = () => {
                             > Email : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
                             <input
                                 type='email'
-                                className='email h-[30px] w-[880px] max-smCustom:w-[360px] max-smCustom:mx-[10px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
+                                className='email h-[30px] w-[880px] max-smCustom:w-[95%] max-smCustom:mx-[2.5%] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px] max-smCustom:text-[12px]'
                                 placeholder='Enter Your Email'
                                 required
                                 name='email'
@@ -349,7 +349,7 @@ const EarnWithUs = () => {
                             > Where are you from : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
 
                             <input 
-                                className='place h-[30px] w-[880px] max-smCustom:w-[360px] max-smCustom:mx-[10px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
+                                className='place h-[30px] w-[880px] max-smCustom:w-[95%] max-smCustom:mx-[2.5%] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px] max-smCustom:text-[12px]'
                                 placeholder='Enter Your Message'
                             /> <br />
 
@@ -358,8 +358,9 @@ const EarnWithUs = () => {
                                 <input
                                     required 
                                     type='checkbox'
-                                    className='rounded-lg checkbox mr-2 w-3 h-3 max-smCustom:mr-3'
+                                    className='rounded-lg checkbox mr-2 w-3 h-3 max-smCustom:mr-3 max-smCustom:h-[30px] max-smCustom:w-[30px] max-smCustom:transform max-smCustom:scale-100'
                                 />
+
                                 
                                 <label
                                     className='text-[15px] max-smCustom:text-[10px] relative'
