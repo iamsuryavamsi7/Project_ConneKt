@@ -29,9 +29,9 @@ const Plans = () => {
         
             <NavBar />
 
-            <div className="pt-[150px] mb-10 w-full flex justify-center text-[30px] font-semibold font-montSerrat">
+            <div className="pt-[150px] max-smCustom:pt-[100px] mb-10 max-smCustom:mb-5 w-full flex justify-center text-[30px] font-semibold font-montSerrat">
 
-                <div className="relative ">
+                <div className="relative max-smCustom:text-[25px]">
 
                     Our Plans
 
@@ -52,12 +52,12 @@ const Plans = () => {
 
                         <div className="">
 
-                            <div className="mx-10 my-10 text-center font-inknutAntiqua">
+                            <div className="mx-10 my-10 text-center font-inknutAntiqua max-smCustom:text-[15px] max-smCustom:my-3 max-smCustom:mx-2">
 
-                                <div className="bg-pink-300 px-3 pt-4 rounded-2xl font-montSerrat mb-5">
+                                <div className="bg-pink-300 px-3 pt-4 rounded-2xl font-montSerrat mb-5 max-smCustom:text-[14px]">
 
                                     <b
-                                        className='text-[25px]'
+                                        className='text-[25px] max-smCustom:text-[22px]'
                                     >Launch Kit</b> <br />
 
                                     Ideal for small businesses and start ups ready to kick off their online journey <br /><br />
@@ -84,12 +84,12 @@ const Plans = () => {
 
                     <div className="bg-yellow-100 flex justify-center border-4 border-black rounded-2xl hover:border-green-500 transition-all duration-300">
 
-                        <div className="mx-10 my-10 text-center font-inknutAntiqua">
+                        <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[15px] max-smCustom:my-3 max-smCustom:mx-2">
 
-                            <div className="bg-yellow-300 px-3 pt-4 rounded-2xl mb-5 font-montSerrat">
+                            <div className="bg-yellow-300 px-3 pt-4 rounded-2xl mb-5 max-smCustom:text-[14px] font-montSerrat">
 
                                 <b
-                                    className='text-[25px]'
+                                    className='text-[25px] max-smCustom:text-[22px]'
                                 >Boost Kit</b> <br />
 
                                 Ideal for Businesses looking to level up there online presence <br /><br />
@@ -118,12 +118,12 @@ const Plans = () => {
 
                     <div className="bg-green-100 flex justify-center border-4 border-black rounded-2xl hover:border-yellow-500 transition-all duration-300">
 
-                        <div className="mx-10 my-10 text-center font-inknutAntiqua">
+                        <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[15px] max-smCustom:my-3 max-smCustom:mx-2">
 
-                            <div className="bg-green-300 px-3 pt-4 rounded-2xl mb-5 font-montSerrat">
+                            <div className="bg-green-300 px-3 pt-4 rounded-2xl mb-5 max-smCustom:text-[14px] font-montSerrat">
 
                                 <b
-                                    className='text-[25px]'
+                                    className='text-[25px] max-smCustom:text-[22px]'
                                 >Ultimate Suite</b> <br />
 
                                 Ideal for Businesses aiming for full digital package <br /><br />
@@ -152,12 +152,12 @@ const Plans = () => {
 
                     <div className="bg-blue-100 flex justify-center border-4 border-black rounded-2xl hover:border-pink-500 transition-all duration-300">
 
-                        <div className="mx-10 my-10 text-center font-inknutAntiqua">
+                        <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[15px] max-smCustom:my-3 max-smCustom:mx-2">
 
-                            <div className="bg-blue-300 px-3 pt-4 rounded-2xl mb-5 font-montSerrat">
+                            <div className="bg-blue-300 px-3 pt-4 rounded-2xl mb-5 max-smCustom:text-[14px] font-montSerrat">
 
                                 <b
-                                    className='text-[25px]'
+                                    className='text-[25px] max-smCustom:text-[22px]'
                                 > Custom Kit </b> <br />
 
                                 Ideal for Businesses seeking a unique personalised solutions! <br /><br />
@@ -188,7 +188,7 @@ const Plans = () => {
                 <div className="w-full h-10 flex justify-center mt-10 mb-[160px]">
 
                     <div 
-                        className="journey text-[20px] bg-pink-200 px-3 py-1 rounded-xl font-inknutAntiqua font-semibold cursor-pointer"
+                        className="journey text-[20px] max-smCustom:text-[14px] bg-pink-200 px-3 py-1 rounded-xl font-inknutAntiqua font-semibold cursor-pointer"
                         onClick={(e) => journeyFunction(e)}
                     >
 

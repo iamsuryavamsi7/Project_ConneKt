@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import '../Components/CSS/NavBar.css'
 import { useNavigate } from 'react-router-dom';
-import { GiHamburgerMenu } from 'react-icons/gi';
+import { RxHamburgerMenu } from 'react-icons/rx';
 
 const NavBar = () => {
 
@@ -150,8 +150,8 @@ const NavBar = () => {
 
                 </div>
 
-                <GiHamburgerMenu 
-                    className='hamburger w-[40px] h-[40px] text-black min-mdCustom:hidden cursor-pointer  max-smCustom:animate-none max-smCustom:w-[35px] max-smCustom:h-[35px] max-mdCustom:fixed max-mdCustom:right-20 max-smCustom:right-10'
+                <RxHamburgerMenu 
+                    className='hamburger text-[40px] text-black min-mdCustom:hidden cursor-pointer  max-smCustom:animate-none max-smCustom:text-[30px] max-mdCustom:fixed max-mdCustom:right-20 max-smCustom:right-7'
                     onClick={hamburgerFunction}
                 />
 

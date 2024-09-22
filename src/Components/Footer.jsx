@@ -84,12 +84,12 @@ const Footer = () => {
 
         <>
         
-            <div className="w-full relative mb-20 font-montSerrat font-bold text-center">
+            <div className="w-full relative mb-20 max-smCustom:mb-0 font-montSerrat font-bold text-center">
 
                 <video
                     autoPlay
                     loop
-                    className='w-full h-[200px] object-cover absolute z-0'
+                    className='w-full h-[200px] max-smCustom:h-[150px] object-cover absolute z-0'
                     playsInline
                     muted
                 >
@@ -102,32 +102,35 @@ const Footer = () => {
                 </video>
 
                 <p
-                    className='text-[45px] z-20 relative pt-10'
+                    className='text-[45px] z-20 relative pt-10 max-smCustom:text-[25px]'
                 > We at connekt,</p>
 
                 <p
-                    className='text-[30px] relative pb-10'
+                    className='text-[30px] relative pb-10 max-smCustom:text-[18px]'
                 > Connecting Idea's To Success</p>
 
             </div>
 
-            <div className="w-full bg-blackCustom flex justify-around text-white font-montSerrat font-bold tracking-wider">
+            <div className="w-full bg-blackCustom flex justify-around text-white font-montSerrat font-bold tracking-wider max-smCustom:block">
 
-                <div className="mt-10 space-y-5">
+                <div className="mt-10 space-y-5 max-smCustom:space-y-2 max-smCustom:pt-10 max-smCustom:mx-3">
 
-                    <p> powered by</p>
+                    <p
+                        className='max-smCustom:text-[12px]'
+                    > powered by</p>
 
                     <img 
                         src='/Footer/Footer_Logo.jpeg'
-                        className='w-[250px] h-[80px] rounded-xl hover:w-[270px] hover:h-[90px] transition-all duration-300'
+                        className='w-[250px] h-[80px] rounded-xl hover:w-[270px] hover:h-[90px] max-smCustom:hover:w-[140px] max-smCustom:hover:h-[40px] transition-all duration-300 max-smCustom:w-[140px] max-smCustom:h-[40px] '
                     />
                     
                 </div>
 
-                <div className="my-10">
+                <div className="my-10 max-smCustom:my-5 max-smCustom:mx-3">
 
                     <p
-                        className='text-yellowCustom2 text-[25px] mb-5'
+                        className='text-yellowCustom2 text-[25px] mb-5 max-smCustom:mb-3
+                        max-smCustom:text-[18px]'
                     >
 
                         Services
@@ -135,7 +138,7 @@ const Footer = () => {
                     </p>
 
                     <ul
-                        className='space-y-5 text-[14px]'
+                        className='space-y-5 max-smCustom:space-y-3 text-[14px] max-smCustom:text-[12px]'
                     >
 
                         <li
@@ -171,10 +174,10 @@ const Footer = () => {
 
                 </div>
 
-                <div className="mt-10 space-y-5 ">
+                <div className="mt-10 space-y-5 max-smCustom:mt-3 max-smCustom:mx-3 max-smCustom:pb-3">
 
                     <p
-                        className='text-blueCustom'
+                        className='text-blueCustom max-smCustom:text-[18px]'
                     >
                         
                         Follow Us
@@ -182,10 +185,10 @@ const Footer = () => {
                     </p>
 
                     <div
-                        className='flex space-x-5'
+                        className='flex space-x-5 max-smCustom:space-x-3'
                     >
 
-                        <div className=" space-y-5">
+                        <div className=" space-y-5 max-smCustom:space-y-3">
 
                             <FaInstagram 
                                 className='text-white text-[45px]  hover:text-pink-500 rounded-xl transition-all duration-[400ms] hover:text-[50px] cursor-pointer'
@@ -228,11 +231,11 @@ const Footer = () => {
 
             </div>
 
-            <div className="text-gray-400 font-semibold text-[15px] w-full flex justify-around bg-blackCustom">
+            <div className="text-gray-400 font-semibold text-[15px] w-full flex justify-around max-smCustom:block text-center bg-blackCustom max-smCustom:text-[10px]">
 
                 <p className=''>  Website designed/developed by Gokul and Surya. </p>
             
-                <p>&#169; 2024 Connekt.in. All rights reserved.</p>
+                <p>&#169; 2024 connekt.in. All rights reserved.</p>
 
                 <p>Privacy Policy | Terms of Service</p>
 

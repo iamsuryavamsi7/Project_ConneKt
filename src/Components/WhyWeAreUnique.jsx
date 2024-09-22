@@ -21,7 +21,7 @@ const WhyAreWeUnique = () => {
                     <div className="font-montSerrat">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_04.png'
                         />
 
@@ -48,7 +48,7 @@ const WhyAreWeUnique = () => {
                     <div className="font-montSerrat">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_07.png'
                         />
 
@@ -76,7 +76,7 @@ const WhyAreWeUnique = () => {
                         <div className="font-montSerrat">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_03.png'
                         />
 
@@ -103,7 +103,7 @@ const WhyAreWeUnique = () => {
                     <div className="font-montSerrat">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_01.png'
                         />
 
@@ -130,7 +130,7 @@ const WhyAreWeUnique = () => {
                     <div className="font-montSerrat">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_05.png'
                         />
 
@@ -158,7 +158,7 @@ const WhyAreWeUnique = () => {
                     <div className="font-montSerrat">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_06.png'
                         />
 
@@ -185,7 +185,7 @@ const WhyAreWeUnique = () => {
                     <div className="font-montSerrat max-mdCustom:static min-mdCustom:hidden">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_02.png'
                         />
 
@@ -213,7 +213,7 @@ const WhyAreWeUnique = () => {
                     <div className="font-montSerrat max-mdCustom:static min-mdCustom:hidden">
 
                         <img 
-                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
+                            className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_08.png'
                         />
 
