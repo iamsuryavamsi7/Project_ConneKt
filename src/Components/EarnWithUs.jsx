@@ -296,9 +296,11 @@ const EarnWithUs = () => {
                     <div className="w-full flex justify-center font-inknutAntiqua ">
 
                         <form
-                            className=' border-black border-2 w-[1000px] px-16 bg-white hover:border-sky-500 transition-all duration-300 py-5 mb-20 rounded-2xl text-[10px] relative'
+                            className=' border-black border-2 w-[1000px] max-smCustom:w-full max-smCustom:mx-[20px] px-16 max-smCustom:px-0 bg-white hover:border-sky-500 transition-all duration-300 py-5 mb-20 rounded-2xl text-[10px] relative'
                             onSubmit={(e) => formFunction(e)}
                         >
+
+                            {/* Have to see this */}
 
                             <div className="w-full justify-center text-xl items-center absolute  bottom-[15px] left-[30%]">
 
@@ -320,41 +322,47 @@ const EarnWithUs = () => {
 
                             </div>
 
-                            <label> Name : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
+                            <label
+                                className='max-smCustom:mx-[10px]'
+                            > Name : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
                             <input 
-                                className='name h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
+                                className='name h-[30px] w-[880px] max-smCustom:w-[360px] max-smCustom:mx-[10px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
                                 type='text'
                                 placeholder='Enter Your Name'
                                 required
                                 name='name1'
                             /><br />
 
-                            <label> Email : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
+                            <label
+                                className='max-smCustom:mx-[10px]'
+                            > Email : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
                             <input
                                 type='email'
-                                className='email h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
+                                className='email h-[30px] w-[880px] max-smCustom:w-[360px] max-smCustom:mx-[10px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
                                 placeholder='Enter Your Email'
                                 required
                                 name='email'
                             /><br />
 
-                            <label> Where are you from : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
+                            <label
+                                className='max-smCustom:mx-[10px]'
+                            > Where are you from : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
 
                             <input 
-                                className='place h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
+                                className='place h-[30px] w-[880px] max-smCustom:w-[360px] max-smCustom:mx-[10px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
                                 placeholder='Enter Your Message'
                             /> <br />
 
-                            <div className="flex items-center">
+                            <div className="flex items-center max-smCustom:mx-[10px]">
 
                                 <input
                                     required 
                                     type='checkbox'
-                                    className='rounded-lg checkbox mr-2 w-3 h-3 '
+                                    className='rounded-lg checkbox mr-2 w-3 h-3 max-smCustom:mr-3'
                                 />
                                 
                                 <label
-                                    className='text-[15px] relative'
+                                    className='text-[15px] max-smCustom:text-[10px] relative'
                                     onClick={() => {
 
                                         const checkBox = document.querySelector('.checkbox');
@@ -368,7 +376,7 @@ const EarnWithUs = () => {
 
                             <button 
                                 type='submit'
-                                className='h-[30px] bg-greenCustom text-black px-3 py-1 rounded-xl mt-5 linkedinButton text-[15px]'
+                                className='h-[30px] bg-greenCustom text-black px-3 py-1 max-smCustom:px-2 rounded-xl mt-5 linkedinButton text-[15px] max-smCustom:text-[12px] max-smCustom:mx-[20px]'
                                 onSubmit={(e) => formFunction(e)}
                             > Start Affiliate Journey </button>
 
@@ -387,7 +395,7 @@ const EarnWithUs = () => {
 
             <>
 
-                <div className="w-full fixed bg-white top-0 bottom-0 left-0 right-0 text-[30px] max-smCustom:text-[20px] animate-pulse">
+                <div className="w-full fixed bg-white top-0 bottom-0 left-0 right-0 text-[30px] max-smCustom:text-[14px] animate-pulse">
 
                     <div className="flex justify-center w-full items-center space-x-3 h-full">
 
