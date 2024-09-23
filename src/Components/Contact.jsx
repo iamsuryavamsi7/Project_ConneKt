@@ -31,58 +31,68 @@ const Contact = () => {
 
         e.preventDefault();
 
-        const selectValue1 = document.querySelector('.select1').value;
+        const formFunctionInterval = setInterval(() => {
 
-        const selectValue2 = document.querySelector('.select2').value;
+            const selectValue1 = document.querySelector('.select1').value;
 
-        const selectValue3 = document.querySelector('.select3').value;
+            const selectValue2 = document.querySelector('.select2').value;
 
-        const obj1 = document.querySelector('.enterTheFields');
+            const selectValue3 = document.querySelector('.select3').value;
 
-        if ( selectValue1 === 'Please Select' || selectValue2 === 'Please Select' || selectValue3 === 'Please Select' ) {
+            const obj1 = document.querySelector('.enterTheFields');
 
-            obj1.style.display = 'flex'
+            if ( selectValue1 === 'Please Select' || selectValue2 === 'Please Select' || selectValue3 === 'Please Select' ) {
 
-        } else {
+                obj1.style.display = 'flex'
 
-            const name = document.querySelector(".name").value;
+            } else {
 
-            const email = document.querySelector('.email').value;
+                const name = document.querySelector(".name").value;
 
-            const projectName = document.querySelector('.projectName').value;
+                const email = document.querySelector('.email').value;
 
-            const projectType = document.querySelector('.projectType').value;
-           
-            const industryType = document.querySelector('.industryType').value;
+                const projectName = document.querySelector('.projectName').value;
 
-            const services = document.querySelector('.services').value;
+                const projectType = document.querySelector('.projectType').value;
+            
+                const industryType = document.querySelector('.industryType').value;
 
-            let whatsappURL = `https://wa.me/8886182384?text=Name: ${encodeURIComponent(name)}%0A` +
-            `Email: ${email}%0A` + 
-            `Project Name: ${encodeURIComponent(projectName)}%0A` + 
-            `Project Type: ${encodeURIComponent(projectType)}%0A` + 
-            `Industry Type: ${encodeURIComponent(industryType)}%0A` + 
-            `Services Interested In: ${encodeURIComponent(services)}%0A`;
- 
-            const message = document.querySelector('.message').value;
+                const services = document.querySelector('.services').value;
 
-            if (  message.trim() !== "" ) {
+                let whatsappURL = `https://wa.me/918886182384?text=Name: ${encodeURIComponent(name)}%0A` +
+                `Email: ${email}%0A` + 
+                `Project Name: ${encodeURIComponent(projectName)}%0A` + 
+                `Project Type: ${encodeURIComponent(projectType)}%0A` + 
+                `Industry Type: ${encodeURIComponent(industryType)}%0A` + 
+                `Services Interested In: ${encodeURIComponent(services)}%0A`;
+    
+                const message = document.querySelector('.message').value;
 
-                whatsappURL += `Message: ${encodeURIComponent(message)}`;
+                if (  message.trim() !== "" ) {
+
+                    whatsappURL += `Message: ${encodeURIComponent(message)}`;
+
+                }
+
+                window.open(whatsappURL, '_blank')
+
+                obj1.style.display = 'none'
+
+                window.location.reload();
+
+                window.scrollTo(0, 0);
+
+                clearForm();
 
             }
 
-            window.open(whatsappURL, '_blank')
+        }, 300);
 
-            obj1.style.display = 'none'
+        setTimeout(() => {
 
-            window.location.reload();
+            clearTimeout(formFunctionInterval);
 
-            window.scrollTo(0, 0);
-
-            clearForm();
-
-        }
+        }, 400);
 
     }
 

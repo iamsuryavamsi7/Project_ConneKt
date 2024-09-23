@@ -16,7 +16,17 @@ const Plans = () => {
 
         e.preventDefault();
 
-        navigate('/contact'); 
+        const journeyFunctionInterval = setInterval(() => { 
+
+            navigate('/contact'); 
+
+        }, 300);
+
+        setTimeout(() => {
+
+            clearInterval(journeyFunctionInterval);
+
+        }, 400);
 
     }
 
@@ -71,16 +81,16 @@ const Plans = () => {
 
                         <div className="grid grid-cols-4 gap-x-5 mx-10 max-mdCustom:grid-cols-2 max-mdCustom:gap-y-5 max-smCustom:grid-cols-1">
 
-                            <div className="launchKit bg-pink-200 flex justify-center border-4 border-black rounded-2xl hover:border-sky-500 transition-all duration-300">
+                            <div className="launchKit relative bg-pink-200 flex justify-center rounded-2xl hover:border-sky-500 transition-all duration-300">
 
                                 <div className="">
 
-                                    <div className="mx-10 my-10 text-center font-inknutAntiqua max-smCustom:text-[15px] max-smCustom:my-3 max-smCustom:mx-2">
+                                    <div className="mx-10 my-10 text-center font-inknutAntiqua max-smCustom:text-[14px] max-smCustom:my-3 max-smCustom:mx-5">
 
-                                        <div className="bg-pink-300 px-3 pt-4 rounded-2xl font-montSerrat mb-5 max-smCustom:text-[14px]">
+                                        <div className="bg-pink-300 px-3 pt-4 rounded-2xl font-montSerrat mb-5 max-smCustom:text-[12px]">
 
                                             <b
-                                                className='text-[25px] max-smCustom:text-[22px]'
+                                                className='text-[25px] max-smCustom:text-[18px]'
                                             >Launch Kit</b> <br />
 
                                             Ideal for small businesses and start ups ready to kick off their online journey <br /><br />
@@ -107,14 +117,14 @@ const Plans = () => {
 
                             </div>
 
-                            <div className="boostKit bg-yellow-100 flex justify-center border-4 border-black rounded-2xl hover:border-green-500 transition-all duration-300">
+                            <div className="launchKit bg-yellow-100 flex justify-center relative rounded-2xl  transition-all duration-300">
 
-                                <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[15px] max-smCustom:my-3 max-smCustom:mx-2">
+                                <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[14px] max-smCustom:my-3 max-smCustom:mx-5">
 
-                                    <div className="bg-yellow-300 px-3 pt-4 rounded-2xl mb-5 max-smCustom:text-[14px] font-montSerrat">
+                                    <div className="bg-yellow-300 px-3 pt-4 rounded-2xl mb-5 max-smCustom:text-[12px] font-montSerrat">
 
                                         <b
-                                            className='text-[25px] max-smCustom:text-[22px]'
+                                            className='text-[25px] max-smCustom:text-[18px]'
                                         >Boost Kit</b> <br />
 
                                         Ideal for Businesses looking to level up there online presence <br /><br />
@@ -141,14 +151,14 @@ const Plans = () => {
 
                             </div> 
 
-                            <div className="ultimateSuite bg-green-100 flex justify-center border-4 border-black rounded-2xl hover:border-yellow-500 transition-all duration-300">
+                            <div className="launchKit bg-green-100 flex justify-center relative rounded-2xl transition-all duration-300">
 
-                                <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[15px] max-smCustom:my-3 max-smCustom:mx-2">
+                                <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[14px] max-smCustom:my-3 max-smCustom:mx-5">
 
-                                    <div className="bg-green-300 px-3 pt-4 rounded-2xl mb-5 max-smCustom:text-[14px] font-montSerrat">
+                                    <div className="bg-green-300 px-3 pt-4 rounded-2xl mb-5 max-smCustom:text-[12px] font-montSerrat">
 
                                         <b
-                                            className='text-[25px] max-smCustom:text-[22px]'
+                                            className='text-[25px] max-smCustom:text-[18px]'
                                         >Ultimate Suite</b> <br />
 
                                         Ideal for Businesses aiming for full digital package <br /><br />
@@ -177,14 +187,14 @@ const Plans = () => {
 
                             </div>
 
-                            <div className="customKit bg-blue-100 flex justify-center border-4 border-black rounded-2xl hover:border-pink-500 transition-all duration-300">
+                            <div className="launchKit bg-blue-100 flex justify-center rounded-2xl relative transition-all duration-300">
 
-                                <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[15px] max-smCustom:my-3 max-smCustom:mx-2">
+                                <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[14px] max-smCustom:my-3 max-smCustom:mx-5">
 
-                                    <div className="bg-blue-300 px-3 pt-4 rounded-2xl mb-5 max-smCustom:text-[14px] font-montSerrat">
+                                    <div className="bg-blue-300 px-3 pt-4 rounded-2xl mb-5 max-smCustom:text-[12px] font-montSerrat">
 
                                         <b
-                                            className='text-[25px] max-smCustom:text-[22px]'
+                                            className='text-[25px] max-smCustom:text-[18px]'
                                         > Custom Kit </b> <br />
 
                                         Ideal for Businesses seeking a unique personalised solutions! <br /><br />

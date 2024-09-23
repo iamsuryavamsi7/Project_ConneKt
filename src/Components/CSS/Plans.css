@@ -12,7 +12,7 @@
     border: 3px solid ;
     box-sizing: border-box;
     border-radius: 12px;
-    transition: all ease 0.4s;
+    transition: all ease 0.3s; 
 
 }
 
@@ -25,18 +25,31 @@
 
 }
 
-.launchKit:hover{
-    box-shadow: 4px 6px 10px #0ea5e9 ;
+.launchKit::after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    bottom: 10px;
+    left: -10px;
+    border: 5px black solid;
+    border-radius: 12px;
+    box-sizing: border-box;
+    transition: all ease .5s;
 }
 
-.boostKit:hover{
-    box-shadow: 4px 6px 10px #22c55e ;
+@media (max-width : 600px ) {
+
+    .launchKit::after{
+        top: -7px;
+        right: 7px;
+        bottom: 7px;
+        left: -7px;
+        border-width: 3px;
+    }
+    
 }
 
-.ultimateSuite:hover{
-    box-shadow: 4px 6px 10px #eab308  ;
-}
-
-.customKit:hover{
-    box-shadow: 4px 6px 10px #ec4899 ;
+.launchKit:hover::after{
+    border-color: #0ea5e9;
 }
