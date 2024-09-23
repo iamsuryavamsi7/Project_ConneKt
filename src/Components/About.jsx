@@ -78,7 +78,7 @@ const About = () => {
 
                         <div className="w-full my-10 max-smCustom:my-5">
 
-                            <div className="bg-sky-300 mx-[250px] rounded-xl py-3 max-mdCustom:mx-[80px] border-2 border-black max-smCustom:mx-[20px]">
+                            <div className="whoAreWe bg-sky-300 mx-[250px] rounded-[30px] py-3 max-mdCustom:mx-[80px] max-smCustom:mx-[20px]">
 
                             <div className="flex justify-center text-[30px] max-smCustom:text-[20px] font-semibold">
 
@@ -160,7 +160,7 @@ const About = () => {
 
                                     </p>
 
-                                </div>
+                                </div> 
 
                                 <div className="font-inknutAntiqua mt-[75px] max-smCustom:my-[10px] max-smCustom:text-[16px] max-smCustom:text-gray-500 relative">
 
@@ -183,7 +183,7 @@ const About = () => {
 
                         <div className="w-full my-10">
 
-                            <div className="bg-yellowCustom mx-[250px] max-smCustom:mx-[20px] rounded-xl py-3 max-mdCustom:mx-[80px] border-2 border-black mt-20">
+                            <div className="whoAreWe bg-yellowCustom mx-[250px] max-smCustom:mx-[20px] rounded-[30px] py-3 max-mdCustom:mx-[80px] mt-20">
 
                             <div className="flex justify-center text-[30px] max-smCustom:text-[20px] font-semibold">
 
@@ -199,7 +199,7 @@ const About = () => {
 
                             </div>
 
-                            <div className="bg-greenCustom mx-[250px] max-smCustom:mx-[20px] rounded-xl py-3 max-mdCustom:mx-[80px] mt-20 max-smCustom:mt-5 border-2 border-black">
+                            <div className="whoAreWe bg-greenCustom mx-[250px] max-smCustom:mx-[20px] rounded-[30px] py-3 max-mdCustom:mx-[80px] mt-20 max-smCustom:mt-5">
 
                             <div className="flex justify-center text-[30px] font-semibold max-smCustom:text-[20px]">
 
@@ -223,7 +223,7 @@ const About = () => {
 
                             </div>
 
-                            <div className="bg-pink-300 mx-[250px] max-smCustom:mx-[20px]  rounded-xl py-3 max-mdCustom:mx-[80px] mt-20 max-smCustom:mt-[20px] border-2 border-black">
+                            <div className="whoAreWe bg-pink-300 mx-[250px] max-smCustom:mx-[20px]  rounded-[30px] py-3 max-mdCustom:mx-[80px] mt-20 max-smCustom:mt-[20px]">
 
                             <div className="flex justify-center text-[30px] font-semibold max-smCustom:text-[20px]">
 

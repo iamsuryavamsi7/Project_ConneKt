@@ -23,7 +23,8 @@ export default {
       screens:{
         'max-mdCustom': {'max': '1000px'},
         'min-mdCustom': {'min': '1000px'},
-        'max-smCustom': {'max': '600px'}
+        'max-smCustom': {'max': '600px'},
+        'max-mdMaxCustom': {'max': '1600px'}
       }
     },
   },

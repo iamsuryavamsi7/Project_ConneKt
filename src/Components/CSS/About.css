@@ -9,7 +9,7 @@
     left: -5px;
     right: 5px;
     bottom: 5px;
-    border: 2px solid black;
+    border: 2px solid black; 
     box-sizing: border-box;
     border-radius: 12px;
     transition: all ease 0.3s;
@@ -20,4 +20,60 @@
     left: 0px;
     right: 0px;
     bottom: 0px;
+} 
+
+.whoAreWe{
+    position: relative;
+}
+
+.whoAreWe::after{
+    content: '';
+    top: -10px;
+    bottom: 10px;
+    left: -10px;
+    right: 10px;
+    border: solid 4px black;
+    position: absolute;
+    border-radius: 30px;
+    transition: all ease 0.5s;
+}
+
+@media (max-width: 600px) {
+    .whoAreWe::after{
+        top: -7px;
+        bottom: 7px;
+        left: -7px;
+        right: 7px;
+        border-width: 3px;
+    }
+}
+
+.whoAreWe1{
+    position: relative;
+}
+
+.whoAreWe1::after{
+    content: '';
+    top: -10px;
+    bottom: 10px;
+    left: -10px;
+    right: 10px;
+    border: solid 4px black;
+    position: absolute;
+    border-radius: 30px;
+    transition: all ease 0.5s;
+}
+
+.whoAreWe1:hover::after{
+    border-color: rgb(94 215 124);
+}
+
+@media (max-width: 600px) {
+    .whoAreWe1::after{
+        top: -7px;
+        bottom: 7px;
+        left: -7px;
+        right: 7px;
+        border-width: 3px;
+    }
 }

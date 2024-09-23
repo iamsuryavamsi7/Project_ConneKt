@@ -123,9 +123,9 @@ const EarnWithUs = () => {
 
                     <div className="w-full h-auto mb-20 flex mt-[50px] max-smCustom:mt-[20px]">
 
-                        <div className="h-auto w-auto grid grid-cols-3 gap-x-10 gap-y-10 max-smCustom:grid-cols-1 mx-[250px] max-smCustom:mx-[20px]">
+                        <div className="h-auto w-auto grid grid-cols-3 max-mdCustom:grid-cols-2 gap-x-10 gap-y-10 max-smCustom:grid-cols-1 mx-[250px] max-mdCustom:mx-[50px] max-smCustom:mx-[20px]">
 
-                            <div className="text-[15px] leading-7 max-smCustom:leading-6 text-center bg-sky-100 py-10 px-10 rounded-2xl border-2 border-black font-inknutAntiqua">
+                            <div className="whoAreWe1 text-[15px] leading-7 max-smCustom:leading-6 text-center bg-sky-100 py-10 px-10 rounded-[30px] font-inknutAntiqua">
 
                                 <div className="font-montSerrat bg-sky-300 px-3 py-[7px] rounded-2xl text-center mb-3">
 
@@ -152,7 +152,7 @@ const EarnWithUs = () => {
 
                             </div>
 
-                            <div className="text-[15px] leading-7 max-smCustom:leading-6 text-center bg-yellow-100 py-10 px-10 rounded-2xl border-black font-inknutAntiqua border-2">
+                            <div className="whoAreWe1 text-[15px] leading-7 max-smCustom:leading-6 text-center bg-yellow-100 py-10 px-10 rounded-[30px] font-inknutAntiqua">
 
                                 <div className="font-montSerrat bg-yellow-300 px-3 py-[7px] rounded-2xl text-center mb-3 ">
 
@@ -177,7 +177,7 @@ const EarnWithUs = () => {
 
                             </div>
 
-                            <div className="text-[15px] leading-7 max-smCustom:leading-6 text-center bg-pink-100 py-10 px-10 rounded-2xl border-black font-inknutAntiqua border-2">
+                            <div className="whoAreWe1 text-[15px] leading-7 max-smCustom:leading-6 text-center bg-pink-100 py-10 px-10 rounded-[30px] font-inknutAntiqua ">
 
                                 <div className="font-montSerrat bg-pink-300 px-3 py-[7px] rounded-2xl text-center mb-3 ">
 
@@ -204,7 +204,7 @@ const EarnWithUs = () => {
 
                             </div>
 
-                            <div className="text-[15px] leading-7 max-smCustom:leading-6 text-center bg-lime-100 py-10 px-10 rounded-2xl border-black font-inknutAntiqua border-2">
+                            <div className="whoAreWe1 text-[15px] leading-7 max-smCustom:leading-6 text-center bg-lime-100 py-10 px-10 rounded-[30px] font-inknutAntiqua">
 
                                 <div className="font-montSerrat bg-lime-300 px-3 py-[7px] rounded-2xl text-center mb-3 ">
 
@@ -229,7 +229,7 @@ const EarnWithUs = () => {
 
                             </div>
 
-                            <div className="text-[15px] leading-7 max-smCustom:leading-6 text-center bg-pink-100 border-black font-inknutAntiqua border-2 py-10 px-10 rounded-2xl">
+                            <div className="whoAreWe1 text-[15px] leading-7 max-smCustom:leading-6 text-center bg-pink-100 font-inknutAntiqua py-10 px-10 rounded-[30px]">
 
                                 <div className="font-montSerrat bg-pink-300 px-3 py-[7px] rounded-2xl text-center mb-3 ">
 
@@ -254,7 +254,7 @@ const EarnWithUs = () => {
 
                             </div>
 
-                            <div className="text-[15px] leading-7 max-smCustom:leading-6 text-center bg-sky-100 py-10 px-10 rounded-2xl border-black font-inknutAntiqua border-2 ">
+                            <div className="whoAreWe1 text-[15px] leading-7 max-smCustom:leading-6 text-center bg-sky-100 py-10 px-10 rounded-[30px] *:font-inknutAntiqua">
 
                                 <div className="font-montSerrat bg-sky-300 px-3 py-[7px] rounded-2xl text-center mb-3 ">
 
@@ -328,7 +328,7 @@ const EarnWithUs = () => {
 
                                 </div> 
 
-                            </div>
+                            </div> 
 
                             <label
                                 className='max-smCustom:mx-[10px]'

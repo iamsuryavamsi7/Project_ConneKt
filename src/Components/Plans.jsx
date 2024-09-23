@@ -81,7 +81,7 @@ const Plans = () => {
 
                         <div className="grid grid-cols-4 gap-x-5 mx-10 max-mdCustom:grid-cols-2 max-mdCustom:gap-y-5 max-smCustom:grid-cols-1">
 
-                            <div className="launchKit relative bg-pink-200 flex justify-center rounded-2xl hover:border-sky-500 transition-all duration-300">
+                            <div className="launchKit relative bg-pink-200 flex justify-center rounded-[30px] hover:border-sky-500 transition-all duration-300">
 
                                 <div className="">
 
@@ -117,7 +117,7 @@ const Plans = () => {
 
                             </div>
 
-                            <div className="launchKit bg-yellow-100 flex justify-center relative rounded-2xl  transition-all duration-300">
+                            <div className="launchKit bg-yellow-100 flex justify-center relative rounded-[30px]  transition-all duration-300">
 
                                 <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[14px] max-smCustom:my-3 max-smCustom:mx-5">
 
@@ -151,7 +151,7 @@ const Plans = () => {
 
                             </div> 
 
-                            <div className="launchKit bg-green-100 flex justify-center relative rounded-2xl transition-all duration-300">
+                            <div className="launchKit bg-green-100 flex justify-center relative rounded-[30px] transition-all duration-300">
 
                                 <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[14px] max-smCustom:my-3 max-smCustom:mx-5">
 
@@ -183,11 +183,11 @@ const Plans = () => {
 
                                         Get ready to unleash your brand’s full potential!<br /><br />
 
-                                </div>
+                                </div> 
 
                             </div>
 
-                            <div className="launchKit bg-blue-100 flex justify-center rounded-2xl relative transition-all duration-300">
+                            <div className="launchKit bg-blue-100 flex justify-center rounded-[30px] relative transition-all duration-300">
 
                                 <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[14px] max-smCustom:my-3 max-smCustom:mx-5">
 

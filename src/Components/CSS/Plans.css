@@ -33,12 +33,12 @@
     bottom: 10px;
     left: -10px;
     border: 5px black solid;
-    border-radius: 12px;
+    border-radius: 30px;
     box-sizing: border-box;
     transition: all ease .5s;
 }
 
-@media (max-width : 600px ) {
+@media (max-width : 600px ) { 
 
     .launchKit::after{
         top: -7px;

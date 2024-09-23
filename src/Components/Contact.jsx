@@ -166,7 +166,7 @@ const Contact = () => {
 
                     <div className="w-full flex justify-center py-10">
                 
-                        <div className="bg-yellowCustom rounded-xl px-10 max-smCustom:px-3 py-5 border-2 border-black max-smCustom:mx-5">
+                        <div className="heyThere bg-yellowCustom rounded-[30px] px-10 max-smCustom:px-3 py-5 max-smCustom:mx-5">
 
                             <p
                                 className='text-[18px] max-smCustom:text-[12px] font-inknutAntiqua w-[900px] max-smCustom:w-full'
