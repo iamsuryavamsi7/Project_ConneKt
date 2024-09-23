@@ -28,7 +28,7 @@ const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
     return (
 
-        <div className="flex justify-center space-x-[200px] items-center w-full pt-16 max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-x-0 max-smCustom:px-[40px]">
+        <div className="service bg-white rounded-[30px] flex justify-center space-x-[200px] items-center w-full py-16 max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-x-0 max-smCustom:px-[40px] max-smCustom:mx-10 max-smCustom:w-[300px] max-smCustom:py-8">
 
             <div className="font-montSerrat flex-col text-left max-mdCustom:hidden">
 
@@ -63,7 +63,7 @@ const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
             <img 
                 src={`${imgSrc}`}
-                className='w-[404px] hover:w-[430px] transition-all duration-300'
+                className='w-[404px] hover:w-[430px] transition-all duration-300 max-smCustom:w-[280px]'
             />
 
             </div>

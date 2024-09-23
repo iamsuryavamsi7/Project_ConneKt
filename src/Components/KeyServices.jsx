@@ -12,7 +12,7 @@ const KeyServices = () => {
             <div className="">
 
                 <p
-                    className='key_service bg-greenCustom inline-block text-[25px] font-semibold px-4 py-2 rounded-xl border-2 border-black max-smCustom:px-2 max-smCustom:py-1 max-smCustom:text-[20px]'
+                    className='key_service bg-greenCustom2 inline-block text-[25px] font-semibold px-4 py-2 rounded-xl border-2 border-black max-smCustom:px-2 max-smCustom:py-1 max-smCustom:text-[20px]'
                 >
 
                     Key Services
@@ -21,9 +21,9 @@ const KeyServices = () => {
 
             </div>
 
-            <div className="flex justify-center">
+            <div className="flex justify-center mt-0">
 
-                <div className="bg-greenCustom block mt-20 rounded-[30px] pb-10 mb-10 max-mdCustom:px-0 border-2 border-black shadow-2xl shadow-greenCustom max-smCustom:mx-7">
+                <div className="keyServicesMain bg-greenCustom2 block mt-10 rounded-[30px] px-20 py-20 mb-10 max-mdCustom:px-0 max-smCustom:mx-0 max-smCustom:rounded-none space-y-16">
 
                     <Service 
                         diveIn={'/dive-in/web-design-service'}
@@ -166,7 +166,7 @@ const KeyServices = () => {
                         serviceDesc={(
                             <>
                             
-                            TAdvanced IVR, call conferencing and <br />
+                            Advanced IVR, call conferencing and <br />
                             marketing solutions to enhance customer <br />
                             interactions. 
                             </>
@@ -176,7 +176,6 @@ const KeyServices = () => {
 
 
                 </div>
-
 
             </div>
             

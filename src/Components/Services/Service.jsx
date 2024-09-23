@@ -26,13 +26,13 @@ const Service = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
     return (
 
-        <div className="flex justify-center space-x-[200px] items-center w-full pt-16 text-left max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-x-0 px-[120px] max-smCustom:px-[40px]">
+        <div className="service flex justify-center space-x-[200px] items-center w-full py-16 text-left max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-x-0 px-[120px] max-smCustom:px-[20px] bg-white rounded-[30px] max-smCustom:mx-10 max-smCustom:w-[300px] max-smCustom:py-8">
 
             <div className="max-mdCustom:flex max-mdCustom:justify-center">
 
                 <img 
                     src={`${imgSrc}`}
-                    className='w-[404px] hover:w-[430px] transition-all duration-300'
+                    className='w-[404px] hover:w-[430px] max-smCustom:w-[280px] transition-all duration-300'
                 />
 
             </div>

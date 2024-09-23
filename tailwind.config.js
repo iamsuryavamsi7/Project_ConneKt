@@ -14,6 +14,7 @@ export default {
         'paleGreen': '#008080',
         'yellowCustom': '#FFDB58',
         'greenCustom': '#A8EAA8',
+        'greenCustom2': 'rgb(94 215 124)',
         'pinkCustom': '#FF66FF',
         'yellowCustom2': '#FFE96E',
         'blueCustom': '#4FC3FF',
