@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import '../CSS/KeyServices.css'
 
@@ -22,18 +22,42 @@ const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
         }, 600);
 
-        console.log(`navigated to ${diveIn}`);
-
     }
+
+    const [isDesktop, setIsDesktop] = useState(true);
+
+    useEffect(() => {
+
+        const checkWidth = setInterval(() => {
+
+            if ( window.innerWidth <= 1000 ) {
+
+                setIsDesktop(false);
+
+                console.log('checkingWidth' + window.innerWidth);
+
+            }
+
+        }, 500)
+
+        setTimeout(() => {
+
+            clearInterval(checkWidth);
+
+        }, 5000)
+
+    }, []);
 
     return (
 
-        <div className="service bg-white rounded-[30px] flex justify-center space-x-[200px] items-center w-full py-16 max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-x-0 max-smCustom:px-[20px] max-smCustom:mx-10 max-smCustom:w-[300px] max-smCustom:py-8">
+        <div className="service flex justify-around bg-white rounded-[30px] py-16 items-center max-mdCustom:block max-mdCustom:px-[100px] max-smCustom:px-[40px] max-smCustom:mx-10 max-smCustom:py-7">
 
-            <div className="font-montSerrat flex-col text-left max-mdCustom:hidden">
+        {isDesktop && (
+
+            <div className="font-montSerrat flex-col max-mdCustom:justify-center max-mdCustom:text-center relative">
 
                 <p
-                    className='text-[22px] font-bold text-left'
+                    className='text-[22px] font-bold text-left max-mdCustom:text-center max-smCustom:text-[18px]'
                 >
 
                     {serviceHeading}
@@ -41,61 +65,75 @@ const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
                 </p>
 
                 <p
-                    className='text-left pt-7'
+                    className='text-left pt-7 max-mdCustom:text-center max-smCustom:text-[15px]'
                 >
 
                 {serviceDesc}
 
                 </p>
 
-                <button
-                    className='text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-xl mt-7 cursor-pointer diveIn1'
-                    onClick={(e) => divertion(e)}
-                >
+                <div className="text-left max-mdCustom:text-center">
 
-                    Dive In 
+                    <button
+                        className='diveIn1 text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-xl mt-7 cursor-pointer'
+                        onClick={divertion}
+                    >
 
-                </button>
+                        Dive In 
 
-            </div>
+                    </button>
 
-            <div className="max-mdCustom:flex max-mdCustom:justify-center max-mdCustom:mr-[100px]">
-
-            <img 
-                src={`${imgSrc}`}
-                className='w-[404px] hover:w-[430px] transition-all duration-300 max-smCustom:w-[280px]'
-            />
+                </div>
 
             </div>
 
-            <div className="font-montSerrat flex-col text-left min-mdCustom:hidden  max-mdCustom:text-center">
+        )}
 
-                <p
-                    className='text-[22px] font-bold max-smCustom:text-[18px]'
-                >
+            <div className="max-mdCustom:flex max-mdCustom:justify-center">
 
-                    {serviceHeading}
-
-                </p>
-
-                <p
-                    className='pt-7 max-smCustom:text-[15px]'
-                >
-
-                {serviceDesc}
-
-                </p>
-
-                <button
-                    className='text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-2xl mt-7 diveIn1'
-                    onClick={(e) => divertion(e)}
-                >
-
-                    Dive In 
-
-                </button>
+                <img 
+                    src={`${imgSrc}`}
+                    className='w-[400px] transition-all duration-300'
+                />
 
             </div>
+
+            {!isDesktop && (
+
+                <div className="font-montSerrat flex-col max-mdCustom:justify-center max-mdCustom:text-center relative">
+
+                    <p
+                        className='text-[22px] font-bold text-left max-mdCustom:text-center max-smCustom:text-[18px]'
+                    >
+
+                        {serviceHeading}
+
+                    </p>
+
+                    <p
+                        className='text-left pt-7 max-mdCustom:text-center max-smCustom:text-[15px]'
+                    >
+
+                    {serviceDesc}
+
+                    </p>
+
+                    <div className="text-left max-mdCustom:text-center">
+
+                        <button
+                            className='diveIn1 text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-xl mt-7 cursor-pointer'
+                            onClick={divertion}
+                        >
+
+                            Dive In 
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            )}
 
         </div>
 

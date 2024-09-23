@@ -23,7 +23,7 @@ const KeyServices = () => {
 
             <div className="flex justify-center mt-0 w-full">
 
-                <div className="keyServicesMain bg-greenCustom2 block mt-10 rounded-[30px] px-20 py-20 mb-10 max-mdCustom:px-20 max-smCustom:mx-0 max-smCustom:px-0 max-smCustom:w-full max-smCustom:rounded-none space-y-16">
+                <div className="keyServicesMain bg-greenCustom2 block mt-10 rounded-[30px] px-[230px] py-20 mb-10  max-smCustom:px-0 space-y-16 max-smCustom:rounded-none">
 
                     <Service 
                         diveIn={'/dive-in/web-design-service'}

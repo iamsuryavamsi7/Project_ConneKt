@@ -26,18 +26,18 @@ const Service = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
     return (
 
-        <div className="service flex justify-center space-x-[200px] items-center w-full py-16 text-left max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-x-0 px-[120px] max-smCustom:px-[20px] bg-white rounded-[30px] max-smCustom:mx-10 max-smCustom:py-8 max-smCustom:w-[300px]">
+        <div className="service flex justify-around bg-white rounded-[30px] py-16 items-center max-mdCustom:block max-mdCustom:px-[100px] max-smCustom:px-[40px] max-smCustom:mx-10 max-smCustom:py-7">
 
             <div className="max-mdCustom:flex max-mdCustom:justify-center">
 
                 <img 
                     src={`${imgSrc}`}
-                    className='w-[404px] hover:w-[430px] transition-all max-smCustom:w-full duration-300'
+                    className='w-[400px] transition-all duration-300'
                 />
 
             </div>
 
-            <div className="font-montSerrat flex-col max-mdCustom:justify-center max-mdCustom:text-center">
+            <div className="font-montSerrat flex-col max-mdCustom:justify-center max-mdCustom:text-center relative">
 
                 <p
                     className='text-[22px] font-bold text-left max-mdCustom:text-center max-smCustom:text-[18px]'
@@ -55,14 +55,18 @@ const Service = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
                 </p>
 
-                <button
-                    className='diveIn1 text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-xl mt-7 cursor-pointer'
-                    onClick={divertion}
-                >
+                <div className="text-left max-mdCustom:text-center">
 
-                    Dive In 
+                    <button
+                        className='diveIn1 text-white bg-paleGreen py-[5px] text-md font-bold px-3 rounded-xl mt-7 cursor-pointer'
+                        onClick={divertion}
+                    >
 
-                </button>
+                        Dive In 
+
+                    </button>
+
+                </div>
 
             </div>
 
