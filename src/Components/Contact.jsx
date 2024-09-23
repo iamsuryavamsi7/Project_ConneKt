@@ -300,7 +300,7 @@ const Contact = () => {
 
                             <br /> <br />
 
-                            <label> How ConneKt can help you : <span className='text-gray-500'> ( Optional ) </span> </label> <br />
+                            <label> How connekt can help you : <span className='text-gray-500'> ( Optional ) </span> </label> <br />
 
                             <input 
                                 className='message h-[30px] w-[880px] max-smCustom:w-full bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
