@@ -10,7 +10,7 @@ const Footer = () => {
 
     const navigate = useNavigate();
 
-    const footerNavigationFunction = (e, url) => {
+    const footerNavigationFunction = (e, url) => { 
 
         e.preventDefault();
 
@@ -153,31 +153,31 @@ const Footer = () => {
                     >
 
                         <li
-                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
+                            className='servicesFooter cursor-pointer hover:text-greenCustom2 transition-all duration-300'
                             onClick={(e, url) => footerNavigationFunction(e, '/dive-in/web-design-service')}
                         >Website / Web App Designing</li>
                         <li
-                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
+                            className='servicesFooter cursor-pointer hover:text-greenCustom2 transition-all duration-300'
                             onClick={(e, url) => footerNavigationFunction(e, '/dive-in/web-development-service')}
                         >Website / Web App Developement</li>
                         <li
-                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
+                            className='servicesFooter cursor-pointer hover:text-greenCustom2 transition-all duration-300'
                             onClick={(e, url) => footerNavigationFunction(e, '/dive-in/web-maintenance-service')}
                         >Website / Web App Maintanence</li>
                         <li
-                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
+                            className='servicesFooter cursor-pointer hover:text-greenCustom2 transition-all duration-300'
                             onClick={(e, url) => footerNavigationFunction(e, '/dive-in/search-engine-optimization')}
                         >Search Engine Optimization ( SEO )</li>
                         <li
-                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
+                            className='servicesFooter cursor-pointer hover:text-greenCustom2 transition-all duration-300'
                             onClick={(e, url) => footerNavigationFunction(e, '/dive-in/social-media-advertisements')}
                         >Social Media Advertisements</li>
                         <li
-                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
+                            className='servicesFooter cursor-pointer hover:text-greenCustom2 transition-all duration-300'
                             onClick={(e, url) => footerNavigationFunction(e, '/dive-in/whatsapp-api-solutions')}
                         >WhatsApp API Solutions</li>
                         <li
-                            className='servicesFooter cursor-pointer hover:text-paleGreen transition-all duration-300'
+                            className='servicesFooter cursor-pointer hover:text-greenCustom2 transition-all duration-300'
                             onClick={(e, url) => footerNavigationFunction(e, '/dive-in/call-engaging-solutions')}
                         >Call Engaging Solutions</li>
 
