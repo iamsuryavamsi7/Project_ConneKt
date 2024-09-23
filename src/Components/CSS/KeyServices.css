@@ -44,6 +44,18 @@
     transition: all ease 0.5s;
 }
 
+@media(max-width: 600px){
+
+    .service::after{
+        border-width: 3px;
+        top: -7px;
+        bottom: 7px;
+        left: -7px;
+        right: 7px;
+    }
+
+}
+
 .service:hover::after{
     border-color: #389f73;
     top: -0px;
