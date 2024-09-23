@@ -11,7 +11,7 @@ const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
         e.preventDefault();
 
         const intervalFunction = setInterval(() => {
-
+ 
             navigate(diveIn)
 
         }, 500);
