@@ -37,9 +37,13 @@ const NavBar = () => {
 
                     navBar.style.height = '0px';
 
+                    navBar.style.opacity = '0';
+
                 } else {
 
-                    navBar.style.height = '350px';
+                    navBar.style.height = '360px';
+
+                    navBar.style.opacity = '1';
 
                 }
 
@@ -53,13 +57,17 @@ const NavBar = () => {
 
                 const currentHeight = navBar.style.height;
 
-                if ( currentHeight === '400px' ) {
+                if ( currentHeight === '320px' ) {
 
                     navBar.style.height = '0px';
 
+                    navBar.style.opacity = '0';
+
                 } else {
 
-                    navBar.style.height = '400px';
+                    navBar.style.height = '320px';
+
+                    navBar.style.opacity = '1';
 
                 }
 
@@ -216,7 +224,7 @@ const NavBar = () => {
 
                         <div className="">
                             
-                            conneck.in
+                            connekt.in
 
                         </div>
 
@@ -298,8 +306,9 @@ const NavBar = () => {
 
                                     const serviceDropDown = document.querySelector('.servicesClass');
 
-                                    serviceDropDown.style.height = '300px';
+                                    serviceDropDown.style.height = '345px';
                                     serviceDropDown.style.padding = '12px 0';
+                                    serviceDropDown.style.opacity = '1';
 
                                 }}
                                 onMouseLeave={() => {
@@ -308,6 +317,7 @@ const NavBar = () => {
 
                                     serviceDropDown.style.height = '0';
                                     serviceDropDown.style.padding = '0';
+                                    serviceDropDown.style.opacity = '0';
 
                                 }}
                                 >
@@ -319,45 +329,45 @@ const NavBar = () => {
 
                                 </button>
 
-                                <div className="servicesClass absolute text-[14px] w-[305px] h-0 overflow-hidden bg-white flex justify-start transition-all duration-300 left-[-20px] rounded-b-xl top-[120%]"
+                                <div className="servicesClass absolute text-[14px] w-[305px] h-0 overflow-hidden bg-white flex justify-start transition-all duration-300 left-[-20px] rounded-b-xl top-[130%]"
                                 >
 
                                     <ul
-                                        className='space-y-3'
+                                        className='space-y-5'
                                     >
 
                                         <li
-                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            className='transition-all text-gray-500 duration-500 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
                                             onClick={(e, url) => dropdownFunction(e, `/dive-in/web-design-service`)}
                                         > Website / Web App Designing
                                         </li>
                                         <li
-                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            className='transition-all text-gray-500 duration-500 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
                                             onClick={(e, url) => dropdownFunction(e, '/dive-in/web-development-service')}
                                         > Website / Web App Developement
                                         </li>
                                         <li
-                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            className='transition-all text-gray-500 duration-500 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
                                             onClick={(e, url) => dropdownFunction(e, '/dive-in/web-maintenance-service')}
                                         > Website / Web App Maintanence
                                         </li>
                                         <li
-                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            className='transition-all text-gray-500 duration-500 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
                                             onClick={(e, url) => dropdownFunction(e, '/dive-in/search-engine-optimization')}
                                         > Search Engine Optimization ( SEO )
                                         </li>
                                         <li
-                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            className='transition-all text-gray-500 duration-500 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
                                             onClick={(e, url) => dropdownFunction(e, '/dive-in/social-media-advertisements')}
                                         > Social Media Advertisements
                                         </li>
                                         <li
-                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            className='transition-all text-gray-500 duration-500 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
                                             onClick={(e, url) => dropdownFunction(e, '/dive-in/whatsapp-api-solutions')}
                                         > WhatsApp API Solutions
                                         </li>
                                         <li
-                                            className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
+                                            className='transition-all text-gray-500 duration-500 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
                                             onClick={(e, url) => dropdownFunction(e, '/dive-in/call-engaging-solutions')}
                                         > Call Engaging Solutions
                                         </li>
@@ -378,17 +388,24 @@ const NavBar = () => {
 
                                     const serviceDropDown = document.querySelector('.servicesClass');
 
-                                    if ( serviceDropDown.style.height === '0px' ) {
+                                    const navBar = document.querySelector('.navBar');
+
+                                    if ( navBar.style.height === '320px' ) {
+
+                                        navBar.style.height = '400px';
 
                                         serviceDropDown.style.height = '300px';
-                                        serviceDropDown.style.padding = '12px 0px';
 
-                                        const navBar = document.querySelector('.navBar');
+                                        serviceDropDown.style.padding = '12px 0px';
 
                                     } else {
 
                                         serviceDropDown.style.height = '0px';
+
                                         serviceDropDown.style.padding = '0px';
+
+                                        navBar.style.height = '320px';
+
 
                                     }
 

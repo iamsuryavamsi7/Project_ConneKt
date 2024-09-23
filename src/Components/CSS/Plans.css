@@ -4,7 +4,7 @@
 
 .journey::before{
     content: '';
-    position: absolute;
+    position: absolute; 
     top: -5px;
     left: -5px;
     right: 5px;
@@ -23,4 +23,20 @@
     right: 0px;
     bottom: 0px;
 
+}
+
+.launchKit:hover{
+    box-shadow: 4px 6px 10px #0ea5e9 ;
+}
+
+.boostKit:hover{
+    box-shadow: 4px 6px 10px #22c55e ;
+}
+
+.ultimateSuite:hover{
+    box-shadow: 4px 6px 10px #eab308  ;
+}
+
+.customKit:hover{
+    box-shadow: 4px 6px 10px #ec4899 ;
 }

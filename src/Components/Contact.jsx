@@ -137,9 +137,9 @@ const Contact = () => {
 
                 <>
 
-                    <NavBar />
+                    <NavBar /> 
                     
-                    <div className="pt-[150px] font-montSerrat flex justify-center text-[30px] font-semibold relative ">
+                    <div className="pt-[150px] max-smCustom:pt-[100px] font-montSerrat flex justify-center text-[30px] max-smCustom:text-[25px] font-semibold relative ">
 
                     <div className="relative px-3 rounded-xl">
 
@@ -156,10 +156,10 @@ const Contact = () => {
 
                     <div className="w-full flex justify-center py-10">
                 
-                        <div className="bg-yellowCustom rounded-xl px-10 py-5 border-2 border-black">
+                        <div className="bg-yellowCustom rounded-xl px-10 max-smCustom:px-3 py-5 border-2 border-black max-smCustom:mx-5">
 
                             <p
-                                className='text-[18px] font-inknutAntiqua w-[900px]'
+                                className='text-[18px] max-smCustom:text-[12px] font-inknutAntiqua w-[900px] max-smCustom:w-full'
                             >
 
                                 Hey there! &#127880; <br /><br />
@@ -175,24 +175,24 @@ const Contact = () => {
                     <div className="w-full flex justify-center font-inknutAntiqua ">
 
                             <form
-                                className=' border-black border-2 w-[1000px] px-16 bg-white hover:border-sky-500 transition-all duration-300 py-5 mb-20 rounded-2xl text-[10px] relative'
+                                className=' border-black border-2 w-[1000px] max-smCustom:w-[90%] px-16 max-smCustom:px-5 bg-white hover:border-sky-500 transition-all duration-300 py-5 mb-20 rounded-2xl text-[10px] relative'
                                 onSubmit={(e) => formFunction(e)}
                             >
 
-                                <div className="w-full justify-center text-xl items-center absolute  bottom-[15px] left-[20%]">
+                                <div className="w-full justify-center text-xl items-center absolute  bottom-[15px] left-[20%] max-smCustom:left-0 max-smCustom:bottom-[-60px]">
 
                                     <div
                                         className='enterTheFields hidden items-center text-red-500 px-3 py-2 rounded-xl space-x-2'
                                     >
 
-                                        <div className="rounded-xl text-[15px] font-semibold">
+                                        <div className="rounded-xl text-[15px] max-smCustom:text-[10px] font-semibold">
                                             
                                             Oops! You left some empty boxes 
 
                                         </div> 
                                         
                                         <CgDanger 
-                                            className='text-[20px]'
+                                            className='text-[20px] max-smCustom:text-[14px]'
                                         />    
 
                                     </div> 
@@ -201,7 +201,7 @@ const Contact = () => {
 
                             <label> Name : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
                             <input 
-                                className='name h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
+                                className='name h-[30px] w-[880px] max-smCustom:w-full bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px] max-smCustom:text-[12px]'
                                 type='text'
                                 placeholder='Enter Your Name'
                                 required
@@ -213,7 +213,7 @@ const Contact = () => {
                             <label> Email : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
                             <input
                                 type='email'
-                                className='email h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
+                                className='email h-[30px] w-[880px] max-smCustom:w-full bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px] max-smCustom:text-[12px]'
                                 placeholder='Enter Your Email'
                                 required
                                 name='email'
@@ -224,7 +224,7 @@ const Contact = () => {
                             <label> Your Project Name : <span className='text-red-500 font-bold text-[10px]'>*</span> </label> <br />
                             <input 
                                 type='text'
-                                className='projectName h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
+                                className='projectName h-[30px] w-[880px] max-smCustom:w-full bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px] max-smCustom:text-[12px]'
                                 placeholder='Enter Your Project Name'
                                 required
                                 name='projectName'
@@ -235,7 +235,7 @@ const Contact = () => {
                             <label> Project Type : <span className='text-red-500 font-bold text-[10px]'>*</span> </label>
 
                             <select
-                                className='projectType w-[880px] mt-2 text-[15px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] border-solid rounded-xl appearance-none h-[30px] px-2 select1'
+                                className='projectType w-[880px] max-smCustom:w-full mt-2 text-[15px] max-smCustom:text-[12px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] border-solid rounded-xl appearance-none h-[30px] px-2 select1'
                                 required
                             >
 
@@ -250,7 +250,7 @@ const Contact = () => {
                             <label> Industry Type : <span className='text-red-500 font-bold text-[10px]'>*</span> </label>
 
                             <select
-                                className='industryType w-[880px] mt-2 text-[15px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] border-solid rounded-xl appearance-none h-[30px] px-2 select2'
+                                className='industryType w-[880px] max-smCustom:w-full mt-2 text-[15px] max-smCustom:text-[12px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] border-solid rounded-xl appearance-none h-[30px] px-2 select2'
                                 required
                             >
 
@@ -270,7 +270,7 @@ const Contact = () => {
                             <label> Services Interested in : <span className='text-red-500 font-bold text-[10px]'>*</span> </label>
 
                             <select
-                                className='services select3 w-[880px] mt-2 text-[15px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] border-solid rounded-xl appearance-none h-[30px] px-2'
+                                className='services select3 w-[880px] max-smCustom:w-[90%] mt-2 text-[15px] max-smCustom:text-[12px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] border-solid rounded-xl appearance-none h-[30px] px-2 '
                                 required
                             >
 
@@ -284,7 +284,7 @@ const Contact = () => {
                             </select>
                             
                             <TiInfo 
-                                className='h-[30px] w-auto absolute right-3 top-[398px] active:text-yellowCustom transition-all duration-300 cursor-pointer'
+                                className='h-[30px] max-smCustom:h-[25px] w-auto absolute right-3 top-[398px] active:text-yellowCustom transition-all duration-300 cursor-pointer'
                                 onClick={(e) => infoButtonFunction(e)}
                             />
 
@@ -293,7 +293,7 @@ const Contact = () => {
                             <label> How ConneKt can help you : <span className='text-gray-500'> ( Optional ) </span> </label> <br />
 
                             <input 
-                                className='message h-[30px] w-[880px] bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
+                                className='message h-[30px] w-[880px] max-smCustom:w-full bg-[#f5f8fa] border-[#cbd6e2] border-[1px] rounded-lg mb-5 mt-2 px-2 text-[15px]'
                                 placeholder='Enter Your Message'
                                 name='message'
                                 value={form.message}
@@ -302,7 +302,7 @@ const Contact = () => {
 
                             <button 
                                 type='submit'
-                                className='h-[30px] bg-greenCustom text-black px-3 py-1 rounded-xl mt-2 linkedinButton text-[15px]'
+                                className='h-[30px] bg-greenCustom text-black px-3 py-1 rounded-xl mt-2 linkedinButton text-[15px] max-smCustom:mx-2'
                             > Submit </button>
 
 

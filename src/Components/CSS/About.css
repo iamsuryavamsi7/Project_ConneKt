@@ -12,7 +12,7 @@
     border: 2px solid black;
     box-sizing: border-box;
     border-radius: 12px;
-    transition: all ease 0.4s;
+    transition: all ease 0.3s;
 }
 
 .linkedinButton:hover::before{

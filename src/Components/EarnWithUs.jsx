@@ -9,7 +9,7 @@ const EarnWithUs = () => {
 
     const formFunction = (e) => {
 
-        e.preventDefault();
+        e.preventDefault(); 
 
         const formFunctionInterval = setInterval(() => {
 

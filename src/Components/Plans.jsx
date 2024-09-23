@@ -71,7 +71,7 @@ const Plans = () => {
 
                         <div className="grid grid-cols-4 gap-x-5 mx-10 max-mdCustom:grid-cols-2 max-mdCustom:gap-y-5 max-smCustom:grid-cols-1">
 
-                            <div className="bg-pink-200 flex justify-center border-4 border-black rounded-2xl hover:border-sky-500 transition-all duration-300">
+                            <div className="launchKit bg-pink-200 flex justify-center border-4 border-black rounded-2xl hover:border-sky-500 transition-all duration-300">
 
                                 <div className="">
 
@@ -107,7 +107,7 @@ const Plans = () => {
 
                             </div>
 
-                            <div className="bg-yellow-100 flex justify-center border-4 border-black rounded-2xl hover:border-green-500 transition-all duration-300">
+                            <div className="boostKit bg-yellow-100 flex justify-center border-4 border-black rounded-2xl hover:border-green-500 transition-all duration-300">
 
                                 <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[15px] max-smCustom:my-3 max-smCustom:mx-2">
 
@@ -139,9 +139,9 @@ const Plans = () => {
 
                                 </div>
 
-                            </div>
+                            </div> 
 
-                            <div className="bg-green-100 flex justify-center border-4 border-black rounded-2xl hover:border-yellow-500 transition-all duration-300">
+                            <div className="ultimateSuite bg-green-100 flex justify-center border-4 border-black rounded-2xl hover:border-yellow-500 transition-all duration-300">
 
                                 <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[15px] max-smCustom:my-3 max-smCustom:mx-2">
 
@@ -177,7 +177,7 @@ const Plans = () => {
 
                             </div>
 
-                            <div className="bg-blue-100 flex justify-center border-4 border-black rounded-2xl hover:border-pink-500 transition-all duration-300">
+                            <div className="customKit bg-blue-100 flex justify-center border-4 border-black rounded-2xl hover:border-pink-500 transition-all duration-300">
 
                                 <div className="mx-10 my-10 text-center font-inknutAntiqua  max-smCustom:text-[15px] max-smCustom:my-3 max-smCustom:mx-2">
 
@@ -219,7 +219,7 @@ const Plans = () => {
                             >
 
                                 Start Your Journey
-
+ 
                             </div>
 
                         </div>
