@@ -33,7 +33,7 @@ const NavBar = () => {
 
                 const currentHeight = navBar.style.height;
 
-                if ( currentHeight === '360px' ) {
+                if ( currentHeight === '340px' ) {
 
                     navBar.style.height = '0px';
 
@@ -42,7 +42,7 @@ const NavBar = () => {
 
                 } else {
 
-                    navBar.style.height = '360px';
+                    navBar.style.height = '340px';
 
                     navBar.style.opacity = '1';
 
@@ -397,7 +397,7 @@ const NavBar = () => {
 
                                     if ( navBar.style.height === '320px' ) {
 
-                                        navBar.style.height = '400px';
+                                        navBar.style.height = '350px';
 
                                         serviceDropDown.style.height = '300px';
 
