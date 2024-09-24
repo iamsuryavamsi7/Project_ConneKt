@@ -93,7 +93,7 @@ const Home = () => {
                             <div className="relative">
 
                                 <img 
-                                    src='https://connekt-bucket-01.s3.eu-north-1.amazonaws.com/Hero_Section_Main.png'
+                                    src='/Hero_Section/Hero_Section_Main.png'
                                     className='hero_main_img h-[700px] w-[700px] max-mdCustom:w-[600px] max-mdCustom:h-auto max-smCustom:w-[500px] max-smCustom:h-[400px]'
                                 />
 
