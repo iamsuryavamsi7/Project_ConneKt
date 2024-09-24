@@ -283,7 +283,7 @@ const NavBar = () => {
                 <div className="ml-[100px] max-smCustom:ml-4 max-mdCustom:ml-20">
 
                     <img 
-                        className='w-[300px] h-[50px] max-mdCustom:w-[200px] max-mdCustom:h-[50px] 
+                        className='w-[300px] h-[60px] max-mdCustom:w-[200px] max-mdCustom:h-[50px] 
                         max-smCustom:animate-none cursor-pointer max-smCustom:w-[150px] max-smCustom:h-[30px]'
                         src='/Nav_Bar/Connekt_Logo.png'
                         alt='Company Logo'
