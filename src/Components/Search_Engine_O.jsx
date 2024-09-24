@@ -45,7 +45,7 @@ const Search_Engine_O = () => {
                         />
 
                         <p
-                            className='font-bold font-montSerrat text-[48px] w-[500px] max-smCustom:w-full max-mdCustom:relative right-[140px] max-smCustom:text-[22px] max-smCustom:static'
+                            className='font-bold font-montSerrat text-[30px] w-[500px] max-smCustom:w-full max-mdCustom:relative right-[140px] max-smCustom:text-[22px] max-smCustom:static'
                         >
 
                             SEO (Search Engine Optimization) <br />
@@ -71,85 +71,89 @@ const Search_Engine_O = () => {
                             In today’s digital landscape, having a stunning website or web app is just the beginning. To attract visitors and grow your business, you need to be visible in search engine results. Our SEO services ensure that your online presence is optimized to reach your target audience effectively. <br /><br />
 
                             <span
-                                className='text-[22px] max-smCustom:text-[18px] font-bold font-montSerrat'>Why SEO Matters: </span>SEO is the process of enhancing your website’s visibility on search engines like Google. When potential customers search for services or products you offer, we want your site to appear at the top of their search results. This visibility drives traffic, increases brand awareness, and ultimately boosts conversions.
+                                className='text-[20px] max-smCustom:text-[18px] font-bold font-montSerrat'>Why SEO Matters: </span><br/><br/>SEO is the process of enhancing your website’s visibility on search engines like Google. When potential customers search for services or products you offer, we want your site to appear at the top of their search results. This visibility drives traffic, increases brand awareness, and ultimately boosts conversions.
 
                             <br /><br />
 
-                            <b>What We Cover: </b>
+                            <b className='font-bold text-[20px] font-montSerrat'>What We Cover: </b>
 
                             <br /><br />
 
-                            <b>1. Keyword Research:</b>
+                            <b className='font-bold text-[20px] font-montSerrat'>1. Keyword Research:</b>
 
                             <br /><br />
 
-                            What We Do: We identify relevant keywords that your potential customers are searching for.
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b> We identify relevant keywords that your potential customers are searching for.<br/><br/>
 
-                            Why It Matters: Targeting the right keywords helps us attract the right audience to your site.
-
-                            <br /><br />
-
-
-
-                            <b>2. On-Page Optimization:</b>
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b> Targeting the right keywords helps us attract the right audience to your site.
 
                             <br /><br />
 
-                            What We Do: We optimize your website’s content, meta tags, headers, and images to align with SEO best practices.
 
-                            Why It Matters: Well-optimized pages help search engines understand your content, improving your chances of ranking higher.
 
-                            <br /><br />
-
-                            <b>3. Technical SEO:</b>
+                            <b className='font-bold text-[20px] font-montSerrat'>2. On-Page Optimization:</b>
 
                             <br /><br />
 
-                            <b>What We Do: </b> We ensure your website has a solid technical foundation, including site speed, mobile-friendliness, and secure connections (HTTPS).
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b> We optimize your website’s content, meta tags, headers, and images to align with SEO best practices.<br/><br/>
 
-                            Why It Matters: A technically sound website provides a better user experience and is favored by search engines.
-
-                            <br /><br />
-
-                            <b>4. Content Creation & Optimization: </b>
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b> Well-optimized pages help search engines understand your content, improving your chances of ranking higher.
 
                             <br /><br />
 
-                            What We Do: We develop high-quality, engaging content that addresses your audience's needs while incorporating targeted keywords.
-
-                            Why It Matters: Valuable content boosts user engagement and helps establish your authority in your industry.
+                            <b className='font-bold text-[20px] font-montSerrat'>3. Technical SEO:</b>
 
                             <br /><br />
 
-                            <b>5. Link Building:</b>
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b>We ensure your website has a solid technical foundation, including site speed, mobile-friendliness, and secure connections (HTTPS).
+
+                            <br/><br/>
+
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b> A technically sound website provides a better user experience and is favored by search engines.
 
                             <br /><br />
 
-                            What We Do: We implement strategies to earn quality backlinks from reputable websites.
-
-                            Why It Matters: Backlinks improve your site's authority and credibility, which can significantly enhance your search rankings.
+                            <b className='font-bold text-[20px] font-montSerrat'>4. Content Creation & Optimization: </b>
 
                             <br /><br />
 
-                            <b>6. Local SEO:</b>
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b> We develop high-quality, engaging content that addresses your audience's needs while incorporating targeted keywords.
+                            
+                            <br/><br/>
+                            
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Mattters: </b> Valuable content boosts user engagement and helps establish your authority in your industry.
 
                             <br /><br />
 
-                            <b>What We Do: </b>We optimize your online presence for local searches, including setting up and managing your Google My Business listing. <br /><br />
-
-                            <b>Why It Matters: </b>Local SEO helps attract customers in your geographic area, increasing foot traffic and local engagement.
+                            <b className='font-bold text-[20px] font-montSerrat'>5. Link Building:</b>
 
                             <br /><br />
 
-                            <b>7. Analytics & Reporting:</b>
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b>We implement strategies to earn quality backlinks from reputable websites.
+
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b> Backlinks improve your site's authority and credibility, which can significantly enhance your search rankings.
 
                             <br /><br />
 
-                            What We Do: We track your SEO performance using tools like Google Analytics and provide regular reports on traffic, rankings, and user behavior.
+                            <b className='font-bold text-[20px] font-montSerrat'>6. Local SEO:</b>
 
                             <br /><br />
 
-                            Why It Matters: Data-driven insights allow us to refine our strategies for even better results.
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b>We optimize your online presence for local searches, including setting up and managing your Google My Business listing. <br /><br />
+
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b>Local SEO helps attract customers in your geographic area, increasing foot traffic and local engagement.
+
+                            <br /><br />
+
+                            <b className='font-bold text-[20px] font-montSerrat'>7. Analytics & Reporting:</b>
+
+                            <br /><br />
+
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b> We track your SEO performance using tools like Google Analytics and provide regular reports on traffic, rankings, and user behavior.
+
+                            <br /><br />
+
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why it Matters: </b> Data-driven insights allow us to refine our strategies for even better results.
 
 
                         </p>
@@ -167,7 +171,7 @@ const Search_Engine_O = () => {
                     <div className="space-y-10 mt-10 mx-20 max-smCustom:mx-5">
 
                         <p
-                            className='text-[22px] font-bold font-montSerrat'
+                            className='text-[22px] font-semibold font-montSerrat'
                         >
 
                             Our Recipe for SEO Success:
