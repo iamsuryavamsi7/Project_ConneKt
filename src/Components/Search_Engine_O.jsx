@@ -18,7 +18,7 @@ const Search_Engine_O = () => {
 
             <NavBar />
         
-            <div className="pt-[100px] w-full text-center">
+            <div className="py-[70px] w-full text-center">
 
                 <div className=" inline-block px-5 py-2 rounded-[30px] text-[30px] max-smCustom:text-[25px] font-semibold font-montSerrat mt-[50px] max-smCustom:mt-[0px] relative">
 
