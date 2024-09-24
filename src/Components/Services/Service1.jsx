@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
-import '../CSS/KeyServices.css'
+import '../CSS/KeyServices.css' 
 
 const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 

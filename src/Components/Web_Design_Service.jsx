@@ -9,7 +9,7 @@ const Web_Design_Service = () => {
 
     useEffect(() => {
 
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 0); 
 
     }, []); 
 
@@ -46,13 +46,13 @@ const Web_Design_Service = () => {
                         />
 
                         <p
-                            className='font-bold font-montSerrat text-[48px] w-[500px] max-smCustom:w-full max-mdCustom:relative right-[140px] max-smCustom:text-[22px] max-smCustom:static'
+                            className='font-bold font-montSerrat text-[30px] w-[500px] max-smCustom:w-full max-mdCustom:relative right-[140px] max-smCustom:text-[18px] max-smCustom:static'
                         >
 
                             Website / Web App Designing <br />
                             
                             <span
-                                className='text-[22px] max-smCustom:text-[16px]'
+                                className='text-[18px] max-smCustom:text-[16px]'
                             >
                             
                                 Crafting Digital Experience That Captivate
@@ -74,7 +74,7 @@ const Web_Design_Service = () => {
                         </p>
 
                         <p
-                            className='text-[22px] max-smCustom:text-[16px] font-inknutAntiqua'
+                            className='text-[18px] max-smCustom:text-[16px] font-inknutAntiqua'
                         >
 
                         A website is a collection of related web pages accessible through the internet. It serves as an online presence for businesses, organizations, or individuals, and can include information like company details, product listings, or blog posts. Websites can range from simple single-page sites to complex platforms with many sections and features.
@@ -82,7 +82,7 @@ const Web_Design_Service = () => {
                         </p>
 
                         <p
-                            className='text-[22px] max-smCustom:text-[16px] font-inknutAntiqua'
+                            className='text-[18px] max-smCustom:text-[16px] font-inknutAntiqua'
                         >
 
                             A web app (short for web application) is an interactive tool that performs specific functions online. Unlike traditional websites, web apps are designed to handle tasks like booking appointments, managing accounts, or filling out forms. They offer a more dynamic and engaging user experience.
@@ -90,7 +90,7 @@ const Web_Design_Service = () => {
                         </p>
 
                         <p
-                            className='text-[20px] max-smCustom:text-[16px] font-inknutAntiqua'
+                            className='text-[18px] max-smCustom:text-[16px] font-inknutAntiqua'
                         >
 
                             <span
@@ -98,9 +98,9 @@ const Web_Design_Service = () => {
                             >Designing for Impact</span> <br /><br />
 
 
-                            <span className='font-montSerrat font-bold'>Creative Design:</span> This aspect involves making your website or web app visually attractive and unique. It includes selecting colors, fonts, images, and layouts that not only catch the eye but also reflect your brand’s personality. Creative design helps your site stand out and make a memorable impression.<br /><br />
+                            <span className='text-[20px] font-montSerrat font-bold'>Creative Design:</span> <br/><br/> This aspect involves making your website or web app visually attractive and unique. It includes selecting colors, fonts, images, and layouts that not only catch the eye but also reflect your brand’s personality. Creative design helps your site stand out and make a memorable impression.<br /><br />
 
-                            <span className='font-montSerrat font-bold'>User-Friendly Design:</span> A user-friendly design ensures that visitors can easily navigate and interact with your site or app. This means creating intuitive menus, clear call-to-action buttons, and a layout that works well on both computers and mobile devices. The goal is to make the user experience smooth and enjoyable, allowing users to find what they need quickly.
+                            <span className='text-[20px] font-montSerrat font-bold'>User-Friendly Design:</span><br/><br/> A user-friendly design ensures that visitors can easily navigate and interact with your site or app. This means creating intuitive menus, clear call-to-action buttons, and a layout that works well on both computers and mobile devices. The goal is to make the user experience smooth and enjoyable, allowing users to find what they need quickly.
 
                             <br /><br />
 
@@ -110,25 +110,25 @@ const Web_Design_Service = () => {
 
                             <br /><br />
 
-                            <span className='font-montSerrat font-bold'>1. Understanding Needs:</span> We begin by understanding your business goals and audience. This helps us design a site or app that meets your specific needs.
+                            <span className='text-[20px] font-montSerrat font-semibold'>1. Understanding Needs:</span> We begin by understanding your business goals and audience. This helps us design a site or app that meets your specific needs.
 
                             <br /><br />
 
-                            <span className='font-montSerrat font-bold'>2. Planning:</span> We create wireframes or basic blueprints to plan the structure and functionality of the site or app.
+                            <span className='text-[20px] font-montSerrat font-semibold'>2. Planning:</span> We create wireframes or basic blueprints to plan the structure and functionality of the site or app.
 
                             <br /><br />
 
-                            <span className='font-montSerrat font-bold'>3. Design Creation:</span> We then design detailed visual elements, incorporating your brand’s colors, fonts, and images to create a cohesive look.
+                            <span className='text-[20px] font-montSerrat font-semibold'>3. Design Creation:</span> We then design detailed visual elements, incorporating your brand’s colors, fonts, and images to create a cohesive look.
 
                             <br /><br />
 
-                            <span className='font-montSerrat font-bold'>4. Testing and Refinement: </span> Finally, we test the design on different devices and browsers to ensure everything works properly and make any necessary adjustments.
+                            <span className='text-[20px] font-montSerrat font-semibold'>4. Testing and Refinement: </span> Finally, we test the design on different devices and browsers to ensure everything works properly and make any necessary adjustments.
 
                             <br /><br />
 
 
                             <span
-                                className='text-[22px] font-semibold max-smCustom:text-[16px] font-inknutAntiqua'
+                                className='text-[20px] font-semibold max-smCustom:text-[16px] font-inknutAntiqua'
                             >
 
                             In summary, our website and web app design services aim to create visually engaging and easy-to-use platforms that reflect your brand and provide an excellent user experience.
@@ -158,17 +158,17 @@ const Web_Design_Service = () => {
                         </p> 
 
                         <p
-                            className='text-[22px] max-smCustom:text-[14px] font-inknutAntiqua'
+                            className='text-[18px] max-smCustom:text-[14px] font-inknutAntiqua'
                         >
 
-                            <span className='font-montSerrat font-bold'>1. Discovery & Research:</span> <br /> <br />
+                            <span className='text-[20px] font-montSerrat font-bold'>1. Discovery & Research:</span> <br /> <br />
 
                             What We Do: We start by getting to know your business, your goals, and your target audience. This involves discussions, questionnaires, and market research.
 
                             Why It's Important: Understanding your brand and audience ensures that the design resonates with your potential customers and meets your business objectives. <br /><br />
 
 
-                            <span className='font-montSerrat font-bold'>2. Planning & Strategy: <br /> <br /></span>
+                            <span className='text-[20px] font-montSerrat font-bold'>2. Planning & Strategy: <br /> <br /></span>
 
                             What We Do: We create a sitemap and wireframes – the blueprint of your website or web app. This outlines the structure, layout, and flow of each page or screen.
 
@@ -176,7 +176,7 @@ const Web_Design_Service = () => {
 
                             <br /> <br />
 
-                            <span className='font-montSerrat font-bold'>3. Design Mockups: <br /> <br /></span>
+                            <span className='text-[20px] font-montSerrat font-bold'>3. Design Mockups: <br /> <br /></span>
 
                             What We Do: We craft visual mockups based on the wireframes, incorporating your branding elements like colors, fonts, and logos. You'll get to see how your website or app will look before we start building it.
 
@@ -184,7 +184,7 @@ const Web_Design_Service = () => {
 
                             <br /> <br />
 
-                            <span className='font-montSerrat font-bold'>4. Feedback & Revisions:</span> <br /> <br />
+                            <span className='text-[20px] font-montSerrat font-bold'>4. Feedback & Revisions:</span> <br /> <br />
 
                             What We Do: We present the mockups to you and gather your feedback. Based on your input, we make necessary revisions to ensure the design meets your vision.
 
@@ -193,7 +193,7 @@ const Web_Design_Service = () => {
 
                             <br /> <br />
 
-                            <span className='font-montSerrat font-bold'>5. Responsive Design:</span> <br /> <br />
+                            <span className='text-[20px] font-montSerrat font-bold'>5. Responsive Design:</span> <br /> <br />
 
                             What We Do: We ensure that the design adapts seamlessly to different devices, whether it’s a desktop, tablet, or smartphone.
 
@@ -201,7 +201,7 @@ const Web_Design_Service = () => {
 
                             <br /><br />
 
-                            <span className='font-montSerrat font-bold'>6. User Interface (UI) & User Experience (UX) Optimization:</span> <br /> <br />
+                            <span className='text-[20px] font-montSerrat font-bold'>6. User Interface (UI) & User Experience (UX) Optimization:</span> <br /> <br />
 
                             What We Do: We focus on the details – button placements, forms, calls-to-action, and more – to enhance usability and engagement.
 
@@ -209,7 +209,7 @@ const Web_Design_Service = () => {
 
 
 
-                            <span className='font-montSerrat font-bold'>7. Design Handoff to Development:</span> <br />
+                            <span className='text-[20px] font-montSerrat font-bold'>7. Design Handoff to Development:</span> <br /><br/>
 
                             What We Do: Once the design is finalized, we prepare all the design assets and specifications to hand off to the development phase.
 
