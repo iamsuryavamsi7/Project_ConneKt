@@ -125,7 +125,7 @@ const KeyServices = () => {
                         serviceDesc={(
                             <>
                             
-                            Elevate your brand with our dynamic social <br />media management services! We create <br />tailored strategies, engaging content, and <br />manage your accounts to boost audience<br /> interaction.Plus, we implement targeted ads to<br /> expand your reach and drive growth.
+                            We create, edit, and manage epic content,<br /> run spot-on ads, and build<br /> game-changing strategies<br />to grow your audience
                             
                             </>
                         )}
