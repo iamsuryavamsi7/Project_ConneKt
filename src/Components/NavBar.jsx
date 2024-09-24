@@ -37,7 +37,8 @@ const NavBar = () => {
 
                     navBar.style.height = '0px';
 
-                    navBar.style.opacity = '0';
+                    navBar.style.opacity = '0px';
+
 
                 } else {
 
@@ -57,11 +58,15 @@ const NavBar = () => {
 
                 const currentHeight = navBar.style.height;
 
+                const servicesClass = document.querySelector('.servicesClass');
+
                 if ( currentHeight === '320px' ) {
 
                     navBar.style.height = '0px';
 
                     navBar.style.opacity = '0';
+
+                    servicesClass.style.height = '0px';
 
                 } else {
 
@@ -151,7 +156,7 @@ const NavBar = () => {
 
             setChatBox('/Nav_Bar/drop_down.png');
 
-            if ( currentWidth >= 1000 ) {
+            if ( currentWidth >= 600 ) {
 
                 chatBoxHeight.style.height = '250px';
 
