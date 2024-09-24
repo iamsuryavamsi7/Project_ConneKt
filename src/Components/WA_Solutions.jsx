@@ -14,7 +14,7 @@ const WA_Solutions = () => {
 
         <>
 
-            <NavBar />
+            <NavBar /> 
         
             <div className="py-[70px] w-full text-center">
 
