@@ -63,7 +63,7 @@ const WA_Solutions = () => {
                     <div className="space-y-10 mt-10 mx-20 max-smCustom:mx-5">
 
                         <p
-                            className='text-[18px] max-smCustom:text-[10px] font-inknutAntiqua'
+                            className='text-[18px] max-smCustom:text-[14px] font-inknutAntiqua'
                         >
 
 
