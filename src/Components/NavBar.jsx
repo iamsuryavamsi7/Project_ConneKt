@@ -292,7 +292,7 @@ const NavBar = () => {
                     onClick={hamburgerFunction}
                 />
 
-                <div className="navBar mr-[150px] max-mdCustom:absolute top-[100px] max-smCustom:top-[58px] max-mdCustom:right-[-100px] max-mdCustom:bg-white rounded-b-xl max-mdCustom:pr-[25px] max-mdCustom:h-[0px] max-mdCustom:overflow-hidden transition-all duration-300 max-smCustom:w-full max-smCustom:left-[0] max-smCustom:right-0] max-smCustom:animate-none"> 
+                <div className="navBar mr-[150px] max-mdCustom:absolute top-[100px] max-smCustom:top-[58px] max-mdCustom:right-[-100px] max-mdCustom:bg-white rounded-b-xl max-mdCustom:pr-[25px] max-mdCustom:h-[0px] max-mdCustom:overflow-hidden transition-all duration-300 max-smCustom:w-full max-smCustom:left-0 max-smCustom:right-0 max-smCustom:animate-none"> 
 
                     <ul
                         className='flex h-full items-center space-x-10 text-xl font-inknutAntiqua max-mdCustom:space-x-7 max-mdCustom:block max-mdCustom:space-y-10 max-mdCustom:text-center max-smCustom:space-y-7 max-smCustom:text-[18px] max-smCustom:pt-10 '
@@ -419,7 +419,7 @@ const NavBar = () => {
 
                                 </button>
 
-                                <div className="servicesClass text-[14px] w-[305px] h-0 overflow-hidden bg-white flex justify-start transition-all duration-300 left-[-20px] rounded-b-xl top-[120%] max-smCustom:relative max-smCustom:left-[25px]"
+                                <div className="servicesClass text-[14px] w-[305px] h-0 overflow-hidden bg-white flex justify-start transition-all duration-300 left-[-20px] rounded-b-xl top-[120%] max-smCustom:relative max-smCustom:left-[5px] max-smCustom:right-0 max-smCustom:w-full max-smCustom:mx-0 max-smCustom:px-0 max-smCustom:text-center max-smCustom:flex max-smCustom:justify-center"
                                 >
 
                                     <ul
