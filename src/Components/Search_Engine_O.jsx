@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react'
 import Footer from './Footer'
 import NavBar from './NavBar'
+import './CSS/WebDesign.css'
+import './CSS/Contact.css'
 
 const Search_Engine_O = () => {
 
     useEffect(() => {
 
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 0); 
 
     }, []);
 
@@ -18,33 +20,38 @@ const Search_Engine_O = () => {
         
             <div className="pt-[100px] w-full text-center">
 
-                <div className="bg-greenCustom inline-block px-5 py-2 rounded-2xl text-[25px] font-bold font-montSerrat mt-[50px]">
+                <div className=" inline-block px-5 py-2 rounded-[30px] text-[30px] max-smCustom:text-[25px] font-semibold font-montSerrat mt-[50px] max-smCustom:mt-[0px] relative">
 
                     Overview
+
+                <img 
+                    className='w-[50px] h-auto rotate-[110deg] absolute right-[-25px] top-[-10px] green_image'
+                    src='/Common/green-left.png'
+                />
 
                 </div>
 
             </div>
 
-            <div className="w-full flex justify-center">
+            <div className="w-full flex justify-center bg-yellowCustom ">
 
-                <div className="bg-yellowCustom my-[50px] w-[1400px] rounded-2xl pb-[50px] max-mdCustom:w-[800px]">
+                <div className="my-[50px] overViewButton bg-white w-[1400px] rounded-[30px] pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10">
 
-                    <div className="flex justify-center items-center h-[400px] space-x-[300px] max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-y-5 max-mdCustom:h-auto max-mdCustom:mt-[50px] max-mdCustom:items-center">
+                    <div className=" flex justify-center items-center h-[400px] space-x-[300px] max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-y-5 max-mdCustom:h-auto max-mdCustom:mt-[50px] max-mdCustom:items-center max-smCustom:space-x-0 max-smCustom:mx-10">
 
                         <img 
-                            src='/Services/Search_Engine_Optimization.png'
-                            className='w-[400px] max-mdCustom:mx-auto hover:w-[420px] transition-all duration-300'
+                            src='/Services/Website_Desigining.png'
+                            className='w-[400px] max-mdCustom:mx-auto transition-all duration-300'
                         />
 
                         <p
-                            className='font-bold font-montSerrat text-[48px] w-[600px] max-mdCustom:relative right-[140px]'
+                            className='font-bold font-montSerrat text-[48px] w-[500px] max-smCustom:w-full max-mdCustom:relative right-[140px] max-smCustom:text-[22px] max-smCustom:static'
                         >
 
                             SEO (Search Engine Optimization) <br />
 
                             <span
-                                className='text-[22px]'
+                                className='text-[22px] max-smCustom:text-[16px]'
                             >
 
                                 Elevating Your Visibility, One Click at a Time
@@ -55,23 +62,24 @@ const Search_Engine_O = () => {
 
                     </div>
 
-                    <div className="space-y-10 mt-10 mx-20">
+                    <div className="space-y-10 mt-10 mx-20 max-smCustom:mx-5">
 
                         <p
-                            className='text-[22px]'
+                            className='text-[18px] max-smCustom:text-[16px] font-inknutAntiqua'
                         >
 
                             In today’s digital landscape, having a stunning website or web app is just the beginning. To attract visitors and grow your business, you need to be visible in search engine results. Our SEO services ensure that your online presence is optimized to reach your target audience effectively. <br /><br />
 
-                            Why SEO Matters: SEO is the process of enhancing your website’s visibility on search engines like Google. When potential customers search for services or products you offer, we want your site to appear at the top of their search results. This visibility drives traffic, increases brand awareness, and ultimately boosts conversions.
+                            <span
+                                className='text-[22px] max-smCustom:text-[18px] font-bold font-montSerrat'>Why SEO Matters: </span>SEO is the process of enhancing your website’s visibility on search engines like Google. When potential customers search for services or products you offer, we want your site to appear at the top of their search results. This visibility drives traffic, increases brand awareness, and ultimately boosts conversions.
 
                             <br /><br />
 
-                            What We Cover:
+                            <b>What We Cover: </b>
 
                             <br /><br />
 
-                            1. Keyword Research:
+                            <b>1. Keyword Research:</b>
 
                             <br /><br />
 
@@ -83,7 +91,7 @@ const Search_Engine_O = () => {
 
 
 
-                            2. On-Page Optimization:
+                            <b>2. On-Page Optimization:</b>
 
                             <br /><br />
 
@@ -93,17 +101,17 @@ const Search_Engine_O = () => {
 
                             <br /><br />
 
-                            3. Technical SEO:
+                            <b>3. Technical SEO:</b>
 
                             <br /><br />
 
-                            What We Do: We ensure your website has a solid technical foundation, including site speed, mobile-friendliness, and secure connections (HTTPS).
+                            <b>What We Do: </b> We ensure your website has a solid technical foundation, including site speed, mobile-friendliness, and secure connections (HTTPS).
 
                             Why It Matters: A technically sound website provides a better user experience and is favored by search engines.
 
                             <br /><br />
 
-                            4. Content Creation & Optimization:
+                            <b>4. Content Creation & Optimization: </b>
 
                             <br /><br />
 
@@ -113,7 +121,7 @@ const Search_Engine_O = () => {
 
                             <br /><br />
 
-                            5. Link Building:
+                            <b>5. Link Building:</b>
 
                             <br /><br />
 
@@ -123,17 +131,17 @@ const Search_Engine_O = () => {
 
                             <br /><br />
 
-                            6. Local SEO:
+                            <b>6. Local SEO:</b>
 
                             <br /><br />
 
-                            What We Do: We optimize your online presence for local searches, including setting up and managing your Google My Business listing.
+                            <b>What We Do: </b>We optimize your online presence for local searches, including setting up and managing your Google My Business listing. <br /><br />
 
-                            Why It Matters: Local SEO helps attract customers in your geographic area, increasing foot traffic and local engagement.
+                            <b>Why It Matters: </b>Local SEO helps attract customers in your geographic area, increasing foot traffic and local engagement.
 
                             <br /><br />
 
-                            7. Analytics & Reporting:
+                            <b>7. Analytics & Reporting:</b>
 
                             <br /><br />
 
@@ -152,11 +160,11 @@ const Search_Engine_O = () => {
 
             </div>
 
-            <div className="w-full flex justify-center">
+            <div className="w-full bg-greenCustom my-20 flex justify-center">
 
-                <div className="bg-greenCustom my-[50px] w-[1400px] rounded-2xl pb-[50px] max-mdCustom:w-[800px]">
+                <div className="overViewButton bg-white my-[50px] w-[1400px] rounded-[30px] pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10  max-smCustom:space-x-0">
 
-                    <div className="space-y-10 mt-10 mx-20">
+                    <div className="space-y-10 mt-10 mx-20 max-smCustom:mx-5">
 
                         <p
                             className='text-[22px] font-bold font-montSerrat'
@@ -167,16 +175,16 @@ const Search_Engine_O = () => {
                         </p>
 
                         <p
-                            className='text-[22px] font-montSerrat'
+                            className='text-[18px] max-smCustom:text-[14px] font-inknutAntiqua'
                         >
 
-                            Thorough Research: Understanding your market and audience is our starting point. <br /><br />
+                            <b>Thorough Research: </b>Understanding your market and audience is our starting point. <br /><br />
 
-                            Holistic Approach: We optimize every aspect of your online presence, from content to technical elements. <br /><br />
+                            <b>Holistic Approach: </b>We optimize every aspect of your online presence, from content to technical elements. <br /><br />
 
-                            Continuous Improvement: SEO is an ongoing process; we adapt strategies based on performance data and trends. <br /><br />
+                            <b>Continuous Improvement: </b>SEO is an ongoing process; we adapt strategies based on performance data and trends. <br /><br />
 
-                            Transparent Communication: Regular updates and reports keep you informed about our progress and results. <br /><br />
+                            <b>Transparent Communication: </b>Regular updates and reports keep you informed about our progress and results. <br /><br />
 
 
                             With our SEO services, we help your website not just exist but thrive in search engine results, turning visitors into customers and enhancing your brand's online presence.
