@@ -218,16 +218,16 @@ const NavBar = () => {
                     onClick={(e) => chatBoxFunction(e)}
                 />
 
-                <div className="chatBoxHeight absolute h-[0px] w-[0px] bg-white transition-all duration-200 rounded-[32px] bottom-[70px] right-[40px] max-smCustom:right-[20px] overflow-hidden block border-black border-0">
+                <div className="chatBoxHeight absolute h-[0px] w-[0px] bg-white transition-all duration-200 rounded-[32px] bottom-[70px] right-[40px] max-smCustom:right-[20px] overflow-hidden block border-black border-0 font-sans">
 
-                    <div className="text-gray-800 font-semibold w-full flex justify-center items-center space-x-1 text-[14px] max-smCustom:text-[10px] mt-2">
+                    <div className=" font-semibold w-full flex justify-center items-center space-x-1 text-[12px] max-smCustom:text-[10px] mt-2">
 
                             <AiOutlineThunderbolt 
                                 className=''
                             />
-                            <span className='text-[#8d8a8a]'>Powered By</span> 
+                            <span className='text-[#999999] font-sans'>Powered By</span> 
 
-                        <div className="">
+                        <div className="font-semibold text-[#666666]">
                             
                             connekt.in
 
