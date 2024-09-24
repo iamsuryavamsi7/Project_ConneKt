@@ -33,7 +33,7 @@ const NavBar = () => {
 
                 const currentHeight = navBar.style.height;
 
-                if ( currentHeight === '350px' ) {
+                if ( currentHeight === '360px' ) {
 
                     navBar.style.height = '0px';
 
