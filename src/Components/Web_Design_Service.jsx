@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import Footer from './Footer'
 import NavBar from './NavBar'
 import './CSS/WebDesign.css'
+import './CSS/Contact.css'
+
 
 const Web_Design_Service = () => {
 

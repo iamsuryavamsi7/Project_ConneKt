@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Footer from './Footer'
 import NavBar from './NavBar'
+import './CSS/WebDesign.css'
 
 const Web_App_Maintenance = () => {
 
@@ -14,37 +15,42 @@ const Web_App_Maintenance = () => {
 
         <>
 
-            <NavBar />
+            <NavBar /> 
         
             <div className="pt-[100px] w-full text-center">
 
-                <div className="bg-greenCustom inline-block px-5 py-2 rounded-2xl text-[25px] font-bold font-montSerrat mt-[50px]">
+                <div className=" inline-block px-5 py-2 rounded-[30px] text-[30px] max-smCustom:text-[25px] font-semibold font-montSerrat mt-[50px] max-smCustom:mt-[0px] relative">
 
                     Overview
+
+                <img 
+                    className='w-[50px] h-auto rotate-[110deg] absolute right-[-25px] top-[-10px] green_image'
+                    src='/Common/green-left.png'
+                />
 
                 </div>
 
             </div>
 
-            <div className="w-full flex justify-center">
+            <div className="w-full flex justify-center bg-yellowCustom ">
 
-                <div className="bg-yellowCustom my-[50px] w-[1400px] rounded-2xl pb-[50px] max-mdCustom:w-[800px]">
+                <div className="my-[50px] overViewButton bg-white w-[1400px] rounded-[30px] pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10">
 
-                    <div className="flex justify-center items-center h-[400px] space-x-[300px] max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-y-5 max-mdCustom:h-auto max-mdCustom:mt-[50px] max-mdCustom:items-center">
+                    <div className=" flex justify-center items-center h-[400px] space-x-[300px] max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-y-5 max-mdCustom:h-auto max-mdCustom:mt-[50px] max-mdCustom:items-center max-smCustom:space-x-0 max-smCustom:mx-10">
 
                         <img 
-                            src='/Services/Website_Maintanence.png'
-                            className='w-[400px] max-mdCustom:mx-auto hover:w-[420px] transition-all duration-300'
+                            src='/Services/Website_Desigining.png'
+                            className='w-[400px] max-mdCustom:mx-auto transition-all duration-300'
                         />
 
                         <p
-                            className='font-bold font-montSerrat text-[48px] w-[500px] max-mdCustom:relative right-[140px]'
+                            className='font-bold font-montSerrat text-[48px] w-[500px] max-smCustom:w-full max-mdCustom:relative right-[140px] max-smCustom:text-[22px] max-smCustom:static'
                         >
 
                             Website & Web App Maintenance <br />
                             
                             <span
-                                className='text-[22px]'
+                                className='text-[22px] max-smCustom:text-[16px]'
                             >
                                 
                                 Keeping Your Digital Presence Flawless.
@@ -55,10 +61,10 @@ const Web_App_Maintenance = () => {
 
                     </div>
 
-                    <div className="space-y-10 mt-10 mx-20">
+                    <div className="space-y-10 mt-10 mx-20 max-smCustom:mx-5">
 
                         <p
-                            className='font-montSerrat text-[22px]'
+                            className=' max-smCustom:text-[16px] font-inknutAntiqua text-[22px]'
                         >
 
                             Once your website or web app is live, our job isn’t done. We offer comprehensive maintenance services to ensure that everything runs smoothly and securely. Think of us as your digital caretakers, always on standby to tackle any issues and keep your online presence in top shape. <br /><br />
@@ -68,7 +74,7 @@ const Web_App_Maintenance = () => {
                             <br /><br />
 
                             <span
-                                className='font-bold'
+                                className='font-bold font-montSerrat'
                             >
 
                                 What We Cover:
@@ -77,7 +83,9 @@ const Web_App_Maintenance = () => {
 
                             <br /><br />
 
-                            1. Bug Fixes:
+                            <span
+                                className='font-bold font-montSerrat'
+                            >1. Bug Fixes: </span>
 
                             What We Do: We monitor your website or app for any bugs or glitches and resolve them promptly.
 
@@ -87,7 +95,9 @@ const Web_App_Maintenance = () => {
 
 
 
-                            2. Performance Monitoring:
+                            <span
+                                className='font-bold font-montSerrat'
+                            >2. Performance Monitoring:</span>
 
                             What We Do: We regularly assess the speed and performance of your website or app to identify areas for improvement.
 
@@ -95,7 +105,9 @@ const Web_App_Maintenance = () => {
 
                             <br /><br />
 
-                            3. Security Updates:
+                            <span
+                                className='font-bold font-montSerrat'
+                            >3. Security Updates: </span>
 
                             What We Do: We implement necessary security patches and updates to protect your site from vulnerabilities.
 
@@ -103,7 +115,9 @@ const Web_App_Maintenance = () => {
 
                             <br /><br />
 
-                            4. Content Updates:
+                            <span
+                                className='font-bold font-montSerrat'
+                            >4. Content Updates: </span>
 
                             What We Do: We help you keep your content fresh and relevant, whether it’s adding new blog posts, images, or product information.
 
@@ -111,7 +125,9 @@ const Web_App_Maintenance = () => {
 
                             <br /><br />
 
-                            5. Server & Network Maintenance:
+                            <span
+                                className='font-bold font-montSerrat'
+                            >5. Server & Network Maintenance: </span>
 
                             What We Do: We handle server configurations, backups, and monitor network health to ensure everything runs smoothly.
 
@@ -119,7 +135,9 @@ const Web_App_Maintenance = () => {
 
                             <br /><br />
 
-                            6. User Experience Improvements:
+                            <span
+                                className='font-bold font-montSerrat'
+                            >6. User Experience Improvements: </span>
 
                             What We Do: Based on user feedback and analytics, we suggest and implement enhancements to improve usability.
 
@@ -127,7 +145,9 @@ const Web_App_Maintenance = () => {
 
                             <br /><br />
 
-                            7. Analytics Reporting:
+                            <span
+                                className='font-bold font-montSerrat'
+                            >7. Analytics Reporting: </span>
 
                             What We Do: We provide regular reports on site performance, user behavior, and other key metrics.
 
@@ -141,22 +161,22 @@ const Web_App_Maintenance = () => {
 
             </div>
 
-            <div className="w-full flex justify-center">
+            <div className="w-full bg-greenCustom my-20 flex justify-center">
 
-                <div className="bg-greenCustom my-[50px] w-[1400px] rounded-2xl pb-[50px] max-mdCustom:w-[800px]">
+            <div className="overViewButton bg-white my-[50px] w-[1400px] rounded-[30px] pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10  max-smCustom:space-x-0">
 
-                    <div className="space-y-10 mt-10 mx-20">
+                <div className="space-y-10 mt-10 mx-20 max-smCustom:mx-5">
 
-                        <p
-                            className='text-[22px] font-bold font-montSerrat'
-                        >
+                    <p
+                        className='text-[22px] font-semibold font-montSerrat'
+                    >
 
                             Our recipe for Website & Web App Maintenance:
 
                         </p>
 
                         <p
-                            className='text-[22px] font-montSerrat'
+                            className='text-[22px] max-smCustom:text-[14px] font-inknutAntiqua'
                         >
 
                         
