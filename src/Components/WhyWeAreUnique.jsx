@@ -23,6 +23,7 @@ const WhyAreWeUnique = () => {
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_04.png'
+                            loading='lazy'
                         />
 
                         <p
@@ -50,6 +51,7 @@ const WhyAreWeUnique = () => {
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_07.png'
+                            loading='lazy'
                         />
 
                         <p
@@ -78,6 +80,7 @@ const WhyAreWeUnique = () => {
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_03.png'
+                            loading='lazy'
                         />
 
                         <p
@@ -105,6 +108,7 @@ const WhyAreWeUnique = () => {
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_01.png'
+                            loading='lazy'
                         />
 
                         <p
@@ -132,6 +136,7 @@ const WhyAreWeUnique = () => {
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_05.png'
+                            loading='lazy'
                         />
 
                         <p
@@ -160,6 +165,7 @@ const WhyAreWeUnique = () => {
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_06.png'
+                            loading='lazy'
                         />
 
                         <p
@@ -187,6 +193,7 @@ const WhyAreWeUnique = () => {
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_02.png'
+                            loading='lazy'
                         />
 
                         <p
@@ -215,6 +222,7 @@ const WhyAreWeUnique = () => {
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
                             src= '/Why_Us/Why_Us_08.png'
+                            loading='lazy'
                         />
 
                         <p
@@ -248,6 +256,7 @@ const WhyAreWeUnique = () => {
                     <img 
                         className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
                         src= '/Why_Us/Why_Us_02.png'
+                        loading='lazy'
                     />
 
                     <p
@@ -276,6 +285,7 @@ const WhyAreWeUnique = () => {
                     <img 
                         className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
                         src= '/Why_Us/Why_Us_08.png'
+                        loading='lazy'
                     />
 
                     <p

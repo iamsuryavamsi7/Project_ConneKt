@@ -49,6 +49,7 @@ const Web_App_Development = () => {
                         <img 
                         className='w-[50px] h-auto rotate-[110deg] absolute right-[-25px] top-[-10px] green_image'
                         src='/Common/green-left.png'
+                        loading='lazy'
                     />
 
 
@@ -66,6 +67,7 @@ const Web_App_Development = () => {
                             <img 
                                 src='/Services/Website_Development.png'
                                 className='w-[400px] max-mdCustom:mx-auto hover:w-[420px] transition-all duration-300'
+                                loading='lazy'
                             />
 
                             <p

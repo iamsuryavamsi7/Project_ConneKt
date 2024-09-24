@@ -51,6 +51,7 @@ const Web_Design_Service = () => {
                     <img 
                         className='w-[50px] h-auto rotate-[110deg] absolute right-[-25px] top-[-10px] green_image'
                         src='/Common/green-left.png'
+                        loading='lazy'
                     />
 
                     </div>
@@ -68,6 +69,7 @@ const Web_Design_Service = () => {
                             <img 
                                 src='/Services/Website_Desigining.png'
                                 className='w-[400px] max-mdCustom:mx-auto transition-all duration-300'
+                                loading='lazy'
                             />
 
                             <p

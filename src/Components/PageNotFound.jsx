@@ -21,7 +21,8 @@ const PageNotFound = () => {
                         />
 
                     <img 
-                        src='/Error/space.png' 
+                        src='/Error/space.png'
+                        loading='lazy' 
                     />
 
                     <div className="relative">
