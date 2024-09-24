@@ -1,20 +1,43 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from './Footer'
 import NavBar from './NavBar'
 import './CSS/WebDesign.css'
 import './CSS/Contact.css'
+import { AiOutlineLoading3Quarters } from 'react-icons/ai'
 
 const Search_Engine_O = () => {
 
+    const [pageLoading, setPageLoading] = useState(true);
+
     useEffect(() => {
 
-        window.scrollTo(0, 0); 
+        window.scrollTo(0, 0);
+
+        // Runnin the page loading
+
+        const updatePageLoading = () => {
+
+            setPageLoading(false);
+
+        }
+
+        const pageLoadingId = setInterval(updatePageLoading, 3000);
+
+        setTimeout(() => {
+            
+            clearTimeout(pageLoadingId);
+            
+        }, 5000);
 
     }, []);
 
     return (
 
         <>
+
+        {!pageLoading && (
+
+            <>
 
             <NavBar />
         
@@ -202,6 +225,42 @@ const Search_Engine_O = () => {
             </div>
 
             <Footer />
+
+            </>
+
+        )}
+
+        {pageLoading && (
+
+        <>
+
+            <div className="w-full fixed bg-white top-0 bottom-0 left-0 right-0 text-[30px] max-smCustom:text-[20px] animate-pulse">
+
+                <div className="flex justify-center w-full items-center space-x-3 h-full">
+
+                    <div className="">
+
+                        <AiOutlineLoading3Quarters 
+                            className='animate-spin'
+                        />
+
+                    </div> 
+
+                    <div className="">
+
+                        Loading ...
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </>
+
+        )
+
+        } 
 
         </>
 
