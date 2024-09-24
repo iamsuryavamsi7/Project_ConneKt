@@ -364,12 +364,12 @@ const NavBar = () => {
                                         <li
                                             className='transition-all text-gray-500 duration-500 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
                                             onClick={(e, url) => dropdownFunction(e, '/dive-in/social-media-advertisements')}
-                                        > Social Media Advertisements
+                                        > Social Media Management
                                         </li>
                                         <li
                                             className='transition-all text-gray-500 duration-500 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
                                             onClick={(e, url) => dropdownFunction(e, '/dive-in/whatsapp-api-solutions')}
-                                        > WhatsApp API Solutions
+                                        > WhatsApp API Management
                                         </li>
                                         <li
                                             className='transition-all text-gray-500 duration-500 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
@@ -454,12 +454,12 @@ const NavBar = () => {
                                         <li
                                             className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
                                             onClick={(e, url) => dropdownFunction(e, '/dive-in/social-media-advertisements')}
-                                        > Social Media Advertisements
+                                        > Social Media Management
                                         </li>
                                         <li
                                             className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'
                                             onClick={(e, url) => dropdownFunction(e, '/dive-in/whatsapp-api-solutions')}
-                                        > WhatsApp API Solutions
+                                        > WhatsApp API Management
                                         </li>
                                         <li
                                             className='transition-all text-gray-500 duration-300 cursor-pointer hover:text-paleGreen hover:border-b-2 hover:border-paleGreen border-b-2 border-b-white rounded-br-lg rounded-bl-lg pl-5'

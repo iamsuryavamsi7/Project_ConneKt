@@ -35,9 +35,9 @@ const Web_App_Development = () => {
 
             <div className="w-full flex justify-center bg-yellowCustom">
 
-                <div className="bg-white overViewButton my-[50px] w-[1400px] rounded-[30px] pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10">
+                <div className="bg-white overViewButton my-[50px] w-[1100px] rounded-[30px] pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10">
 
-                    <div className="flex justify-center items-center h-[400px] space-x-[300px] max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-y-5 max-mdCustom:h-auto max-mdCustom:mt-[50px] max-mdCustom:items-center max-smCustom:space-x-0 max-smCustom:mx-10">
+                    <div className="flex justify-center items-center h-[400px] space-x-[100px] max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-y-5 max-mdCustom:h-auto max-mdCustom:mt-[50px] max-mdCustom:items-center max-smCustom:space-x-0 max-smCustom:mx-10">
 
                         <img 
                             src='/Services/Website_Development.png'
@@ -90,7 +90,7 @@ const Web_App_Development = () => {
 
             <div className="w-full my-20 flex justify-center bg-greenCustom">
 
-                <div className="overViewButton bg-white my-[50px] w-[1400px] rounded-2xl pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10  max-smCustom:space-x-0">
+                <div className="overViewButton bg-white my-[50px] w-[1100px] rounded-2xl pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10  max-smCustom:space-x-0">
 
                     <div className="space-y-10 mt-10 mx-20 max-smCustom:mx-5">
 

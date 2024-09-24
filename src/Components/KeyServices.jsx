@@ -137,7 +137,7 @@ const KeyServices = () => {
                         serviceHeading={(
                             <>
                             
-                            Whatsapp API Solutions
+                            Whatsapp API Management
 
                             </>
                         )}
@@ -159,7 +159,7 @@ const KeyServices = () => {
                         serviceHeading={(
                             <>
                             
-                            Call Engagning Solutions
+                            Call Engaging Solutions
 
                             </>
                         )}

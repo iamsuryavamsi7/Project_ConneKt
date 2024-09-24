@@ -19,7 +19,7 @@ const Web_Design_Service = () => {
 
             <NavBar /> 
         
-            <div className="pt-[100px] w-full text-center">
+            <div className="py-[70px] w-full text-center">
 
                 <div className=" inline-block px-5 py-2 rounded-[30px] text-[30px] max-smCustom:text-[25px] font-semibold font-montSerrat mt-[50px] max-smCustom:mt-[0px] relative">
 
@@ -36,9 +36,9 @@ const Web_Design_Service = () => {
 
             <div className="w-full flex justify-center bg-yellowCustom ">
 
-                <div className="my-[50px] overViewButton bg-white w-[1400px] rounded-[30px] pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10">
+                <div className="my-[50px] overViewButton bg-white w-[1100px] rounded-[30px] pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10">
 
-                    <div className=" flex justify-center items-center h-[400px] space-x-[300px] max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-y-5 max-mdCustom:h-auto max-mdCustom:mt-[50px] max-mdCustom:items-center max-smCustom:space-x-0 max-smCustom:mx-10">
+                    <div className=" flex justify-center items-center h-[400px] space-x-[100px] max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-y-5 max-mdCustom:h-auto max-mdCustom:mt-[50px] max-mdCustom:items-center max-smCustom:space-x-0 max-smCustom:mx-10">
 
                         <img 
                             src='/Services/Website_Desigining.png'
@@ -145,7 +145,7 @@ const Web_Design_Service = () => {
 
             <div className="w-full bg-greenCustom my-20 flex justify-center">
 
-                <div className="overViewButton bg-white my-[50px] w-[1400px] rounded-[30px] pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10  max-smCustom:space-x-0">
+                <div className="overViewButton bg-white my-[50px] w-[1100px] rounded-[30px] pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10  max-smCustom:space-x-0">
 
                     <div className="space-y-10 mt-10 mx-20 max-smCustom:mx-5">
 
