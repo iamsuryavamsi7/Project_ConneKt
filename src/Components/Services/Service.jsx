@@ -26,7 +26,7 @@ const Service = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
     return (
 
-        <div className="service flex justify-around bg-white rounded-[30px] py-16 items-center max-mdCustom:block max-mdCustom:px-[100px] max-smCustom:px-[40px] max-smCustom:mx-10 max-smCustom:py-7 space-x-10 px-10 max-mdCustom:space-x-0">
+        <div className="service flex justify-around bg-white rounded-[30px] py-16 items-center max-mdCustom:block max-mdCustom:px-[30px] max-smCustom:px-[40px] max-smCustom:mx-10 max-smCustom:py-7 space-x-10 px-10 max-mdCustom:space-x-0">
 
             <div className="max-mdCustom:flex max-mdCustom:justify-center">
 
