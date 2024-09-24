@@ -7,7 +7,7 @@ const Web_App_Maintenance = () => {
 
     useEffect(() => {
 
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 0); 
 
     }, []);
 
@@ -17,7 +17,7 @@ const Web_App_Maintenance = () => {
 
             <NavBar /> 
         
-            <div className="pt-[100px] w-full text-center">
+            <div className="py-[70px] w-full text-center">
 
                 <div className=" inline-block px-5 py-2 rounded-[30px] text-[30px] max-smCustom:text-[25px] font-semibold font-montSerrat mt-[50px] max-smCustom:mt-[0px] relative">
 
@@ -44,7 +44,7 @@ const Web_App_Maintenance = () => {
                         />
 
                         <p
-                            className='font-bold font-montSerrat text-[48px] w-[500px] max-smCustom:w-full max-mdCustom:relative right-[140px] max-smCustom:text-[22px] max-smCustom:static'
+                            className='font-bold font-montSerrat text-[30px] w-[500px] max-smCustom:w-full max-mdCustom:relative right-[140px] max-smCustom:text-[18px] max-smCustom:static'
                         >
 
                             Website & Web App Maintenance <br />
@@ -64,7 +64,7 @@ const Web_App_Maintenance = () => {
                     <div className="space-y-10 mt-10 mx-20 max-smCustom:mx-5">
 
                         <p
-                            className=' max-smCustom:text-[16px] font-inknutAntiqua text-[22px]'
+                            className=' max-smCustom:text-[16px] font-inknutAntiqua text-[18px]'
                         >
 
                             Once your website or web app is live, our job isn’t done. We offer comprehensive maintenance services to ensure that everything runs smoothly and securely. Think of us as your digital caretakers, always on standby to tackle any issues and keep your online presence in top shape. <br /><br />
@@ -97,7 +97,7 @@ const Web_App_Maintenance = () => {
 
                             <span
                                 className='font-bold font-montSerrat'
-                            >2. Performance Monitoring:</span>
+                            >2. Performance Monitoring: </span>
 
                             What We Do: We regularly assess the speed and performance of your website or app to identify areas for improvement.
 
@@ -176,23 +176,23 @@ const Web_App_Maintenance = () => {
                         </p>
 
                         <p
-                            className='text-[22px] max-smCustom:text-[14px] font-inknutAntiqua'
+                            className='text-[18px] max-smCustom:text-[14px] font-inknutAntiqua'
                         >
 
                         
-                            Proactive Monitoring: Keeping an eye on your site around the clock.
+                            <b className='font-montSerrat'>Proactive Monitoring:</b> Keeping an eye on your site around the clock.
 
                             <br /><br />
 
-                            Timely Updates: Ensuring everything stays current and secure.
+                            <b className='font-montSerrat'>Timely Updates:</b> Ensuring everything stays current and secure.
 
                             <br /><br />
 
-                            User-Centric Approach: Focusing on what matters most to your users.
+                            <b className='font-montSerrat'>User-Centric Approach:</b> Focusing on what matters most to your users.
 
                             <br /><br />
 
-                            Transparent Communication: Regular updates on what we’re doing and why it matters.
+                            <b className='font-montSerrat'> Transparent Communication: </b> Regular updates on what we’re doing and why it matters.
 
                             <br /><br />
 
