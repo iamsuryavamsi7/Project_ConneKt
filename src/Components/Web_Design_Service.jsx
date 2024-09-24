@@ -150,7 +150,7 @@ const Web_Design_Service = () => {
                     <div className="space-y-10 mt-10 mx-20 max-smCustom:mx-5">
 
                         <p
-                            className='text-[22px] font-semibold font-montSerrat'
+                            className='text-[22px] font-semibold font-montSerrat' 
                         >
 
                             Our recipe for Website & Web App Design:
