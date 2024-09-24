@@ -397,7 +397,7 @@ const NavBar = () => {
 
                                     if ( navBar.style.height === '320px' ) {
 
-                                        navBar.style.height = '350px';
+                                        navBar.style.height = '380px';
 
                                         serviceDropDown.style.height = '300px';
 
