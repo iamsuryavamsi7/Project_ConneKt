@@ -60,7 +60,8 @@ const Web_App_Development = () => {
 
                     <div className="bg-white overViewButton my-[50px] w-[1100px] rounded-[30px] pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10">
 
-                        <div className="flex justify-center items-center h-[400px] space-x-[100px] max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-y-5 max-mdCustom:h-auto max-mdCustom:mt-[50px] max-mdCustom:items-center max-smCustom:space-x-0 max-smCustom:mx-10">
+                        <div className="flex justify-center items-center h-[400px] space-x-[100px]
+                        max-mdCustom:space-x-0 max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-y-5 max-mdCustom:h-auto max-mdCustom:mt-[50px] max-mdCustom:items-center max-smCustom:space-x-0 max-smCustom:mx-10">
 
                             <img 
                                 src='/Services/Website_Development.png'
@@ -68,7 +69,7 @@ const Web_App_Development = () => {
                             />
 
                             <p
-                                className='font-bold font-montSerrat text-[30px] w-[500px] max-mdCustom:relative right-[140px] max-smCustom:text-[18px] max-smCustom:static max-smCustom:w-full'
+                                className='font-bold font-montSerrat text-[30px] w-[500px] max-mdCustom:w-full max-smCustom:w-full max-smCustom:text-[18px] max-smCustom:static max-mdCustom:text-center'
                             >
 
                                     Website & Web App Development<br />
