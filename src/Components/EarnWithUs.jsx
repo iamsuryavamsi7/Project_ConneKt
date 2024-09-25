@@ -249,13 +249,13 @@ const EarnWithUs = () => {
 
                                 Payment Terms: Commisions are paid with in a week after receive full and final payment from the client. <br/><br/>
 
-                                Project Eligibility: Only projects worth over ₹12,000 qualify for the affiliate program. <br/><br/>
+                                Project Eligibility: Only projects worth over ₹25,000 qualify for the affiliate program. <br/><br/>
 
                                 Ethics: We reserve the right to reject any of your referrals if they don't align with values or terms                       
 
                             </div>
 
-                            <div className="whoAreWe1 text-[15px] leading-7 max-smCustom:leading-6 text-center bg-sky-100 py-10 px-10 rounded-[30px] *:font-inknutAntiqua">
+                            <div className="whoAreWe1 text-[15px] leading-7 max-smCustom:leading-6 text-center bg-sky-100 py-10 px-10 rounded-[30px] font-inknutAntiqua">
 
                                 <div className="font-montSerrat bg-sky-300 px-3 py-[7px] rounded-2xl text-center mb-3 ">
 
@@ -272,18 +272,17 @@ const EarnWithUs = () => {
 
                                 </div>
 
-                                1. How do I know if my referral was successful?<br />
+                                <span className='font-bold'>
+                                1. How do I know if my referral was successful?<br /></span>
 
-                                A) We’ll notify you via email <span className='font-montSerrat'>&</span> WhatsApp once a project is confirmed.<br /><br />
-
-
-                                2. When will I get paid? 
-
-                                A) Payments are made after we receive complete payment from the client. <br /><br />
+                                A) We’ll notify you via email and WhatsApp once a project is confirmed.<br /><br/>
 
 
+                                <span className='font-bold'>2. When will I get paid?</span><br/>
 
-                                3. What types of projects qualify for commissions? <br />
+                                A) Payments are made after we receive complete payment from the client. <br /><br/>
+
+                                <span className='font-bold'>3. What types of projects qualify for commissions?</span> <br />
 
                                 A) Any project worth over ₹25,000 qualifies for our affiliate program. <br /><br />
 
