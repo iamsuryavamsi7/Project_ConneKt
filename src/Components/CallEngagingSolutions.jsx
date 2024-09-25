@@ -94,53 +94,53 @@ const CallEngagingSolutions = () => {
 
                             In today's fast-paced world, effective communication is key to building strong relationships with your customers. Our Call Engagement Solutions are designed to enhance your communication strategy, making interactions seamless and impactful. <br /><br />
 
-                            <span className='font-montSerrat font-bold'>Why Call Engagement Matters:</span> <br/><br/>Engaging with your customers through effective communication not only boosts brand loyalty but also increases conversion rates. Our solutions ensure that your messages reach the right audience in the most engaging manner. <br /><br />
+                            <span className='font-montSerrat font-bold max-smCustom:text-[18px]'>Why Call Engagement Matters:</span> <br/><br/>Engaging with your customers through effective communication not only boosts brand loyalty but also increases conversion rates. Our solutions ensure that your messages reach the right audience in the most engaging manner. <br /><br />
 
                             <span
-                                className='font-bold font-montSerrat'
+                                className='font-bold font-montSerrat max-smCustom:text-[18px]'
                             >
 
                                 What We Offer: <br /><br />
 
                             </span>
 
-                            <b className=' font-montSerrat'>1. Telemarketing with Audio: </b><br /><br />
+                            <b className=' font-montSerrat max-smCustom:text-[18px] font-semibold'>1. Telemarketing with Audio: </b><br /><br />
 
-                            <b className=' font-montSerrat font-semibold text-[20px]'>What We Do: </b><br/><br/> We create and deliver audio messages for business offers, promotions, and important announcements. 
-
-                            <br /><br />
-
-                            <b className=' font-montSerrat font-semibold text-[20px]'>Why It Matters: </b><br/><br/>Engaging audio captures attention, making your communications more memorable and effective. <br /><br />
-
-
-
-                            <b className=' font-montSerrat'>2. Huge Call Conferences: </b><br /><br />
-
-                            <b className=' font-montSerrat font-semibold text-[20px]'>What We Do: </b><br/><br/>We facilitate large-scale call conferences, enabling you to connect with multiple participants efficiently. 
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>What We Do: </b><br/><br/> We create and deliver audio messages for business offers, promotions, and important announcements. 
 
                             <br /><br />
 
-                            <b className=' font-montSerrat font-semibold text-[20px]'>Why It Matters: </b><br/><br/>This feature is perfect for team meetings, client presentations, and collaborative discussions, ensuring everyone stays informed. <br /><br />
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>Why It Matters: </b><br/><br/>Engaging audio captures attention, making your communications more memorable and effective. <br /><br />
 
 
 
-                            <b className=' font-montSerrat'>3. Interactive Voice Response System (IVRS) Services: </b><br /><br />
+                            <b className=' font-montSerrat max-smCustom:text-[18px] font-semibold' >2. Huge Call Conferences: </b><br /><br />
 
-                            <b className=' font-montSerrat font-semibold text-[20px]'>What We Do: </b><br/><br/>We implement IVRS solutions that allow customers to navigate your services through voice prompts. 
-
-                            <br /><br />
-
-                            <b className=' font-montSerrat font-semibold text-[20px]'>Why It Matters: </b><br/><br/>IVRS enhances customer experience by providing quick access to information, reducing wait times and improving satisfaction. <br /><br />
-
-
-
-                            <b className=' font-montSerrat'>4. Bulk SMS Campaigns: </b><br /><br />
-
-                            <b className=' font-montSerrat font-semibold text-[20px]'>What We Do: </b><br/><br/>We manage bulk SMS services to send out promotions, updates, and essential announcements to your audience. 
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>What We Do: </b><br/><br/>We facilitate large-scale call conferences, enabling you to connect with multiple participants efficiently. 
 
                             <br /><br />
 
-                            <b className=' font-montSerrat font-semibold text-[20px]'>Why It Matters: </b><br/><br/>SMS campaigns have a high open rate, ensuring your messages reach customers directly and promptly. <br /><br />
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>Why It Matters: </b><br/><br/>This feature is perfect for team meetings, client presentations, and collaborative discussions, ensuring everyone stays informed. <br /><br />
+
+
+
+                            <b className=' font-montSerrat max-smCustom:text-[18px] font-semibold'>3. Interactive Voice Response System (IVRS) Services: </b><br /><br />
+
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>What We Do: </b><br/><br/>We implement IVRS solutions that allow customers to navigate your services through voice prompts. 
+
+                            <br /><br />
+
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>Why It Matters: </b><br/><br/>IVRS enhances customer experience by providing quick access to information, reducing wait times and improving satisfaction. <br /><br />
+
+
+
+                            <b className=' font-montSerrat max-smCustom:text-[18px] font-semibold'>4. Bulk SMS Campaigns: </b><br /><br />
+
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>What We Do: </b><br/><br/>We manage bulk SMS services to send out promotions, updates, and essential announcements to your audience. 
+
+                            <br /><br />
+
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>Why It Matters: </b><br/><br/>SMS campaigns have a high open rate, ensuring your messages reach customers directly and promptly. <br /><br />
 
                         </p>
 
