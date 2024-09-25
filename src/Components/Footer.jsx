@@ -14,17 +14,11 @@ const Footer = () => {
 
         e.preventDefault();
 
-        const navigationFunction = setInterval(() => {
+        setTimeout(() => {
 
             navigate(url);
 
         }, 300);
-
-        setTimeout(() => {
-
-            clearInterval(navigationFunction);
-
-        }, 400);
 
     }
 
@@ -32,17 +26,11 @@ const Footer = () => {
 
         e.preventDefault();
 
-        const navigationFunction = setInterval(() => {
+        setTimeout(() => {
 
             window.open(url, '_blank');
 
         }, 300);
-
-        setTimeout(() => {
-
-            clearInterval(navigationFunction);
-
-        }, 400);
 
     }
 
@@ -106,7 +94,7 @@ const Footer = () => {
                 {!isDesktop && (
 
                     <img 
-                        src='/CTA/CTA.webp'
+                        src='/CTA/CTA.webp' 
                         
                         className='w-full h-[200px] max-smCustom:h-[150px] object-cover absolute z-0 footerVideo'
                     />
@@ -210,10 +198,13 @@ const Footer = () => {
 
                             <BsFacebook 
                                 className='text-[40px] hover:text-blue-600  text-white transition-all duration-[400ms] ml-1 hover:text-[50px] cursor-pointer'
+                                onClick={(e, url) => footerIconsFunction(e, 'https://www.facebook.com/connekt.in.official')}
+                                
                             />
 
                             <FaYoutube 
                                 className='text-[40px] hover:text-red-600  text-white transition-all duration-[400ms] ml-1 hover:text-[50px] cursor-pointer'
+                                onClick={(e, url) => footerIconsFunction(e, 'https://www.youtube.com/@connekt_in')}
                             />
 
                         </div>
@@ -222,10 +213,12 @@ const Footer = () => {
 
                             <IoLogoLinkedin 
                                 className='text-[45px]  hover:text-blue-400 rounded-xl transition-all duration-[400ms] hover:text-[50px] cursor-pointer'
+                                onClick={(e, url) => footerIconsFunction(e, 'https://www.linkedin.com/company/connekt-in/posts/?feedView=all')}
                             />
 
                             <FaSquareXTwitter 
                                 className='text-[40px] hover:text-black  text-white hover:bg-white hover:rounded-xl transition-all duration-[400ms] ml-1 hover:text-[50px] cursor-pointer'
+                                onClick={(e, url) => footerIconsFunction(e, 'https://x.com/connekt_in?t=0dnyy67rz7nbSPrUHdoRtQ&s=08')}
                             />
 
                         </div>
