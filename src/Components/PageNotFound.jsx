@@ -36,7 +36,7 @@ const PageNotFound = () => {
 
                         <img 
                             src='/Error/space.png'
-                            loading='lazy' 
+                            
                         />
 
                     </div>

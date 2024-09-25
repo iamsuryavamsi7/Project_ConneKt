@@ -214,7 +214,7 @@ const NavBar = () => {
 
                 <img
                     src={chatBox} 
-                    loading='lazy'
+                    
                     className='h-[50px] w-auto rounded-block2xl cursor-pointer animate-bounce'
                     onClick={(e) => chatBoxFunction(e)}
                 />
@@ -240,7 +240,7 @@ const NavBar = () => {
 
                         <img
                             src='/Nav_Bar/chat_with_us.webp' 
-                            loading='lazy'
+                            
                             className='chatBoxImage h-[50px] max-smCustom:h-[40px] w-auto rounded-2xl cursor-text'
                         />
 
@@ -289,7 +289,7 @@ const NavBar = () => {
                         max-smCustom:animate-none cursor-pointer max-smCustom:w-[150px] max-smCustom:h-[30px]'
                         src='/Nav_Bar/Connekt_Logo.webp'
                         alt='Company Logo'
-                        loading='lazy'
+                        
                         onClick={(e) => companyLogoFunction(e)}
                     />
 

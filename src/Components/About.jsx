@@ -69,7 +69,7 @@ const About = () => {
 
                                 <img 
                                     src='/Common/green-right.webp'
-                                    loading='lazy'
+                                    
                                     className='absolute h-[50px] w-auto top-[-23px] right-[-40px] green_image'
                                 />
 
@@ -105,7 +105,7 @@ const About = () => {
 
                                     <img 
                                         src='/About/gokul.webp'
-                                        loading='lazy'
+                                        
                                         className='w-[350px] max-smCustom:w-[150px] h-auto'
                                     /> 
 
@@ -146,7 +146,7 @@ const About = () => {
 
                                     <img 
                                         src='/About/surya.webp'
-                                        loading='lazy'
+                                        
                                         className='w-[360px] h-auto max-smCustom:w-[155px] max-smCustom:h-[150px]'
                                     />
 

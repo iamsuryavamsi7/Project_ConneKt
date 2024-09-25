@@ -107,7 +107,7 @@ const Footer = () => {
 
                     <img 
                         src='/CTA/CTA.webp'
-                        loading='lazy'
+                        
                         className='w-full h-[200px] max-smCustom:h-[150px] object-cover absolute z-0 footerVideo'
                     />
 
@@ -133,7 +133,7 @@ const Footer = () => {
 
                     <img 
                         src='/Footer/Footer_Logo.webp'
-                        loading='lazy'
+                        
                         className='w-[250px] h-[80px] rounded-xl hover:w-[270px] hover:h-[90px] max-smCustom:hover:w-[140px] max-smCustom:hover:h-[40px] transition-all duration-300 max-smCustom:w-[140px] max-smCustom:h-[40px] '
                     />
                     

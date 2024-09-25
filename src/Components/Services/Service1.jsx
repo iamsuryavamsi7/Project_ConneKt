@@ -93,7 +93,6 @@ const Service1 = ({serviceHeading, serviceDesc, imgSrc, diveIn}) => {
 
                 <img 
                     src={`${imgSrc}`}
-                    loading='lazy'
                     className='w-[400px] transition-all duration-300'
                 />
 
