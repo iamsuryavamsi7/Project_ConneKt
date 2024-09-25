@@ -1,0 +1,16 @@
+.bioName{
+    font-family: 'Roboto Slab';
+}
+
+.imgLayer1{
+    background-image: url('/public/Surya/key.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width: 600px) {
+    .imgLayer1{
+        background-size: auto;
+    }
+}
