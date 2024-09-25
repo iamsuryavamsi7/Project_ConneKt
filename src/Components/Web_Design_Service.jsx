@@ -190,57 +190,57 @@ const Web_Design_Service = () => {
 
                                 <span className='text-[20px] font-montSerrat font-bold'>1. Discovery & Research:</span> <br /> <br />
 
-                                What We Do: We start by getting to know your business, your goals, and your target audience. This involves discussions, questionnaires, and market research.
+                                <span className='font-semibold'>What We Do:</span> We start by getting to know your business, your goals, and your target audience. This involves discussions, questionnaires, and market research.
 
-                                Why It's Important: Understanding your brand and audience ensures that the design resonates with your potential customers and meets your business objectives. <br /><br />
+                                <br/><br/><span className='font-semibold'>Why it's Important:</span> Understanding your brand and audience ensures that the design resonates with your potential customers and meets your business objectives. <br /><br />
 
 
                                 <span className='text-[20px] font-montSerrat font-bold'>2. Planning & Strategy: <br /> <br /></span>
 
-                                What We Do: We create a sitemap and wireframes – the blueprint of your website or web app. This outlines the structure, layout, and flow of each page or screen.
+                                <span className='font-semibold'>What We Do:</span> We create a sitemap and wireframes – the blueprint of your website or web app. This outlines the structure, layout, and flow of each page or screen.
 
-                                Why It's Important: This step ensures a logical and user-friendly layout, making navigation smooth and intuitive for your users.
+                                <br/><br/><span className='font-semibold'>Why it's Important:</span> This step ensures a logical and user-friendly layout, making navigation smooth and intuitive for your users.
 
                                 <br /> <br />
 
                                 <span className='text-[20px] font-montSerrat font-bold'>3. Design Mockups: <br /> <br /></span>
 
-                                What We Do: We craft visual mockups based on the wireframes, incorporating your branding elements like colors, fonts, and logos. You'll get to see how your website or app will look before we start building it.
+                                <span className='font-semibold'>What We Do:</span> We craft visual mockups based on the wireframes, incorporating your branding elements like colors, fonts, and logos. You'll get to see how your website or app will look before we start building it.
 
-                                Why It's Important: This is where creativity shines. We aim to create a visually appealing design that aligns with your brand identity while ensuring it's engaging for your audience.
+                                <br/><br/><span className='font-semibold'>Why it's Important:</span> This is where creativity shines. We aim to create a visually appealing design that aligns with your brand identity while ensuring it's engaging for your audience.
 
                                 <br /> <br />
 
                                 <span className='text-[20px] font-montSerrat font-bold'>4. Feedback & Revisions:</span> <br /> <br />
 
-                                What We Do: We present the mockups to you and gather your feedback. Based on your input, we make necessary revisions to ensure the design meets your vision.
+                                <span className='font-semibold'>What We Do:</span> We present the mockups to you and gather your feedback. Based on your input, we make necessary revisions to ensure the design meets your vision.
 
-                                Why It's Important: Collaboration is key. Your feedback helps us fine-tune the design to reflect your brand perfectly.
+                                <br/><br/><span className='font-semibold'>Why it's Important:</span> Collaboration is key. Your feedback helps us fine-tune the design to reflect your brand perfectly.
 
 
                                 <br /> <br />
 
                                 <span className='text-[20px] font-montSerrat font-bold'>5. Responsive Design:</span> <br /> <br />
 
-                                What We Do: We ensure that the design adapts seamlessly to different devices, whether it’s a desktop, tablet, or smartphone.
+                                <span className='font-semibold'>What We Do:</span> We ensure that the design adapts seamlessly to different devices, whether it’s a desktop, tablet, or smartphone.
 
-                                Why It's Important: A significant portion of users will access your site on mobile devices. A responsive design provides a consistent experience across all platforms.
+                                <br/><br/><span className='font-semibold'>Why it's Important:</span> A significant portion of users will access your site on mobile devices. A responsive design provides a consistent experience across all platforms.
 
                                 <br /><br />
 
                                 <span className='text-[20px] font-montSerrat font-bold'>6. User Interface (UI) & User Experience (UX) Optimization:</span> <br /> <br />
 
-                                What We Do: We focus on the details – button placements, forms, calls-to-action, and more – to enhance usability and engagement.
+                                <span className='font-semibold'>What We Do:</span> We focus on the details – button placements, forms, calls-to-action, and more – to enhance usability and engagement.
 
-                                Why It's Important: A great UI/UX ensures that visitors can navigate the site effortlessly, increasing their chances of taking the desired action (like contacting you or making a purchase). <br /><br />
+                                <br/><br/><span className='font-semibold'>Why it's Important:</span> A great UI/UX ensures that visitors can navigate the site effortlessly, increasing their chances of taking the desired action (like contacting you or making a purchase). <br /><br />
 
 
 
                                 <span className='text-[20px] font-montSerrat font-bold'>7. Design Handoff to Development:</span> <br /><br/>
 
-                                What We Do: Once the design is finalized, we prepare all the design assets and specifications to hand off to the development phase.
+                                <span className='font-semibold'>What We Do:</span> Once the design is finalized, we prepare all the design assets and specifications to hand off to the development phase.
 
-                                Why It's Important: A smooth handoff ensures that the development team can accurately bring the design to life, maintaining the quality and vision throughout the build process.
+                                <br/><br/><span className='font-semibold'>Why it's Important:</span> A smooth handoff ensures that the development team can accurately bring the design to life, maintaining the quality and vision throughout the build process.
 
                             </p>
 

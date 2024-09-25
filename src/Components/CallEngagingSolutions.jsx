@@ -94,7 +94,7 @@ const CallEngagingSolutions = () => {
 
                             In today's fast-paced world, effective communication is key to building strong relationships with your customers. Our Call Engagement Solutions are designed to enhance your communication strategy, making interactions seamless and impactful. <br /><br />
 
-                            Why Call Engagement Matters: Engaging with your customers through effective communication not only boosts brand loyalty but also increases conversion rates. Our solutions ensure that your messages reach the right audience in the most engaging manner. <br /><br />
+                            <span className='font-montSerrat font-bold'>Why Call Engagement Matters:</span> <br/><br/>Engaging with your customers through effective communication not only boosts brand loyalty but also increases conversion rates. Our solutions ensure that your messages reach the right audience in the most engaging manner. <br /><br />
 
                             <span
                                 className='font-bold font-montSerrat'
@@ -168,7 +168,7 @@ const CallEngagingSolutions = () => {
                             className='text-[18px] max-smCustom:text-[14px] font-inknutAntiqua'
                         >
 
-                            <b className=' font-montSerrat'>ging Content: </b>We craft compelling audio messages that resonate with your audience. <br /><br />
+                            <b className=' font-montSerrat'>Engaging Content: </b>We craft compelling audio messages that resonate with your audience. <br /><br />
 
                             <b className=' font-montSerrat'>Seamless Coordination: </b>Our solutions ensure smooth communication during conferences and calls. <br /><br />
 

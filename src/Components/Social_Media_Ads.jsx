@@ -107,14 +107,10 @@ const Social_Media_Ads = () => {
 
                             <b className=' font-montSerrat'>5. Account Maintenance: </b>Staying active and engaging with your followers like a pro.<br /><br />
 
-                            <b className=' font-montSerrat'>6. Boosting Engagement: </b>Creative efforts to spark conversations and build a loyal community.<br ></br>
+                            <b className=' font-montSerrat'>6. Boosting Engagement: </b>Creative efforts to spark conversations and build a loyal community.<br ></br><br/>
 
 
-                            <b className='font-montSerrat'>Ads for that Extra Punch<br /><br />
-
-                            And guess what?<br /><br /> 
-                            
-                            We also rock at: <br /><br /></b>
+                            <b className='font-montSerrat'>And guess what? We also rock at: </b> <br /><br />
 
                             <b className=' font-montSerrat'>Targeted Advertising: </b>Need a boost? We’ll implement eye-catching ads on Meta and Google to help you  reach even more folks! <br /><br />
 

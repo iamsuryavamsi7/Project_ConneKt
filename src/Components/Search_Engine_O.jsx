@@ -156,6 +156,8 @@ const Search_Engine_O = () => {
 
                             <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b>We implement strategies to earn quality backlinks from reputable websites.
 
+                            <br/><br/>
+
                             <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b> Backlinks improve your site's authority and credibility, which can significantly enhance your search rankings.
 
                             <br /><br />

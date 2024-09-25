@@ -94,7 +94,7 @@ const Web_App_Maintenance = () => {
 
                             Once your website or web app is live, our job isn’t done. We offer comprehensive maintenance services to ensure that everything runs smoothly and securely. Think of us as your digital caretakers, always on standby to tackle any issues and keep your online presence in top shape. <br /><br />
 
-                            Why Maintenance Matters: Regular maintenance is crucial for performance, security, and user satisfaction. Just like a car needs regular servicing, your website or web app requires consistent care to function optimally and protect against potential threats.
+                            <span className='font-montSerrat font-bold'>Why Maintenance Matters:</span><br/><br/> Regular maintenance is crucial for performance, security, and user satisfaction. Just like a car needs regular servicing, your website or web app requires consistent care to function optimally and protect against potential threats.
 
                             <br /><br />
 
@@ -110,11 +110,11 @@ const Web_App_Maintenance = () => {
 
                             <span
                                 className='font-bold font-montSerrat'
-                            >1. Bug Fixes: </span>
+                            >1. Bug Fixes: </span><br/><br/>
 
-                            What We Do: We monitor your website or app for any bugs or glitches and resolve them promptly.
+                            <span className='font-semibold'>What We Do:</span> We monitor your website or app for any bugs or glitches and resolve them promptly.
 
-                            Why It Matters: Quick fixes ensure a seamless experience for your users, preventing frustration and keeping your reputation intact.
+                            <br/><br/><span className='font-semibold'>Why it mattters:</span> Quick fixes ensure a seamless experience for your users, preventing frustration and keeping your reputation intact.
 
                             <br /><br />
 
@@ -122,61 +122,61 @@ const Web_App_Maintenance = () => {
 
                             <span
                                 className='font-bold font-montSerrat'
-                            >2. Performance Monitoring: </span>
+                            >2. Performance Monitoring: </span><br/><br/>
 
-                            What We Do: We regularly assess the speed and performance of your website or app to identify areas for improvement.
+                            <span className='font-semibold'>What We Do:</span> We regularly assess the speed and performance of your website or app to identify areas for improvement.
 
-                            Why It Matters: Faster loading times lead to better user experiences and improved search engine rankings.
-
-                            <br /><br />
-
-                            <span
-                                className='font-bold font-montSerrat'
-                            >3. Security Updates: </span>
-
-                            What We Do: We implement necessary security patches and updates to protect your site from vulnerabilities.
-
-                            Why It Matters: Keeping your site secure safeguards your data and builds trust with your users.
+                            <br/><br/><span className='font-semibold'>Why it mattters:</span> Faster loading times lead to better user experiences and improved search engine rankings.
 
                             <br /><br />
 
                             <span
                                 className='font-bold font-montSerrat'
-                            >4. Content Updates: </span>
+                            >3. Security Updates: </span><br/><br/>
 
-                            What We Do: We help you keep your content fresh and relevant, whether it’s adding new blog posts, images, or product information.
+                            <span className='font-semibold'>What We Do:</span> We implement necessary security patches and updates to protect your site from vulnerabilities.
 
-                            Why It Matters: Regularly updated content engages users and boosts your SEO performance.
+                            <br/><br/><span className='font-semibold'>Why it mattters:</span> Keeping your site secure safeguards your data and builds trust with your users.
+
+                            <br /><br />
+
+                            <span
+                                className='font-bold font-montSerrat'
+                            >4. Content Updates: </span><br/><br/>
+
+                            <span className='font-semibold'>What We Do:</span> We help you keep your content fresh and relevant, whether it’s adding new blog posts, images, or product information.
+
+                            <br/><br/><span className='font-semibold'>Why it mattters:</span> Regularly updated content engages users and boosts your SEO performance.
 
                             <br /><br />
 
                             <span
                                 className='font-bold font-montSerrat'
                             >5. Server & Network Maintenance: </span>
+<br/><br/>
+                            <span className='font-semibold'>What We Do:</span> We handle server configurations, backups, and monitor network health to ensure everything runs smoothly.
 
-                            What We Do: We handle server configurations, backups, and monitor network health to ensure everything runs smoothly.
-
-                            Why It Matters: A reliable server and network connection are crucial for maintaining uptime and ensuring your site is accessible at all times.
+                            <br/><br/><span className='font-semibold'>Why it mattters:</span> A reliable server and network connection are crucial for maintaining uptime and ensuring your site is accessible at all times.
 
                             <br /><br />
 
                             <span
                                 className='font-bold font-montSerrat'
                             >6. User Experience Improvements: </span>
+<br/><br/>
+                            <span className='font-semibold'>What We Do:</span> Based on user feedback and analytics, we suggest and implement enhancements to improve usability.
 
-                            What We Do: Based on user feedback and analytics, we suggest and implement enhancements to improve usability.
-
-                            Why It Matters: A better user experience leads to higher satisfaction and retention rates.
+                            <br/><br/><span className='font-semibold'>Why it mattters:</span> A better user experience leads to higher satisfaction and retention rates.
 
                             <br /><br />
 
                             <span
                                 className='font-bold font-montSerrat'
                             >7. Analytics Reporting: </span>
+<br/><br/>
+                            <span className='font-semibold'>What We Do:</span>We provide regular reports on site performance, user behavior, and other key metrics.
 
-                            What We Do: We provide regular reports on site performance, user behavior, and other key metrics.
-
-                            Why It Matters: Understanding how your site is performing helps you make informed decisions for future improvements.
+                            <br/><br/><span className='font-semibold'>Why it mattters:</span> Understanding how your site is performing helps you make informed decisions for future improvements.
 
                         </p>
 

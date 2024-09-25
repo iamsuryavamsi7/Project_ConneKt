@@ -94,7 +94,7 @@ const WA_Solutions = () => {
 
                             In today's fast-paced digital world, effective communication with your customers is crucial. Our WhatsApp API Management service empowers your business to connect seamlessly with your audience, ensuring that you stay relevant and responsive.<br /><br />
 
-                            Why WhatsApp API Matters: WhatsApp is one of the most widely used messaging platforms globally, providing a direct channel to engage with customers. With the WhatsApp API, businesses can automate communication, manage customer inquiries, and send bulk messages efficiently, enhancing customer satisfaction and engagement. <br /><br />
+                            <span className='font-montSerrat font-bold'>Why WhatsApp API Matters:</span><br /><br /> WhatsApp is one of the most widely used messaging platforms globally, providing a direct channel to engage with customers. With the WhatsApp API, businesses can automate communication, manage customer inquiries, and send bulk messages efficiently, enhancing customer satisfaction and engagement. <br /><br />
 
                             <span
                                 className='font-bold font-montSerrat'
@@ -132,19 +132,21 @@ const WA_Solutions = () => {
 
                             <b className=' font-montSerrat'>What We Do: </b>We help you set up bulk messaging capabilities, allowing you to send promotional messages, updates, and alerts to multiple customers simultaneously.
 
-                            Why It Matters: Bulk messaging ensures that your audience stays informed, driving engagement and conversions. <br /><br />
+                            <br/><br/>
+
+                            <span className='font-bold font-montSerrat'>Why It Matters:</span> Bulk messaging ensures that your audience stays informed, driving engagement and conversions. <br /><br />
 
 
 
                             <b className=' font-montSerrat'>5. Personalized Messaging Campaigns: </b><br/><br/>
 
-                            What We Do: We design personalized messaging strategies tailored to different customer segments, enhancing relevance and engagement.
+                            <b className='font-montSerrat'>What We Do:</b> We design personalized messaging strategies tailored to different customer segments, enhancing relevance and engagement.<br/><br/>
 
-                            Why It Matters: Personalized communication increases the likelihood of customer interaction and loyalty. <br /><br />
+                            <b className='font-montSerrat'>Why It Matters: </b> Personalized communication increases the likelihood of customer interaction and loyalty. <br /><br />
 
 
 
-                            <b className=' font-montSerrat'>6. Analytics & Reporting: </b>
+                            <b className=' font-montSerrat'>6. Analytics & Reporting: </b><br/><br/>
 
                             <b className=' font-montSerrat'>What We Do: </b>We provide detailed analytics and reports on message delivery, engagement rates, and customer interactions to measure campaign effectiveness. <br/><br/>
 
