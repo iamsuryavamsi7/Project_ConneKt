@@ -62,7 +62,7 @@ const WA_Solutions = () => {
                     <div className=" flex justify-center items-center h-[400px] space-x-[100px] max-mdCustom:space-x-0 max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-y-5 max-mdCustom:h-auto max-mdCustom:mt-[50px] max-mdCustom:items-center max-smCustom:space-x-0 max-smCustom:mx-10">
 
                         <img 
-                            src='/Services/Website_Desigining.webp'
+                            src='/Services/Whatsapp_API.webp'
                             className='w-[400px] max-mdCustom:mx-auto transition-all duration-300'
                            
                         />
