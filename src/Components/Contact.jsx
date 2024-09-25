@@ -158,7 +158,7 @@ const Contact = () => {
                             <img 
                                 className='w-[50px] h-[50px] absolute right-[-30px] top-[-28px] green_image'
                                 loading='lazy'
-                                src='/Common/pale_blue_right.png'
+                                src='/Common/pale_blue_right.webp'
                             />
 
                     </div>

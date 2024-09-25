@@ -27,7 +27,7 @@ const KeyServices = () => {
 
                     <Service 
                         diveIn={'/dive-in/web-design-service'}
-                        imgSrc={'/Services/Website_Desigining.png'}
+                        imgSrc={'/Services/Website_Desigining.webp'}
                         serviceHeading={(
                             <>
                             
@@ -48,7 +48,7 @@ const KeyServices = () => {
 
                     <Service1 
                         diveIn={'/dive-in/web-development-service'}
-                        imgSrc={'/Services/Website_Development.png'}
+                        imgSrc={'/Services/Website_Development.webp'}
                         serviceHeading={(
                             <>
                             
@@ -71,7 +71,7 @@ const KeyServices = () => {
 
                     <Service 
                         diveIn={'/dive-in/web-maintenance-service'}
-                        imgSrc={'/Services/Website_Maintanence.png'}
+                        imgSrc={'/Services/Website_Maintanence.webp'}
                         serviceHeading={(
                             <>
                             
@@ -93,7 +93,7 @@ const KeyServices = () => {
 
                     <Service1 
                         diveIn={'/dive-in/search-engine-optimization'}
-                        imgSrc={'/Services/Search_Engine_Optimization.png'}
+                        imgSrc={'/Services/Search_Engine_Optimization.webp'}
                         serviceHeading={(
                             <>
                             
@@ -114,7 +114,7 @@ const KeyServices = () => {
 
                     <Service 
                         diveIn={'/dive-in/social-media-advertisements'}
-                        imgSrc={'/Services/Google_Ads.png'}
+                        imgSrc={'/Services/Google_Ads.webp'}
                         serviceHeading={(
                             <>
                             
@@ -133,7 +133,7 @@ const KeyServices = () => {
 
                     <Service1 
                         diveIn={'/dive-in/whatsapp-api-solutions'}
-                        imgSrc={'/Services/Whatsapp_API.png'}
+                        imgSrc={'/Services/Whatsapp_API.webp'}
                         serviceHeading={(
                             <>
                             
@@ -155,7 +155,7 @@ const KeyServices = () => {
 
                     <Service 
                         diveIn={'/dive-in/call-engaging-solutions'}
-                        imgSrc={'/Services/Call_Engaging_Solutions.png'}
+                        imgSrc={'/Services/Call_Engaging_Solutions.webp'}
                         serviceHeading={(
                             <>
                             

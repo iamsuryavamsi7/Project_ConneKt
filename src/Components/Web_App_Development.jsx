@@ -48,7 +48,7 @@ const Web_App_Development = () => {
 
                         <img 
                         className='w-[50px] h-auto rotate-[110deg] absolute right-[-25px] top-[-10px] green_image'
-                        src='/Common/green-left.png'
+                        src='/Common/green-left.webp'
                         loading='lazy'
                     />
 
@@ -65,7 +65,7 @@ const Web_App_Development = () => {
                         max-mdCustom:space-x-0 max-mdCustom:block max-mdCustom:text-center max-mdCustom:space-y-5 max-mdCustom:h-auto max-mdCustom:mt-[50px] max-mdCustom:items-center max-smCustom:space-x-0 max-smCustom:mx-10">
 
                             <img 
-                                src='/Services/Website_Development.png'
+                                src='/Services/Website_Development.webp'
                                 className='w-[400px] max-mdCustom:mx-auto hover:w-[420px] transition-all duration-300'
                                 loading='lazy'
                             />

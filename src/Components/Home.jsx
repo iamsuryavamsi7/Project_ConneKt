@@ -93,13 +93,13 @@ const Home = () => {
                             <div className="relative">
 
                                 <img 
-                                    src='/Hero_Section/Hero_Section_Main.png'
+                                    src='/Hero_Section/Hero_Section_Main.webp'
                                     loading='lazy'
                                     className='hero_main_img h-[700px] w-[700px] max-mdCustom:w-[600px] max-mdCustom:h-auto max-smCustom:w-[500px] max-smCustom:h-[400px]'
                                 />
 
                                 <img 
-                                    src='/Common/pale_blue_right.png'
+                                    src='/Common/pale_blue_right.webp'
                                     loading='lazy'
                                     className='blue_right w-[70px] max-smCustom:w-[40px] absolute top-[140px] right-10 max-mdCustom:right-6 max-mdCustom:top-[120px] rotate-[10deg] max-smCustom:top-[80px] max-smCustom:right-[23px] max-smCustom:rotate-[-1deg]'
                                 />
@@ -111,7 +111,7 @@ const Home = () => {
                         <div className="relative max-smCustom:w-[70%]">
 
                             <img 
-                                src='/Common/yellow_left.png'
+                                src='/Common/yellow_left.webp'
                                 loading='lazy'
                                 className='blue_right w-[70px] max-smCustom:w-[40px] absolute left-[-70px] top-[-40px] rotate-[-10deg] max-smCustom:left-[-40px] max-smCustom:top-[-20px]'
                             />
@@ -158,13 +158,13 @@ const Home = () => {
                             <div className="relative">
 
                                 <img 
-                                    src='/Hero_Section/Hero_Section_Main.png'
+                                    src='/Hero_Section/Hero_Section_Main.webp'
                                     className='hero_main_img h-[700px] w-[700px]'
                                     loading='lazy'
                                 />
 
                                 <img 
-                                    src='/Common/pale_blue_right.png'
+                                    src='/Common/pale_blue_right.webp'
                                     loading='lazy'
                                     className='blue_right w-[70px] absolute top-[140px] right-10'
                                 />

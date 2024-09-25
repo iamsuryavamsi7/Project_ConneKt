@@ -22,7 +22,7 @@ const WhyAreWeUnique = () => {
 
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
-                            src= '/Why_Us/Why_Us_04.png'
+                            src= '/Why_Us/Why_Us_04.webp'
                             loading='lazy'
                         />
 
@@ -50,7 +50,7 @@ const WhyAreWeUnique = () => {
 
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
-                            src= '/Why_Us/Why_Us_07.png'
+                            src= '/Why_Us/Why_Us_07.webp'
                             loading='lazy'
                         />
 
@@ -79,7 +79,7 @@ const WhyAreWeUnique = () => {
 
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
-                            src= '/Why_Us/Why_Us_03.png'
+                            src= '/Why_Us/Why_Us_03.webp'
                             loading='lazy'
                         />
 
@@ -107,7 +107,7 @@ const WhyAreWeUnique = () => {
 
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
-                            src= '/Why_Us/Why_Us_01.png'
+                            src= '/Why_Us/Why_Us_01.webp'
                             loading='lazy'
                         />
 
@@ -135,7 +135,7 @@ const WhyAreWeUnique = () => {
 
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
-                            src= '/Why_Us/Why_Us_05.png'
+                            src= '/Why_Us/Why_Us_05.webp'
                             loading='lazy'
                         />
 
@@ -164,7 +164,7 @@ const WhyAreWeUnique = () => {
 
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
-                            src= '/Why_Us/Why_Us_06.png'
+                            src= '/Why_Us/Why_Us_06.webp'
                             loading='lazy'
                         />
 
@@ -192,7 +192,7 @@ const WhyAreWeUnique = () => {
 
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
-                            src= '/Why_Us/Why_Us_02.png'
+                            src= '/Why_Us/Why_Us_02.webp'
                             loading='lazy'
                         />
 
@@ -221,7 +221,7 @@ const WhyAreWeUnique = () => {
 
                         <img 
                             className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[170px]'
-                            src= '/Why_Us/Why_Us_08.png'
+                            src= '/Why_Us/Why_Us_08.webp'
                             loading='lazy'
                         />
 
@@ -255,7 +255,7 @@ const WhyAreWeUnique = () => {
 
                     <img 
                         className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
-                        src= '/Why_Us/Why_Us_02.png'
+                        src= '/Why_Us/Why_Us_02.webp'
                         loading='lazy'
                     />
 
@@ -284,7 +284,7 @@ const WhyAreWeUnique = () => {
 
                     <img 
                         className= 'w-[280px] h-[350px] max-smCustom:w-[150px] max-smCustom:h-[200px]'
-                        src= '/Why_Us/Why_Us_08.png'
+                        src= '/Why_Us/Why_Us_08.webp'
                         loading='lazy'
                     />
 

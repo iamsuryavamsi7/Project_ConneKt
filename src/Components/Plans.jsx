@@ -69,7 +69,7 @@ const Plans = () => {
                             Our Plans
 
                             <img 
-                                src='/Common/yellow_left.png'
+                                src='/Common/yellow_left.webp'
                                 loading='lazy'
                                 className='w-[50px] h-auto rotate-[-10deg] absolute left-[-45px] top-[-25px] green_image'
                             />

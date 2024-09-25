@@ -146,15 +146,15 @@ const NavBar = () => {
 
     }, []);
 
-    const [chatBox, setChatBox] = useState('/Nav_Bar/chat_with_us.png');
+    const [chatBox, setChatBox] = useState('/Nav_Bar/chat_with_us.webp');
 
     const chatBoxFunction = () => {
 
         const chatBoxHeight = document.querySelector('.chatBoxHeight');
 
-        if ( chatBox === '/Nav_Bar/chat_with_us.png' ){
+        if ( chatBox === '/Nav_Bar/chat_with_us.webp' ){
 
-            setChatBox('/Nav_Bar/drop_down.png');
+            setChatBox('/Nav_Bar/drop_down.webp');
 
             if ( currentWidth >= 600 ) {
 
@@ -176,7 +176,7 @@ const NavBar = () => {
 
         } else {
 
-            setChatBox('/Nav_Bar/chat_with_us.png');
+            setChatBox('/Nav_Bar/chat_with_us.webp');
 
             chatBoxHeight.style.height = '0px';
 
@@ -239,7 +239,7 @@ const NavBar = () => {
                     <div className="block justify-center mx-5">
 
                         <img
-                            src='/Nav_Bar/chat_with_us.png' 
+                            src='/Nav_Bar/chat_with_us.webp' 
                             loading='lazy'
                             className='chatBoxImage h-[50px] max-smCustom:h-[40px] w-auto rounded-2xl cursor-text'
                         />
@@ -287,7 +287,7 @@ const NavBar = () => {
                     <img 
                         className='w-[300px] h-[60px] max-mdCustom:w-[200px] max-mdCustom:h-[50px] 
                         max-smCustom:animate-none cursor-pointer max-smCustom:w-[150px] max-smCustom:h-[30px]'
-                        src='/Nav_Bar/Connekt_Logo.png'
+                        src='/Nav_Bar/Connekt_Logo.webp'
                         alt='Company Logo'
                         loading='lazy'
                         onClick={(e) => companyLogoFunction(e)}
