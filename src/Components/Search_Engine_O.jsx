@@ -108,9 +108,9 @@ const Search_Engine_O = () => {
 
                             <br /><br />
 
-                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b> We identify relevant keywords that your potential customers are searching for.<br/><br/>
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b><br/><br/> We identify relevant keywords that your potential customers are searching for.<br/><br/>
 
-                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b> Targeting the right keywords helps us attract the right audience to your site.
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b><br/><br/> Targeting the right keywords helps us attract the right audience to your site.
 
                             <br /><br />
 
@@ -120,9 +120,9 @@ const Search_Engine_O = () => {
 
                             <br /><br />
 
-                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b> We optimize your website’s content, meta tags, headers, and images to align with SEO best practices.<br/><br/>
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b><br/><br/> We optimize your website’s content, meta tags, headers, and images to align with SEO best practices.<br/><br/>
 
-                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b> Well-optimized pages help search engines understand your content, improving your chances of ranking higher.
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b><br/><br/> Well-optimized pages help search engines understand your content, improving your chances of ranking higher.
 
                             <br /><br />
 
@@ -130,11 +130,11 @@ const Search_Engine_O = () => {
 
                             <br /><br />
 
-                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b>We ensure your website has a solid technical foundation, including site speed, mobile-friendliness, and secure connections (HTTPS).
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b><br/><br/>We ensure your website has a solid technical foundation, including site speed, mobile-friendliness, and secure connections (HTTPS).
 
                             <br/><br/>
 
-                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b> A technically sound website provides a better user experience and is favored by search engines.
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b><br/><br/> A technically sound website provides a better user experience and is favored by search engines.
 
                             <br /><br />
 
@@ -142,11 +142,11 @@ const Search_Engine_O = () => {
 
                             <br /><br />
 
-                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b> We develop high-quality, engaging content that addresses your audience's needs while incorporating targeted keywords.
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b><br/><br/> We develop high-quality, engaging content that addresses your audience's needs while incorporating targeted keywords.
                             
                             <br/><br/>
                             
-                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Mattters: </b> Valuable content boosts user engagement and helps establish your authority in your industry.
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Mattters: </b><br/><br/> Valuable content boosts user engagement and helps establish your authority in your industry.
 
                             <br /><br />
 
@@ -154,11 +154,11 @@ const Search_Engine_O = () => {
 
                             <br /><br />
 
-                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b>We implement strategies to earn quality backlinks from reputable websites.
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b><br/><br/>We implement strategies to earn quality backlinks from reputable websites.
 
                             <br/><br/>
 
-                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b> Backlinks improve your site's authority and credibility, which can significantly enhance your search rankings.
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b><br/><br/> Backlinks improve your site's authority and credibility, which can significantly enhance your search rankings.
 
                             <br /><br />
 
@@ -166,9 +166,9 @@ const Search_Engine_O = () => {
 
                             <br /><br />
 
-                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b>We optimize your online presence for local searches, including setting up and managing your Google My Business listing. <br /><br />
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b><br/><br/>We optimize your online presence for local searches, including setting up and managing your Google My Business listing. <br /><br />
 
-                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b>Local SEO helps attract customers in your geographic area, increasing foot traffic and local engagement.
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why It Matters: </b><br/><br/>Local SEO helps attract customers in your geographic area, increasing foot traffic and local engagement.
 
                             <br /><br />
 
@@ -176,11 +176,11 @@ const Search_Engine_O = () => {
 
                             <br /><br />
 
-                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b> We track your SEO performance using tools like Google Analytics and provide regular reports on traffic, rankings, and user behavior.
+                            <b className='font-semibold text-[20px] font-montSerrat'>What We Do: </b><br/><br/> We track your SEO performance using tools like Google Analytics and provide regular reports on traffic, rankings, and user behavior.
 
                             <br /><br />
 
-                            <b className='font-semibold text-[20px] font-montSerrat'>Why it Matters: </b> Data-driven insights allow us to refine our strategies for even better results.
+                            <b className='font-semibold text-[20px] font-montSerrat'>Why it Matters: </b><br/><br/> Data-driven insights allow us to refine our strategies for even better results.
 
 
                         </p>

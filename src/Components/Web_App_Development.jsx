@@ -77,7 +77,7 @@ const Web_App_Development = () => {
                                     Website & Web App Development<br />
                                     
                                     <span
-                                        className='text-[18px] max-smCustom:text-[16px]'
+                                        className='text-[18px] font-semibold max-smCustom:text-[16px]'
                                     >
 
                                         Builds with Top-Notch Technologies

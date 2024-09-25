@@ -75,7 +75,7 @@ const Web_App_Maintenance = () => {
                             Website & Web App Maintenance <br />
                             
                             <span
-                                className='text-[22px] max-smCustom:text-[16px]'
+                                className='text-[22px] font-semibold max-smCustom:text-[16px]'
                             >
                                 
                                 Keeping Your Digital Presence Flawless.
@@ -112,9 +112,11 @@ const Web_App_Maintenance = () => {
                                 className='font-bold font-montSerrat'
                             >1. Bug Fixes: </span><br/><br/>
 
-                            <span className='font-semibold'>What We Do:</span> We monitor your website or app for any bugs or glitches and resolve them promptly.
+                            <span className='font-semibold font-montSerrat'>What We Do:</span> <br/><br/>
+                            
+                             We monitor your website or app for any bugs or glitches and resolve them promptly.
 
-                            <br/><br/><span className='font-semibold'>Why it mattters:</span> Quick fixes ensure a seamless experience for your users, preventing frustration and keeping your reputation intact.
+                            <br/><br/><span className='font-semibold font-montSerrat'>Why it mattters:</span> <br/><br/> Quick fixes ensure a seamless experience for your users, preventing frustration and keeping your reputation intact.
 
                             <br /><br />
 
@@ -124,19 +126,19 @@ const Web_App_Maintenance = () => {
                                 className='font-bold font-montSerrat'
                             >2. Performance Monitoring: </span><br/><br/>
 
-                            <span className='font-semibold'>What We Do:</span> We regularly assess the speed and performance of your website or app to identify areas for improvement.
+                            <span className='font-semibold font-montSerrat text-[20px]'>What We Do:</span><br/><br/>We regularly assess the speed and performance of your website or app to identify areas for improvement.
 
-                            <br/><br/><span className='font-semibold'>Why it mattters:</span> Faster loading times lead to better user experiences and improved search engine rankings.
+                            <br/><br/><span className='font-semibold font-montSerrat text-[20px]'>Why it mattters:</span><br/><br/> Faster loading times lead to better user experiences and improved search engine rankings.
 
                             <br /><br />
 
                             <span
-                                className='font-bold font-montSerrat'
+                                className='font-bold font-montSerrat text-[20px]'
                             >3. Security Updates: </span><br/><br/>
 
-                            <span className='font-semibold'>What We Do:</span> We implement necessary security patches and updates to protect your site from vulnerabilities.
+                            <span className='font-semibold font-montSerrat text-[20px]'>What We Do:</span><br/><br/> We implement necessary security patches and updates to protect your site from vulnerabilities.
 
-                            <br/><br/><span className='font-semibold'>Why it mattters:</span> Keeping your site secure safeguards your data and builds trust with your users.
+                            <br/><br/><span className='font-semibold font-montSerrat text-[20px]'>Why it mattters:</span><br/><br/> Keeping your site secure safeguards your data and builds trust with your users.
 
                             <br /><br />
 
@@ -144,9 +146,9 @@ const Web_App_Maintenance = () => {
                                 className='font-bold font-montSerrat'
                             >4. Content Updates: </span><br/><br/>
 
-                            <span className='font-semibold'>What We Do:</span> We help you keep your content fresh and relevant, whether it’s adding new blog posts, images, or product information.
+                            <span className='font-semibold font-montSerrat text-[20px]'>What We Do:</span><br/><br/> We help you keep your content fresh and relevant, whether it’s adding new blog posts, images, or product information.
 
-                            <br/><br/><span className='font-semibold'>Why it mattters:</span> Regularly updated content engages users and boosts your SEO performance.
+                            <br/><br/><span className='font-semibold font-montSerrat text-[20px]'>Why it mattters:</span><br/><br/> Regularly updated content engages users and boosts your SEO performance.
 
                             <br /><br />
 
@@ -154,9 +156,9 @@ const Web_App_Maintenance = () => {
                                 className='font-bold font-montSerrat'
                             >5. Server & Network Maintenance: </span>
 <br/><br/>
-                            <span className='font-semibold'>What We Do:</span> We handle server configurations, backups, and monitor network health to ensure everything runs smoothly.
+                            <span className='font-semibold font-montSerrat text-[20px]'>What We Do:</span><br/><br/> We handle server configurations, backups, and monitor network health to ensure everything runs smoothly.
 
-                            <br/><br/><span className='font-semibold'>Why it mattters:</span> A reliable server and network connection are crucial for maintaining uptime and ensuring your site is accessible at all times.
+                            <br/><br/><span className='font-semibold font-montSerrat text-[20px]'>Why it mattters:</span><br/><br/> A reliable server and network connection are crucial for maintaining uptime and ensuring your site is accessible at all times.
 
                             <br /><br />
 
@@ -164,9 +166,9 @@ const Web_App_Maintenance = () => {
                                 className='font-bold font-montSerrat'
                             >6. User Experience Improvements: </span>
 <br/><br/>
-                            <span className='font-semibold'>What We Do:</span> Based on user feedback and analytics, we suggest and implement enhancements to improve usability.
+                            <span className='font-semibold font-montSerrat text-[20px]'>What We Do:</span><br/><br/> Based on user feedback and analytics, we suggest and implement enhancements to improve usability.
 
-                            <br/><br/><span className='font-semibold'>Why it mattters:</span> A better user experience leads to higher satisfaction and retention rates.
+                            <br/><br/><span className='font-semibold font-montSerrat text-[20px]'>Why it mattters:</span><br/><br/> A better user experience leads to higher satisfaction and retention rates.
 
                             <br /><br />
 
@@ -174,9 +176,9 @@ const Web_App_Maintenance = () => {
                                 className='font-bold font-montSerrat'
                             >7. Analytics Reporting: </span>
 <br/><br/>
-                            <span className='font-semibold'>What We Do:</span>We provide regular reports on site performance, user behavior, and other key metrics.
+                            <span className='font-semibold font-montSerrat text-[20px]'>What We Do:</span><br/><br/>We provide regular reports on site performance, user behavior, and other key metrics.
 
-                            <br/><br/><span className='font-semibold'>Why it mattters:</span> Understanding how your site is performing helps you make informed decisions for future improvements.
+                            <br/><br/><span className='font-semibold font-montSerrat text-[20px]'>Why it mattters:</span><br/><br/> Understanding how your site is performing helps you make informed decisions for future improvements.
 
                         </p>
 

@@ -8,29 +8,29 @@ import { AiOutlineLoading3Quarters } from 'react-icons/ai'
 
 const Web_Design_Service = () => {
 
-    const [pageLoading, setPageLoading] = useState(false);
+    const [pageLoading, setPageLoading] = useState(true);
 
-    // useEffect(() => {
+    useEffect(() => {
 
-    //     window.scrollTo(0, 0);
+        window.scrollTo(0, 0);
 
-    //     // Runnin the page loading
+        // Runnin the page loading
 
-    //     const updatePageLoading = () => {
+        const updatePageLoading = () => {
 
-    //         setPageLoading(false);
+            setPageLoading(false);
 
-    //     }
+        }
 
-    //     const pageLoadingId = setInterval(updatePageLoading, 3000);
+        const pageLoadingId = setInterval(updatePageLoading, 3000);
 
-    //     setTimeout(() => {
+        setTimeout(() => {
             
-    //         clearTimeout(pageLoadingId);
+            clearTimeout(pageLoadingId);
             
-    //     }, 5000);
+        }, 5000);
 
-    // }, []);
+    }, []);
 
     return (
 
