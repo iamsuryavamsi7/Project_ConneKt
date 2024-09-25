@@ -39,7 +39,7 @@ const CallEngagingSolutions = () => {
 
             <NavBar />
         
-            <div className="py-[70px] w-full text-center">
+            <div className="mb-10 pt-[70px] w-full text-center">
 
                 <div className=" inline-block px-5 py-2 rounded-[30px] text-[30px] max-smCustom:text-[25px] font-semibold font-montSerrat mt-[50px] max-smCustom:mt-[0px] relative">
 

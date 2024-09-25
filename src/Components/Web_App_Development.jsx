@@ -40,7 +40,7 @@ const Web_App_Development = () => {
 
                 <NavBar />
             
-                <div className="py-[70px] w-full text-center">
+                <div className="pt-[70px] mb-10 w-full text-center">
 
                     <div className=" inline-block px-5 mb-10 py-2 rounded-2xl text-[25px] font-bold font-montSerrat mt-[50px] max-smCustom:mt-[0px] relative max-smCustom:text-[25px]"> 
 
