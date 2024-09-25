@@ -88,31 +88,31 @@ const Social_Media_Ads = () => {
                     <div className="space-y-10 mt-10 mx-20 max-smCustom:mx-5">
 
                         <p
-                            className='text-[18px] max-smCustom:text-[16px] font-inknutAntiqua'
+                            className='text-[18px] max-smCustom:text-[14px] font-inknutAntiqua'
                         >
                                                         
                             Get Ready to Boost Your Brand and Engage Your Audience!<br /><br />
 
                             In the vibrant world of digital marketing, effective social media management is your way to connecting with customers and attracting new eyes. Let’s take your online presence to the next level!<br /><br />
 
-                            <b className='font-montSerrat font-bold '>Our Awesome Services: </b><br /><br />
+                            <b className='font-montSerrat font-bold max-smCustom:text-[18px]'>Our Awesome Services: </b><br /><br />
 
-                            <b className=' font-montSerrat'>1. Social Media Strategy Development: </b> Tailor-made plans to make your brand shine online.<br /><br />
+                            <b className=' font-montSerrat font-semibold max-smCustom:text-[16px]'>1. Social Media Strategy Development:  <br/><br/></b> Tailor-made plans to make your brand shine online.<br /><br />
 
-                            <b className=' font-montSerrat'>2. Script Creation: </b>Fun and engaging scripts for videos that grab attention.<br /><br />
+                            <b className=' font-montSerrat font-semibold max-smCustom:text-[16px]'>2. Script Creation: </b> <br/><br/>Fun and engaging scripts for videos that grab attention.<br /><br />
 
-                            <b className=' font-montSerrat'>3. Editing Magic: </b>Polished content that looks as good as it sounds.<br /><br />
+                            <b className=' font-montSerrat font-semibold max-smCustom:text-[16px]'>3. Editing Magic: </b> <br/><br/>Polished content that looks as good as it sounds.<br /><br />
 
-                            <b className=' font-montSerrat'>4. Timely Uploads: </b>Keeping your profiles fresh and lively with regular posts.<br /><br />
+                            <b className=' font-montSerrat font-semibold max-smCustom:text-[16px]'>4. Timely Uploads: </b> <br/><br/>Keeping your profiles fresh and lively with regular posts.<br /><br />
 
-                            <b className=' font-montSerrat'>5. Account Maintenance: </b>Staying active and engaging with your followers like a pro.<br /><br />
+                            <b className=' font-montSerrat font-semibold max-smCustom:text-[16px]'>5. Account Maintenance: </b> <br/><br/>Staying active and engaging with your followers like a pro.<br /><br />
 
-                            <b className=' font-montSerrat'>6. Boosting Engagement: </b>Creative efforts to spark conversations and build a loyal community.<br ></br><br/>
+                            <b className=' font-montSerrat font-semibold max-smCustom:text-[16px]'>6. Boosting Engagement: </b> <br/><br/>Creative efforts to spark conversations and build a loyal community.<br ></br><br/>
 
 
-                            <b className='font-montSerrat'>And guess what? We also rock at: </b> <br /><br />
+                            <b className='font-montSerrat font-bold max-smCustom:text-[18px]'>And guess what? We also rock at: </b> <br /><br />
 
-                            <b className=' font-montSerrat'>Targeted Advertising: </b>Need a boost? We’ll implement eye-catching ads on Meta and Google to help you  reach even more folks! <br /><br />
+                            <b className=' font-montSerrat'>Targeted Advertising: </b><br/><br/>Need a boost? We’ll implement eye-catching ads on Meta and Google to help you  reach even more folks! <br /><br />
 
 
                             With our dynamic social media management and powerful ads, we’ll help you connect, engage, and grow your brand like never before! <br /><br />

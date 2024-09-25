@@ -91,20 +91,20 @@ const Web_App_Development = () => {
                         <div className="space-y-10 mt-10 mx-20 max-smCustom:mx-5">
 
                             <p
-                                className='text-[18px] max-smCustom:text-[16px] font-inknutAntiqua'
+                                className='text-[18px] max-smCustom:text-[14px] font-inknutAntiqua'
                             >
 
                                 Building a website or web app is more than just writing code—it's about crafting a dynamic digital solution that fuels your business. Our development process harnesses the latest tech to ensure your site or application is fast, secure, and scalable! <br /><br />
 
                                 We leverage frameworks like React, Angular, and Node.js for seamless performance and smooth user interactions. Whether you're looking for a simple website or a complex web application, we prioritize reliability and user experience to keep your audience engaged. <br /><br />
 
-                                <b className='font-montSerrat font-bold'>Cutting-Edge Technology: </b><br/><br/>We don’t settle for the basics! Our top-notch tech stacks enhance functionality and performance, tailored to meet your project's unique needs. <br /><br />
+                                <b className='font-montSerrat font-bold max-smCustom:text-[16px]'>Cutting-Edge Technology: </b><br/><br/>We don’t settle for the basics! Our top-notch tech stacks enhance functionality and performance, tailored to meet your project's unique needs. <br /><br />
 
-                                <b className='font-montSerrat font-bold'>Robust Functionality:  </b><br/><br/>Every web app we create serves a purpose—be it facilitating bookings, managing user accounts, or integrating with other services. We ensure the functionality is intuitive and user-friendly. <br /><br />
+                                <b className='font-montSerrat font-bold max-smCustom:text-[16px]'>Robust Functionality:  </b><br/><br/>Every web app we create serves a purpose—be it facilitating bookings, managing user accounts, or integrating with other services. We ensure the functionality is intuitive and user-friendly. <br /><br />
 
-                                <b className='font-montSerrat font-bold'>Scalability & Security: </b><br/><br/>Our development practices focus on building scalable solutions that grow with your business. Plus, we incorporate security best practices from the ground up to safeguard your data and user information. <br /><br />
+                                <b className='font-montSerrat font-bold max-smCustom:text-[16px]'>Scalability & Security: </b><br/><br/>Our development practices focus on building scalable solutions that grow with your business. Plus, we incorporate security best practices from the ground up to safeguard your data and user information. <br /><br />
 
-                                <b className='font-montSerrat font-bold'>Cloud Deployment: </b><br/><br/>Ready to go big? We deploy your applications on cloud services like AWS, GCP, or Azure, utilizing Docker and Kubernetes for high availability and smooth operation. Let’s create something amazing that can handle the heat of the digital world! <br /><br />
+                                <b className='font-montSerrat font-bold max-smCustom:text-[16px]'>Cloud Deployment: </b><br/><br/>Ready to go big? We deploy your applications on cloud services like AWS, GCP, or Azure, utilizing Docker and Kubernetes for high availability and smooth operation. Let’s create something amazing that can handle the heat of the digital world! <br /><br />
 
                             </p>
 
@@ -116,7 +116,7 @@ const Web_App_Development = () => {
 
                 <div className="w-full my-20 flex justify-center bg-greenCustom">
 
-                    <div className="overViewButton bg-white my-[50px] w-[1100px] rounded-2xl pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10  max-smCustom:space-x-0">
+                    <div className="overViewButton bg-white my-[50px] w-[1100px] rounded-[30px] pb-[50px] max-mdCustom:w-[800px] max-smCustom:w-full max-smCustom:mx-10  max-smCustom:space-x-0">
 
                         <div className="space-y-10 mt-10 mx-20 max-smCustom:mx-5">
 
@@ -132,43 +132,43 @@ const Web_App_Development = () => {
                                 className='text-[18px] max-smCustom:text-[14px] font-inknutAntiqua'
                             >
 
-                                <b className='font-montSerrat font-bold'>1. Requirement Gathering:</b><br/><br/>
+                                <b className='font-montSerrat font-bold max-smCustom:text-[16px]'>1. Requirement Gathering:</b><br/><br/>
                                 We sit down with you to understand your needs and goals for the website or web app.
                                 Why it matters: Knowing what you want helps us build something that meets your specific requirements.
 
                                 <br /><br />
 
-                                <b className='font-montSerrat font-bold'>2. Tech Stack Selection: </b><br/><br/>
+                                <b className='font-montSerrat font-bold max-smCustom:text-[16px]'>2. Tech Stack Selection: </b><br/><br/>
                                 We choose the best technologies for your project, ensuring optimal performance and scalability.
                                 Why it matters: The right tech stack lays the foundation for a successful build.
 
                                 <br /><br />
 
-                                <b className='font-montSerrat font-bold'>3. Architecture Design: </b><br/><br/>
+                                <b className='font-montSerrat font-bold max-smCustom:text-[16px]'>3. Architecture Design: </b><br/><br/>
                                 We design the architecture of your application, mapping out how different components will interact.
                                 Why it matters: A well-planned architecture leads to a more efficient and maintainable product.
 
                                 <br /><br />
 
-                                <b className='font-montSerrat font-bold'>4. Development Phase: </b><br/><br/>
+                                <b className='font-montSerrat font-bold max-smCustom:text-[16px]'>4. Development Phase: </b><br/><br/>
                                 Our team gets to work, writing clean, efficient code to bring your vision to life.
                                 Why it matters: Quality coding ensures your site or app runs smoothly and reliably.
 
                                 <br /><br />
 
-                                <b className='font-montSerrat font-bold'>5. Testing & Quality Assurance: </b><br/><br/>
+                                <b className='font-montSerrat font-bold max-smCustom:text-[16px]'>5. Testing & Quality Assurance: </b><br/><br/>
                                 We rigorously test your website or web app to catch and fix any bugs before launch.
                                 Why it matters: Thorough testing guarantees a seamless user experience and reduces future issues.
 
                                 <br /><br />
 
-                                <b className='font-montSerrat font-bold'>6. Deployment: </b><br/><br/>
+                                <b className='font-montSerrat font-bold max-smCustom:text-[16px]'>6. Deployment: </b><br/><br/>
                                 Once everything is tested and approved, we launch your site or web app, making it live for users.
                                 Why it matters: A successful deployment marks the culmination of our hard work and your investment.
 
                                 <br /><br />
 
-                                <b className='font-montSerrat font-bold'>7. Post-Launch Support: </b><br/><br/>
+                                <b className='font-montSerrat font-bold max-smCustom:text-[16px]'>7. Post-Launch Support: </b><br/><br/>
                                 We provide ongoing support to address any questions or issues that arise after launch.
                                 Why it matters: Our commitment to your project doesn’t end at launch; we’re here to help as you grow.
 

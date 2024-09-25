@@ -94,75 +94,75 @@ const WA_Solutions = () => {
 
                             In today's fast-paced digital world, effective communication with your customers is crucial. Our WhatsApp API Management service empowers your business to connect seamlessly with your audience, ensuring that you stay relevant and responsive.<br /><br />
 
-                            <span className='font-montSerrat font-bold'>Why WhatsApp API Matters:</span><br /><br /> WhatsApp is one of the most widely used messaging platforms globally, providing a direct channel to engage with customers. With the WhatsApp API, businesses can automate communication, manage customer inquiries, and send bulk messages efficiently, enhancing customer satisfaction and engagement. <br /><br />
+                            <span className='font-montSerrat font-bold max-smCustom:text-[18px]'>Why WhatsApp API Matters:</span><br /><br /> WhatsApp is one of the most widely used messaging platforms globally, providing a direct channel to engage with customers. With the WhatsApp API, businesses can automate communication, manage customer inquiries, and send bulk messages efficiently, enhancing customer satisfaction and engagement. <br /><br />
 
                             <span
-                                className='font-bold font-montSerrat'
+                                className='font-bold font-montSerrat max-smCustom:text-[18px]'
                             >
 
                                 What We Cover: <br /><br />
 
                             </span>
 
-                            <b className=' font-montSerrat'>1. WhatsApp API Integration: </b><br /><br />
+                            <b className=' font-montSerrat max-smCustom:text-[18px] font-semibold'>1. WhatsApp API Integration: </b><br /><br />
 
-                            <b className=' font-montSerrat font-semibold text-[20px]'>What We Do: </b><br/><br/>We assist in integrating the WhatsApp API into your existing systems, ensuring a smooth transition and functionality.<br/><br/>
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>What We Do: </b><br/><br/>We assist in integrating the WhatsApp API into your existing systems, ensuring a smooth transition and functionality.<br/><br/>
 
-                            <b className=' font-montSerrat font-semibold text-[20px]'>Why It Matters: </b><br/><br/>Proper integration allows you to utilize WhatsApp’s features effectively, streamlining communication with your customers. <br /><br />
-
-
-
-                            <b className=' font-montSerrat'>2. Verification Assistance: </b> <br /><br/>
-
-                            <b className=' font-montSerrat font-semibold text-[20px]'>What We Do: </b><br/><br/>As partners with certified WhatsApp API providers, we guide you through the verification process, ensuring compliance with WhatsApp’s guidelines.<br/><br/>
-
-                            <b className=' font-montSerrat font-semibold text-[20px]'>Why It Matters: </b><br/><br/> Verification builds trust with your customers and enhances your brand's credibility on the platform. <br /><br />
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>Why It Matters: </b><br/><br/>Proper integration allows you to utilize WhatsApp’s features effectively, streamlining communication with your customers. <br /><br />
 
 
 
-                            <b className=' font-montSerrat'>3. Auto Reply Bots Setup:</b><br/><br/>
+                            <b className=' font-montSerrat max-smCustom:text-[18px] font-semibold'>2. Verification Assistance: </b> <br /><br/>
 
-                            <b className=' font-montSerrat font-semibold text-[20px]'>What We Do: </b><br/><br/>We create and configure automated reply bots to handle common inquiries and provide instant responses to customer queries.<br/><br/>
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>What We Do: </b><br/><br/>As partners with certified WhatsApp API providers, we guide you through the verification process, ensuring compliance with WhatsApp’s guidelines.<br/><br/>
 
-                            <b className=' font-montSerrat font-semibold text-[20px]'>Why It Matters: </b><br/><br/>Auto replies enhance customer experience by providing quick answers, freeing up your team for more complex tasks.  <br /><br />
-
-
-
-                            <b className=' font-montSerrat'>4. WhatsApp Bulk Messaging: </b><br/><br/>
-
-                            <b className=' font-montSerrat font-semibold text-[20px]'>What We Do: </b><br/><br/>We help you set up bulk messaging capabilities, allowing you to send promotional messages, updates, and alerts to multiple customers simultaneously.
-
-                            <br/><br/>
-
-                            <span className='font-montSerrat font-semibold text-[20px]'>Why It Matters:</span><br/><br/> Bulk messaging ensures that your audience stays informed, driving engagement and conversions. <br /><br />
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>Why It Matters: </b><br/><br/> Verification builds trust with your customers and enhances your brand's credibility on the platform. <br /><br />
 
 
 
-                            <b className=' font-montSerrat'>5. Personalized Messaging Campaigns: </b><br/><br/>
+                            <b className=' font-montSerrat max-smCustom:text-[18px] font-semibold'>3. Auto Reply Bots Setup:</b><br/><br/>
 
-                            <b className='font-montSerrat font-semibold text-[20px]'>What We Do:</b> <br/><br/>We design personalized messaging strategies tailored to different customer segments, enhancing relevance and engagement.<br/><br/>
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>What We Do: </b><br/><br/>We create and configure automated reply bots to handle common inquiries and provide instant responses to customer queries.<br/><br/>
 
-                            <b className='font-montSerrat font-semibold text-[20px]'>Why It Matters: </b><br/><br/> Personalized communication increases the likelihood of customer interaction and loyalty. <br /><br />
-
-
-
-                            <b className=' font-montSerrat'>6. Analytics & Reporting: </b><br/><br/>
-
-                            <b className=' font-montSerrat font-semibold text-[20px]'>What We Do: </b><br/><br/>We provide detailed analytics and reports on message delivery, engagement rates, and customer interactions to measure campaign effectiveness. <br/><br/>
-
-                            <b className=' font-montSerrat font-semibold text-[20px]'>Why It Matters: </b><br/><br/>Understanding performance metrics allows for continuous improvement and optimization of communication strategies. <br /><br />
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>Why It Matters: </b><br/><br/>Auto replies enhance customer experience by providing quick answers, freeing up your team for more complex tasks.  <br /><br />
 
 
 
-                            <b className=' font-montSerrat'>7. Compliance & Best Practices: </b>
+                            <b className=' font-montSerrat max-smCustom:text-[18px] font-semibold'>4. WhatsApp Bulk Messaging: </b><br/><br/>
+
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>What We Do: </b><br/><br/>We help you set up bulk messaging capabilities, allowing you to send promotional messages, updates, and alerts to multiple customers simultaneously.
 
                             <br/><br/>
 
-                            <b className=' font-montSerrat font-semibold text-[20px]'>What We Do: </b><br/><br/>We ensure that your messaging practices comply with legal regulations and WhatsApp’s policies, promoting responsible communication.
+                            <span className='font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>Why It Matters:</span><br/><br/> Bulk messaging ensures that your audience stays informed, driving engagement and conversions. <br /><br />
+
+
+
+                            <b className=' font-montSerrat max-smCustom:text-[18px] font-semibold'>5. Personalized Messaging Campaigns: </b><br/><br/>
+
+                            <b className='font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>What We Do:</b> <br/><br/>We design personalized messaging strategies tailored to different customer segments, enhancing relevance and engagement.<br/><br/>
+
+                            <b className='font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>Why It Matters: </b><br/><br/> Personalized communication increases the likelihood of customer interaction and loyalty. <br /><br />
+
+
+
+                            <b className=' font-montSerrat max-smCustom:text-[18px] font-semibold'>6. Analytics & Reporting: </b><br/><br/>
+
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>What We Do: </b><br/><br/>We provide detailed analytics and reports on message delivery, engagement rates, and customer interactions to measure campaign effectiveness. <br/><br/>
+
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>Why It Matters: </b><br/><br/>Understanding performance metrics allows for continuous improvement and optimization of communication strategies. <br /><br />
+
+
+
+                            <b className=' font-montSerrat max-smCustom:text-[18px] font-semibold'>7. Compliance & Best Practices: </b>
 
                             <br/><br/>
 
-                            <b className=' font-montSerrat font-semibold text-[20px]'>Why It Matters: </b><br/><br/> Compliance protects your business from penalties and maintains your brand's reputation.
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>What We Do: </b><br/><br/>We ensure that your messaging practices comply with legal regulations and WhatsApp’s policies, promoting responsible communication.
+
+                            <br/><br/>
+
+                            <b className=' font-montSerrat font-semibold text-[20px] max-smCustom:text-[16px]'>Why It Matters: </b><br/><br/> Compliance protects your business from penalties and maintains your brand's reputation.
 
 
                         </p>
