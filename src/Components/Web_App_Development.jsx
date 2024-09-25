@@ -71,13 +71,13 @@ const Web_App_Development = () => {
                             />
 
                             <p
-                                className='font-bold font-montSerrat text-[30px] w-[500px] max-mdCustom:w-full max-smCustom:w-full max-smCustom:text-[18px] max-smCustom:static max-mdCustom:text-center'
+                                className='font-bold font-montSerrat text-[30px] w-[500px] max-mdCustom:w-full max-smCustom:w-full max-smCustom:text-[20px] max-smCustom:static max-mdCustom:text-center'
                             >
 
                                     Website & Web App Development<br />
                                     
                                     <span
-                                        className='text-[18px] font-semibold max-smCustom:text-[16px]'
+                                        className='text-[18px] font-semibold max-smCustom:text-[14px]'
                                     >
 
                                         Builds with Top-Notch Technologies

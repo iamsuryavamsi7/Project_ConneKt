@@ -68,13 +68,13 @@ const WA_Solutions = () => {
                         />
 
                             <p
-                                className='font-bold font-montSerrat text-[30px] w-[500px] max-mdCustom:w-full max-smCustom:w-full max-smCustom:text-[18px] max-smCustom:static max-mdCustom:text-center'
+                                className='font-bold font-montSerrat text-[30px] w-[500px] max-mdCustom:w-full max-smCustom:w-full max-smCustom:text-[20px] max-smCustom:static max-mdCustom:text-center'
                             >
 
                             WhatsApp API Management <br />
 
                             <span
-                                className='text-[22px] font-semibold max-smCustom:text-[16px]'
+                                className='text-[22px] font-semibold max-smCustom:text-[14px]'
                             >
                             
                                 Seamless Communication, Anytime, Anyone, Anywhere 
