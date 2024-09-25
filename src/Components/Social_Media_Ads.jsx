@@ -74,7 +74,7 @@ const Social_Media_Ads = () => {
                             Social Media Management  <br />
                             
                             <span
-                                className='text-[22px] max-smCustom:text-[16px]'
+                                className='text-[22px] font-semibold max-smCustom:text-[16px]'
                             >
 
                                 Targeted Strategies to Boost Your Reach
